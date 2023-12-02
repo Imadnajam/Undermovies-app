@@ -1,6 +1,6 @@
 
-
-# Movie & Series Streaming Web Application
+<img width="250" src="https://bmsvieira.github.io/moovie.js/demo-template/images/moovie_black.png">
+Movie & Series Streaming Web Application
 
 Welcome to our Movie & Series Streaming Web Application built with Laravel. This web application allows users to stream and enjoy a wide range of films and series. It is designed to be user-friendly, secure, and scalable.
 
