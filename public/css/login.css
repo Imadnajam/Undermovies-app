@@ -1,0 +1,288 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+/* BASIC RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  /* Colors */
+  --pink: #31304D;
+  --lightpink: #30475E;
+  --blue: #1a1aff;
+  --lightblue: hsl(207, 19%, 11%);
+  --color: #4d4d4d;
+  --custom: #1a1aff;
+}
+
+body {
+  color: #4d4d4d;
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.icon img {
+  width: 20px;
+}
+
+section {
+  position: relative;
+  min-height: 100vh;
+  background-color: var(--lightblue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5;
+}
+
+section.active {
+  background-color: var(--lightpink);
+}
+
+section .container {
+  position: relative;
+  width: 900px;
+  height: 500px;
+  background-color: white;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+section .user {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+section .img-box {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  transition: all 500ms ease-in-out;
+}
+
+section .img-box img {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+section .form-box {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  transition: 500ms ease-in-out;
+}
+
+section .form-box .top {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+section .form-box .top p {
+  font-size: 13px;
+}
+
+section .form-box .top span {
+  color: var(--custom);
+  cursor: pointer;
+}
+
+section form {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 100%;
+  max-width: 300px;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section form .form-control:first-child {
+  text-align: center;
+}
+
+section form .form-control:first-child input {
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  text-indent: 16px;
+  width: 100%;
+  color: var(--color);
+  outline: none;
+}
+
+section form .form-control:first-child input[type="submit"] {
+  display: block;
+  text-align: center;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color:#183D3D;
+  color: white;
+  transition: 0.5s;
+}
+
+section form .form-control:first-child input[type="submit"]:hover {
+  background-color: var(--lightblue);
+}
+
+section form .form-control:first-child h2 {
+  width: 100%;
+  font-weight: 400;
+  font-size: 26px;
+}
+section form .form-control:first-child p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+section form .form-control:first-child span {
+  font-size: 13px;
+  display: block;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+section form .form-control:first-child div {
+  position: relative;
+}
+
+section form .form-control:first-child .icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1rem;
+  cursor: pointer;
+}
+
+section form .form-control:last-child {
+  text-align: center;
+}
+
+section form .form-control:last-child p {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+}
+
+section form .form-control:last-child p::after {
+  content: "";
+  position: absolute;
+  right: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 2px;
+  background-color: #ddd;
+}
+
+section form .form-control:last-child p::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 2px;
+  background-color: #ddd;
+}
+
+section form .form-control:last-child .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+section form .form-control:last-child .icon {
+  cursor: pointer;
+}
+
+section form .form-control:last-child .icon:not(:last-child) {
+  margin-right: 15px;
+}
+
+/* Functionality */
+
+section .container .signup {
+  pointer-events: none;
+}
+
+section .container.active .signup {
+  pointer-events: initial;
+}
+
+section .container .signup .form-box {
+  top: 100%;
+}
+
+section .container.active .signup .form-box {
+  top: 0;
+}
+
+section .container .signup .img-box {
+  top: -100%;
+}
+
+section .container.active .signup .img-box {
+  top: 0;
+}
+
+section .container .login .form-box {
+  top: 0;
+}
+
+section .container.active .login .form-box {
+  top: 100%;
+}
+
+section .container .login .img-box {
+  top: 0;
+}
+
+section .container.active .login .img-box {
+  top: -100%;
+}
+
+@media (max-width: 996px) {
+  section .container {
+    max-width: 400px;
+  }
+
+  section .container .img-box {
+    display: none;
+  }
+
+  section .container .form-box {
+    width: 100%;
+  }
+
+  section .container.active .login .form-box {
+    top: -100%;
+  }
+}
+
+@media (max-width: 567px) {
+  section {
+    padding: 0 30px;
+  }
+}
