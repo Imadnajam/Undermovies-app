@@ -23,13 +23,13 @@
                 <span data-id="#ff0066">Register now</span>
               </p>
             </div>
-            <form action="">
+            <form method="POST" action="{{ route('authentification-verif') }}">
               <div class="form-control">
                 <h2>Hello Again!</h2>
                 <p>Welcome back you've been missed.</p>
-                <input type="text" placeholder="Enter Username" />
+                <input type="email" name='Email'  placeholder="Enter Email"  />
                 <div>
-                  <input type="password" placeholder="Password" />
+                  <input type="password" placeholder="Password"  name='Password'/>
                   <div class="icon form-icon">
                     <!-- <img src="./images/eye.svg" alt="" /> -->
                   </div>
@@ -65,19 +65,20 @@
                 <span data-id="#1a1aff">Login now</span>
               </p>
             </div>
-            <form action="">
+            <form method="POST" action="{{ route('authentification-add') }}">
               <div class="form-control">
                 <h2>Welcome Codevo!</h2>
                 <p>It's good to have you.</p>
-                <input type="email" placeholder="Enter Email" />
+                <input type="text" placeholder="Enter User name" name="Name" />
+                <input type="email" placeholder="Enter Email" name="Email" />
                 <div>
-                  <input type="password" placeholder="Password" />
+                  <input type="password" placeholder="Password" name="Password" />
                   <div class="icon form-icon">
                     <img src="{{asset('image/login/eye.svg')}}" alt="" />
                   </div>
                 </div>
                 <div>
-                  <input type="password" placeholder="Confirm Password" />
+                  <input type="password" placeholder="Confirm Password" name="CPassword"/>
                   <div class="icon form-icon">
                     <img src="{{asset('image/login/eye.svg')}}" alt="" />
                   </div>

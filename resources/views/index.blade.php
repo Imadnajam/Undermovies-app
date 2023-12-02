@@ -164,7 +164,7 @@
             <p class="hero-subtitle">UnderMovie</p>
 
             <h1 class="h1 hero-title">
-              Unlimited <strong>Movie</strong>, TVs Shows, & More.
+              Unlimited <strong>Movie</strong> TVs Shows & More.
             </h1>
 
             <div class="meta-wrapper">
