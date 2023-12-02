@@ -1,6 +1,4 @@
-Certainly! Below is a simple template for a README file for your Laravel-based streaming films and series web application:
 
----
 
 # Movie & Series Streaming Web Application
 
