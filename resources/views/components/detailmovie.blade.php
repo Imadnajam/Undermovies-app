@@ -36,8 +36,8 @@
 
       <div class="overlay" data-overlay></div>
 
-      <a href="./index.html" class="logo">
-        <img src="./assets/images/logo.png" width="100px" alt="Filmlane logo">
+      <a href="{{route('home')}}" class="logo">
+        <img src="{{asset('image/home/logo.png')}}" width="100px" alt="Filmlane logo">
       </a>
 
       <div class="header-actions">
@@ -59,7 +59,7 @@
           </select>
         </div>
 
-        <a href="./Login/index.html"><button class="btn btn-primary">Sign in</button></a> 
+        <a href="{{route('authentification')}}"><button class="btn btn-primary">Sign in</button></a> 
 
       </div>
 
@@ -71,8 +71,8 @@
 
         <div class="navbar-top">
 
-          <a href="./index.html" class="logo">
-            <img src="./assets/images/logo.png" width="100px" alt="Filmlane logo">
+          <a href="{{route('home')}}" class="logo">
+            <img src="{{asset('image/home/logo.png')}}" width="100px" alt="Filmlane logo">
           </a>
 
           <button class="menu-close-btn" data-menu-close-btn>
@@ -84,7 +84,7 @@
         <ul class="navbar-list">
 
           <li>
-            <a href="./index.html" class="navbar-link">Home</a>
+            <a href="{{route('home')}}" class="navbar-link">Home</a>
           </li>
 
           <li>
@@ -92,15 +92,15 @@
           </li>
 
           <li>
-            <a href="./About/about.html" class="navbar-link">About</a>
+            <a href="{{route('about')}}" class="navbar-link">About</a>
           </li>
 
           <li>
-            <a href="./Web Series/index.html" class="navbar-link">Web Series</a>
+            <a href="{{route('series')}}" class="navbar-link">Web Series</a>
           </li>
 
           <li>
-            <a href="./pricing/pricing-template.html" class="navbar-link">Pricing</a>
+            <a href="{{route('pricing')}}" class="navbar-link">Pricing</a>
           </li>
 
         </ul>

@@ -16,7 +16,6 @@ class AuthController extends Controller
     return view('signup-login');
 }
 
-
 public function verif(Request $request)
 {
     $request->validate([
