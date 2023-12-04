@@ -18,6 +18,6 @@ class FilmController extends Controller
         $films = json_decode($jsonContent, true);
 
         // Return the JSON data
-        return response()->json($films);
+        return view('films',['films'=>$films]);
     }
 }

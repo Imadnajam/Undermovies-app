@@ -10,12 +10,12 @@ use App\Http\Controllers\FilmController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/authentification', [AuthController::class, 'index'])->name('authentification');
-Route::get('/detailmovie', [MovieController::class, 'detail'])->name('detailmovie');
+Route::get('/detailmovie/{id}', [MovieController::class, 'detail'])->name('detailmovie');
 Route::get('/series', [SeriesController::class, 'index'])->name('series');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/pricing', [PricingController::class, 'index'])->name('pricing');
 Route::post('/authentificationV', [AuthController::class, 'verif'])->name('authentification-verif');
 Route::post('/authentificationA', [AuthController::class, 'addC'])->name('authentification-add');
-Route::get('/films', [FilmController::class, 'getFilms']);
+Route::get('/films', [FilmController::class, 'getFilms'])->name('films');
 
 

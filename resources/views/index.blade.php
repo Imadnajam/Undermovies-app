@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UnderMovie - Best movie</title>
+  <title>UnderMovie - Home</title>
 
   <!-- 
     - favicon
@@ -89,7 +89,7 @@
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Movie</a>
+            <a href="{{route('films')}}" class="navbar-link">Movie</a>
           </li>
 
           <li>
@@ -252,14 +252,14 @@
             <li>
               <div class="movie-card">
 
-                <a href="{{route('detailmovie') }}">
+                <a href="#detail">
                   <figure class="card-banner">
                     <img src="{{asset('image/home/upcoming-1.png')}}" alt="The Northman movie poster">
                   </figure>
                 </a>
 
                 <div class="title-wrapper">
-                  <a href="{{route('detailmovie') }}">
+                  <a href="#detail">
                     <h3 class="card-title">The Northman</h3>
                   </a>
 
@@ -288,7 +288,7 @@
             <li>
               <div class="movie-card">
 
-                <a href="{{route('detailmovie') }}">
+                <a href="#detail">
                   <figure class="card-banner">
                     <img src="{{asset('image/home/upcoming-2.png')}}"
                       alt="Doctor Strange in the Multiverse of Madness movie poster">
@@ -296,7 +296,7 @@
                 </a>
 
                 <div class="title-wrapper">
-                  <a href="{{route('detailmovie') }}">
+                  <a href="#detail">
                     <h3 class="card-title">Doctor Strange in the Multiverse of Madness</h3>
                   </a>
 
@@ -325,14 +325,14 @@
             <li>
               <div class="movie-card">
 
-                <a href="{{route('detailmovie') }}">
+                <a href="#detail">
                   <figure class="card-banner">
                     <img src="{{asset('image/home/upcoming-3.png')}}" alt="Memory movie poster">
                   </figure>
                 </a>
 
                 <div class="title-wrapper">
-                  <a href="{{route('detailmovie') }}">
+                  <a href="#detail">
                     <h3 class="card-title">Memory</h3>
                   </a>
 
@@ -361,7 +361,7 @@
             <li>
               <div class="movie-card">
 
-                <a href="{{route('detailmovie') }}">
+                <a href="#detail">
                   <figure class="card-banner">
                     <img src="{{asset('image/home/upcoming-4.png')}}"
                       alt="The Unbearable Weight of Massive Talent movie poster">
@@ -369,7 +369,7 @@
                 </a>
 
                 <div class="title-wrapper">
-                  <a href="{{route('detailmovie') }}">
+                  <a href="#detail">
                     <h3 class="card-title">The Unbearable Weight of Massive Talent</h3>
                   </a>
 
@@ -520,14 +520,14 @@
             <li>
               <div class="movie-card">
 
-                <a href="{{route('detailmovie') }}">
+                <a href="#detail">
                   <figure class="card-banner">
                     <img src="{{asset('image/home/movie-1.png')}}" alt="Sonic the Hedgehog 2 movie poster">
                   </figure>
                 </a>
 
                 <div class="title-wrapper">
-                  <a href="{{route('detailmovie') }}">
+                  <a href="#detail">
                     <h3 class="card-title">Sonic the Hedgehog 2</h3>
                   </a>
 
@@ -556,14 +556,14 @@
             <li>
               <div class="movie-card">
 
-                <a href="{{route('detailmovie') }}">
+                <a href="#detail">
                   <figure class="card-banner">
                     <img src="{{asset('image/home/movie-2.png')}}" alt="Morbius movie poster">
                   </figure>
                 </a>
 
                 <div class="title-wrapper">
-                  <a href="{{route('detailmovie') }}">
+                  <a href="#detail">
                     <h3 class="card-title">Morbius</h3>
                   </a>
 
@@ -592,14 +592,14 @@
             <li>
               <div class="movie-card">
 
-                <a href="{{route('detailmovie') }}">
+                <a href="#detail">
                   <figure class="card-banner">
                     <img src="{{asset('image/home/movie-3.png')}}" alt="The Adam Project movie poster">
                   </figure>
                 </a>
 
                 <div class="title-wrapper">
-                  <a href="{{route('detailmovie') }}">
+                  <a href="#detail">
                     <h3 class="card-title">The Adam Project</h3>
                   </a>
 
@@ -628,14 +628,14 @@
             <li>
               <div class="movie-card">
 
-                <a href="{{route('detailmovie') }}">
+                <a href="#detail">
                   <figure class="card-banner">
                     <img src="{{asset('image/home/movie-4.png')}}" alt="Free Guy movie poster">
                   </figure>
                 </a>
 
                 <div class="title-wrapper">
-                  <a href="{{route('detailmovie') }}">
+                  <a href="#detail">
                     <h3 class="card-title">Free Guy</h3>
                   </a>
 
@@ -664,14 +664,14 @@
             <li>
               <div class="movie-card">
 
-                <a href="{{route('detailmovie') }}">
+                <a href="#detail">
                   <figure class="card-banner">
                     <img src="{{asset('image/home/movie-5.png')}}" alt="The Batman movie poster">
                   </figure>
                 </a>
 
                 <div class="title-wrapper">
-                  <a href="{{route('detailmovie') }}">
+                  <a href="#detail">
                     <h3 class="card-title">The Batman</h3>
                   </a>
 
@@ -700,14 +700,14 @@
             <li>
               <div class="movie-card">
 
-                <a href="{{route('detailmovie') }}">
+                <a href="#detail">
                   <figure class="card-banner">
                     <img src="{{asset('image/home/movie-6.png')}}" alt="Uncharted movie poster">
                   </figure>
                 </a>
 
                 <div class="title-wrapper">
-                  <a href="{{route('detailmovie') }}">
+                  <a href="#detail">
                     <h3 class="card-title">Uncharted</h3>
                   </a>
 
@@ -736,14 +736,14 @@
             <li>
               <div class="movie-card">
 
-                <a href="{{route('detailmovie') }}">
+                <a href="#detail">
                   <figure class="card-banner">
                     <img src="{{asset('image/home/movie-7.png')}}" alt="Death on the Nile movie poster">
                   </figure>
                 </a>
 
                 <div class="title-wrapper">
-                  <a href="{{route('detailmovie') }}">
+                  <a href="#detail">
                     <h3 class="card-title">Death on the Nile</h3>
                   </a>
 
@@ -772,14 +772,14 @@
             <li>
               <div class="movie-card">
 
-                <a href="{{route('detailmovie') }}">
+                <a href="#detail">
                   <figure class="card-banner">
                     <img src="{{asset('image/home/movie-8.png')}}" alt="The King's Man movie poster">
                   </figure>
                 </a>
 
                 <div class="title-wrapper">
-                  <a href="{{route('detailmovie') }}">
+                  <a href="#detail">
                     <h3 class="card-title">The King's Man</h3>
                   </a>
 
@@ -830,14 +830,14 @@
             <li>
               <div class="movie-card">
 
-                <a href="{{route('detailmovie') }}">
+                <a href="#detail">
                   <figure class="card-banner">
                     <img src="{{asset('image/home/series-1.png')}}" alt="Moon Knight movie poster">
                   </figure>
                 </a>
 
                 <div class="title-wrapper">
-                  <a href="{{route('detailmovie') }}">
+                  <a href="#detail">
                     <h3 class="card-title">Moon Knight</h3>
                   </a>
 
@@ -866,14 +866,14 @@
             <li>
               <div class="movie-card">
 
-                <a href="{{route('detailmovie') }}">
+                <a href="#detail">
                   <figure class="card-banner">
                     <img src="{{asset('image/home/series-2.png')}}" alt="Halo movie poster">
                   </figure>
                 </a>
 
                 <div class="title-wrapper">
-                  <a href="{{route('detailmovie') }}">
+                  <a href="#detail">
                     <h3 class="card-title">Halo</h3>
                   </a>
 
@@ -902,14 +902,14 @@
             <li>
               <div class="movie-card">
 
-                <a href="{{route('detailmovie') }}">
+                <a href="#detail">
                   <figure class="card-banner">
                     <img src="{{asset('image/home/series-3.png')}}" alt="Vikings: Valhalla movie poster">
                   </figure>
                 </a>
 
                 <div class="title-wrapper">
-                  <a href="{{route('detailmovie') }}">
+                  <a href="#detail">
                     <h3 class="card-title">Vikings: Valhalla</h3>
                   </a>
 
@@ -938,14 +938,14 @@
             <li>
               <div class="movie-card">
 
-                <a href="{{route('detailmovie') }}">
+                <a href="#detail">
                   <figure class="card-banner">
                     <img src="{{asset('image/home/series-4.png')}}" alt="Money Heist movie poster">
                   </figure>
                 </a>
 
                 <div class="title-wrapper">
-                  <a href="{{route('detailmovie') }}">
+                  <a href="#detail">
                     <h3 class="card-title">Money Heist</h3>
                   </a>
 
