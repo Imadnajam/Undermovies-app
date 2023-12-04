@@ -87,7 +87,7 @@
                     </div>
         
                     <div class="card-meta">
-                        <div class="badge badge-outline">2K</div>
+                        <div class="badge badge-outline">{{ $film['Rated'] }}</div>
         
                         <div class="duration">
                             <ion-icon name="time-outline"></ion-icon>
