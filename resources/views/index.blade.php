@@ -93,7 +93,7 @@
           </li>
 
           <li>
-            <a href="{{route('about')}}" class="navbar-link">About</a>
+            <a href="{{route('anime')}}" class="navbar-link">Anime</a>
           </li>
 
           <li>
@@ -102,6 +102,9 @@
 
           <li>
             <a href="{{route('pricing')}}" class="navbar-link">Pricing</a>
+          </li>
+          <li>
+            <a href="{{route('about')}}" class="navbar-link">About</a>
           </li>
 
         </ul>
