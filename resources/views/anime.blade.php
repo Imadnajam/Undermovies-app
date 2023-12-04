@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>UnderMovie - Best movie</title>
+    <title>UnderMovie - Best Anime</title>
   <!-- 
     - favicon
   -->
@@ -34,7 +34,7 @@
          <a href="{{route('home')}}"> <img src="{{asset('image/series/logo.png')}}" width="100px" ></a>
           <p class="section-subtitle">Online Streaming</p>
 
-          <h2 class="h2 section-title">Top Rated Movies</h2>
+          <h2 class="h2 section-title">Top Rated Anime</h2>
 
           <ul class="filter-list">
 
@@ -72,32 +72,24 @@
             @foreach ($animes as $anime)
             <li>
                 <div class="movie-card">
-                    <a href="">
+                    <a href="{{ route('detailanime',['id' => $anime['Aid']]) }}">
                         <figure class="card-banner">
-                            <img src="{{ $anime['data']['picture'] }}" alt="{{ $anime['title'] }}">
+                            <img src="{{ $anime['ImageURL'] }}" alt="{{ $anime['Name'] }}">
                         </figure>
                     </a>
         
                     <div class="title-wrapper">
-                        <a href="">
-                            <h3 class="card-title">{{ $anime['title'] }}</h3>
+                        <a href="{{ route('detailmovie',['id' => $anime['Aid']]) }}">
+                            <h3 class="card-title">{{ $anime['Name'] }}</h3>
                         </a>
         
                         <time datetime="{{ $anime['Released'] }}">{{ $anime['Released'] }}</time>
                     </div>
         
                     <div class="card-meta">
-                        <div class="badge badge-outline">{{ $anime['Rated'] }}</div>
+                        <div class="badge badge-outline">{{ $anime['Type'] }}</div>
         
-                        <div class="duration">
-                            <ion-icon name="time-outline"></ion-icon>
-                            <time datetime="{{ $anime['Runtime'] }}">{{ $anime['Runtime'] }}</time>
-                        </div>
-        
-                        <div class="rating">
-                            <ion-icon name="star"></ion-icon>
-                            <data>{{ $anime['imdbRating'] }}</data>
-                        </div>
+                        
                     </div>
                 </div>
             </li>

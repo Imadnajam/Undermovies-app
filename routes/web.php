@@ -7,10 +7,13 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\PricingController;
 use App\Http\Controllers\FilmController;
 use App\Http\Controllers\AnimeController;
+use App\Http\Controllers\detailanimeController;
+
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/authentification', [AuthController::class, 'index'])->name('authentification');
 Route::get('/detailmovie/{id}', [MovieController::class, 'detail'])->name('detailmovie');
+
 Route::get('/series', [SeriesController::class, 'index'])->name('series');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/pricing', [PricingController::class, 'index'])->name('pricing');
@@ -18,4 +21,5 @@ Route::post('/authentificationV', [AuthController::class, 'verif'])->name('authe
 Route::post('/authentificationA', [AuthController::class, 'addC'])->name('authentification-add');
 Route::get('/films', [FilmController::class, 'getFilms'])->name('films');
 Route::get('/anime', [AnimeController::class, 'getAnime'])->name('anime');
+Route::get('/detailanime/{id}', [detailanimeController::class, 'detail'])->name('detailanime');
 
