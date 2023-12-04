@@ -233,7 +233,7 @@
   
               </div>
   
-              <a href="./assets/images/movie-4.png" download class="download-btn">
+              <a href="{{ $film['Poster'] }}" download class="download-btn">
                 <span>Download</span>
   
                 <ion-icon name="download-outline"></ion-icon>
