@@ -8,7 +8,7 @@ class FilmController extends Controller
 {
     public function getFilms()
     {
-        // Path to your JSON file
+        
         $filePath = storage_path('app/filmdata.json');
 
         // Read the JSON file
