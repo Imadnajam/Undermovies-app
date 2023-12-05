@@ -80,8 +80,17 @@
             
           </ul>
 
+          @php
+          $shuffledTops = $animes;
+          shuffle($shuffledTops);
+
+      @endphp
+
+
+ 
+         
           <ul class="movies-list">
-            @foreach ($animes as $anime)
+            @foreach ($shuffledTops as $anime)
             <li>
                 <div class="movie-card">
                     <a href="{{ route('detailanime',['id' => $anime['Aid']]) }}">

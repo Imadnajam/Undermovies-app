@@ -250,9 +250,14 @@
 
                     </div>
 
+                    @php
+                    $shuffledfilms = $films['results'];
+                    shuffle($shuffledfilms);
+    
+                    @endphp
 
                     <ul class="movies-list  has-scrollbar">
-                        @foreach ($films['results'] as $film)
+                        @foreach ($shuffledfilms as $film)
                             @if (is_array($film) && isset($film['backdrop_path']))
                                 <li>
                                     <div class="movie-card">
