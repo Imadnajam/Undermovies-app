@@ -39,30 +39,42 @@
           <ul class="filter-list">
 
             <li>
-              <button class="filter-btn">Aventure</button>
+              <button class="filter-btn">Shounen</button>
             </li>
 
             <li>
-              <button class="filter-btn">Guerre</button>
+              <button class="filter-btn">Seinen</button>
             </li>
 
             <li>
-              <button class="filter-btn">Histoire</button>
+              <button class="filter-btn">Shoujo</button>
             </li>
             <li>
-              <button class="filter-btn">Action</button>
+              <button class="filter-btn">Josei</button>
             </li>
             <li>
-              <button class="filter-btn">Policier</button>
+              <button class="filter-btn">Isekai</button>
             </li>
             <li>
-              <button class="filter-btn">Science fiction</button>
+              <button class="filter-btn">Slice of Life</button>
             </li>
             <li>
               <button class="filter-btn">fantastique</button>
             </li>
             <li>
-              <button class="filter-btn">horreur</button>
+              <button class="filter-btn">Mecha</button>
+            </li>
+            <li>
+              <button class="filter-btn">Psychological</button>
+            </li>
+            <li>
+              <button class="filter-btn">Romance</button>
+            </li>
+            <li>
+              <button class="filter-btn">Horror</button>
+            </li>
+            <li>
+              <button class="filter-btn">Comedy</button>
             </li>
 
             
