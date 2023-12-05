@@ -673,7 +673,7 @@
             <div class="container">
 
                 <p class="copyright">
-                    &copy; 2022 <a href="#">codewithsadee</a>. All Rights Reserved
+                    &copy; 2024 <a href="#">NJ</a>. All Rights Reserved
                 </p>
 
                 <img src="{{ asset('image/home/footer-bottom-img.png') }}" alt="Online banking companies logo"

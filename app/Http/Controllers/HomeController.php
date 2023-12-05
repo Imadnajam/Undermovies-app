@@ -14,11 +14,11 @@ class HomeController extends Controller
          $films = json_decode($jsonContent, true);
 
          /////////////////////////////////////
-         $filePath = storage_path('app/home1.json');
+         $filePath = storage_path('app/home2.json');
          $jsonContent = file_get_contents($filePath);
          $tvs = json_decode($jsonContent, true);
          ///////////////////////////////////////
-         $filePath = storage_path('app/home2.json');
+         $filePath = storage_path('app/home1.json');
          $jsonContent = file_get_contents($filePath);
          $tops = json_decode($jsonContent, true);
 
