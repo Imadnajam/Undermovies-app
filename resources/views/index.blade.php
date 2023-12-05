@@ -681,8 +681,7 @@
                     &copy; 2024 <a href="#">NJ</a>. All Rights Reserved
                 </p>
 
-                <img src="{{ asset('image/home/footer-bottom-img.png') }}" alt="Online banking companies logo"
-                    class="footer-bottom-img">
+              
 
             </div>
         </div>
