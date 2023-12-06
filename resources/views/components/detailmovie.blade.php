@@ -207,6 +207,7 @@
                                         <time datetime="{{ $film['Runtime'] }}"> {{ $film['Runtime'] }} </time>
 
 
+                                        
                                     </div>
 
 
