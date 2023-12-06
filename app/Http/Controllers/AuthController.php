@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
+use App\Mail\HelloUndermovie;
+use Illuminate\Support\Facades\Mail;
+
 
 
 class AuthController extends Controller
@@ -51,16 +54,20 @@ public function addC(Request $request)
     'CPassword' => 'required|same:Password',
 ]);
 
-// Create a new user instance
-DB::table('users')->insert([
-    'name' => $request->input('Name'),
-    'email' => $request->input('Email'),
-    'email_verified_at' => now(), // assuming email verification is done immediately
-    'password' => bcrypt($request->input('Password')),
-    'remember_token' => Str::random(10), // generate a random token
-    'created_at' => now(),
-    'updated_at' => now(),
-]);
+        // Create a new user instance
+        $user = new users;
+        $user->name = $request->input('Name');
+        $user->email = $request->input('Email');
+        $user->email_verified_at = now();
+        $user->password = bcrypt($request->input('Password'));
+        $user->remember_token = Str::random(10);
+        $user->created_at = now();
+        $user->updated_at = now();
+
+        // Save the user
+        $user->save();
+        Mail::to($request->input('Email'))->send(new HelloUndermovie($user));
+
 return redirect()->route('home');
 }
 
