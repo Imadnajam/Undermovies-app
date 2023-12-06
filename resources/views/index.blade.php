@@ -158,9 +158,12 @@
             <!--
         - #HERO
       -->
-
-            <section style="background-image: url({{ asset('image/home/hero-bg.jpg') }}) " class="hero">
-                <div class="container">
+      @php
+      $list = ['Hero3.jpg', 'Hero7.jpg', 'Hero1.jpg', 'Hero2.jpg', 'Hero0.jpg','Hero4.jpg','Hero5.jpg','Hero6.jpg'];
+  @endphp
+  
+  <section id="hero" class="hero" style="background-image: url({{ asset('image/home/'.$list[0]) }})">
+       <div class="container">
 
                     <div class="hero-content">
 
@@ -706,9 +709,32 @@
 
     <!--
     - custom js link
+
   -->
     <script src="{{ asset('js/home.js') }}"></script>
 
+    <script>
+         // Set the list of background images
+    var backgroundList = @json($list);
+
+// Get the hero section element
+var heroSection = document.getElementById('hero');
+
+// Function to change the background after 20 seconds
+function changeBackground() {
+    // Get the current background image index
+    var currentIndex = backgroundList.indexOf(heroSection.style.backgroundImage.split('/').pop().replace('")', ''));
+
+    // Calculate the next index with wrap-around
+    var nextIndex = (currentIndex + 1) % backgroundList.length;
+
+    // Set the new background image
+    heroSection.style.backgroundImage = 'url(' + "{{ asset('image/home/') }}/" + backgroundList[nextIndex] + ')';
+}
+
+// Change the background every 20 seconds
+setInterval(changeBackground, 20000);
+    </script>
     <!--
     - ionicon link
   -->
