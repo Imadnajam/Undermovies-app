@@ -88,7 +88,9 @@
                         <li>
                             <a href="{{ route('home') }}" class="navbar-link">Home</a>
                         </li>
-
+                        <li>
+                            <a href="{{route('anime')}}" class="navbar-link">animes</a>
+                          </li>
                         <li>
                             <a href="{{ route('films') }}" class="navbar-link">Movie</a>
                         </li>

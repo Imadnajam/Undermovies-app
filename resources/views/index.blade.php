@@ -159,7 +159,7 @@
         - #HERO
       -->
       @php
-      $list = ['Hero3.jpg', 'Hero7.jpg', 'Hero1.jpg', 'Hero2.jpg', 'Hero0.jpg','Hero4.jpg','Hero5.jpg','Hero6.jpg'];
+      $list = ['Hero7.jpg', 'Hero1.jpg', 'Hero3.jpg', 'Hero2.jpg', 'Hero0.jpg','Hero4.jpg','Hero5.jpg','Hero6.jpg'];
   @endphp
   
   <section id="hero" class="hero" style="background-image: url({{ asset('image/home/'.$list[0]) }})">

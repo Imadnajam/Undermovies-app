@@ -90,7 +90,9 @@
             <li>
               <a href="{{route('anime')}}" class="navbar-link">animes</a>
             </li>
-  
+            <li>
+              <a href="{{route('films')}}" class="navbar-link">movies</a>
+            </li>
             <li>
               <a href="{{route('about')}}" class="navbar-link">About</a>
             </li>
