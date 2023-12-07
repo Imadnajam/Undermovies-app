@@ -24,3 +24,6 @@ Route::get('/anime', [AnimeController::class, 'getAnime'])->name('anime');
 Route::get('/detailanime/{id}', [detailanimeController::class, 'detail'])->name('detailanime');
 
 Route::get('/indexMD/{id}', [MovieController::class, 'detailI'])->name('detailmovieI');
+
+Route::get('/watchNow/{id}', [MovieController::class, 'watchNow'])->name('watchNow');
+

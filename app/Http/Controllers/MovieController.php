@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\Models\Film;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Http\Request;
+use GuzzleHttp\Client;
 
 class MovieController extends Controller
 {
@@ -45,4 +46,34 @@ public function detailI($id)
         return view('error');
     }
 }
+
+public function watchNow($id)
+{
+    $apiKey = '0269e1f69afd6ff169f8a6a2d9f0dc4d'; // Replace with your TMDb API key
+    $url = "https://api.themoviedb.org/3/movie/{$id}/videos";
+    $title = request()->input('title');
+
+    try {
+        $response = Http::get($url, [
+            'api_key' => $apiKey,
+        ]);
+
+        $data = $response->json();
+
+        // Check if there are videos and if the first one is a trailer
+        if (isset($data['results']) && !empty($data['results'])) {
+            $trailerKey = $data['results'][0]['key'];
+            $trailerUrl = "https://www.youtube.com/embed/{$trailerKey}";
+
+            return view('components.watchnow', ['trailer_url' => $trailerUrl, 'title' => $title]);
+        }
+        
+        // No trailers found
+        return view('components.trailer_not_found');
+    } catch (\Exception $e) {
+        // Handle the exception (e.g., log it) and return an error view
+        return view('components.error', ['message' => 'An error occurred while fetching the trailer.']);
+    }
+}
+
 }

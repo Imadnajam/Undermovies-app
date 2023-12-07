@@ -166,10 +166,10 @@
 
                             <img src="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $movie['poster_path'] }}"
                                 alt="{{ $movie['original_title'] }}">
-
-                            <button class="play-btn">
-                                <ion-icon name="play-circle-outline"></ion-icon>
-                            </button>
+                                <a style="color: rgb(255, 255, 255)" href="{{route('watchNow' ,['id' => $movie['id'] ,'title'=>$movie['original_title']])}}">  <button class="play-btn">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </button></a>  
+                          
 
                         </figure>
 
@@ -262,7 +262,7 @@
                                 <button class="btn btn-primary">
                                     <ion-icon name="play"></ion-icon>
 
-                                    <span>Watch Now</span>
+                                  <a style="color: rgb(255, 255, 255)" href="{{route('watchNow' ,['id' => $movie['id'] ,'title'=>$movie['original_title']])}}"><span>Watch Now</span></a>  
                                 </button>
 
                             </div>
