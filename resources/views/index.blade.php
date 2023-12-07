@@ -439,7 +439,7 @@
                             @if (is_array($top) && isset($top['poster_path']))
                                 <li>
                                     <div class="movie-card">
-                                        <a href="#detail">
+                                        <a href="{{route('detailmovieI',['id' => $top['id']])}}">
                                             <figure class="card-banner">
                                                 <img src="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $top['poster_path'] }}"
                                                     alt="Movie poster">
