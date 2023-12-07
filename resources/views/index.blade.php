@@ -264,7 +264,7 @@
                             @if (is_array($film) && isset($film['backdrop_path']))
                                 <li>
                                     <div class="movie-card">
-                                        <a href="#detail">
+                                        <a href="{{route('detailmovieI',['id' => $film['id']])}}">
                                             <figure class="card-banner">
                                                 <img src="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $film['backdrop_path'] }}"
                                                     alt="Movie poster">

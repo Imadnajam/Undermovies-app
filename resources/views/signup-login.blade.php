@@ -34,7 +34,7 @@
                     <!-- <img src="./images/eye.svg" alt="" /> -->
                   </div>
                 </div>
-                <span>Recovery Password</span>
+              <a href=""><span>Recovery Password</span></a> 
                 <input type="Submit" value="Login" />
               </div>
               <div class="form-control">
@@ -67,7 +67,7 @@
             </div>
             <form method="POST" action="{{ route('authentification-add') }}">
               <div class="form-control">
-                <h2>Welcome Codevo!</h2>
+                <h2>Welcome !</h2>
                 <p>It's good to have you.</p>
                 <input type="text" placeholder="Enter User name" name="Name" />
                 <input type="email" placeholder="Enter Email" name="Email" />
