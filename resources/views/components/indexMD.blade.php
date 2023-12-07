@@ -164,7 +164,7 @@
 
                         <figure class="movie-detail-banner">
 
-                            <img src="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $movie['poster_path'] }}"
+                            <img src="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $movie['backdrop_path'] }}"
                                 alt="{{ $movie['original_title'] }}">
                                 <a style="color: rgb(255, 255, 255)" href="{{route('watchNow' ,['id' => $movie['id'] ,'title'=>$movie['original_title']])}}">  <button class="play-btn">
                                     <ion-icon name="play-circle-outline"></ion-icon>

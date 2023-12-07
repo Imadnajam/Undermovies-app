@@ -261,12 +261,12 @@
 
                     <ul class="movies-list  has-scrollbar">
                         @foreach ($shuffledfilms as $film)
-                            @if (is_array($film) && isset($film['backdrop_path']))
+                            @if (is_array($film) && isset($film['poster_path']))
                                 <li>
                                     <div class="movie-card">
                                         <a href="{{route('detailmovieI',['id' => $film['id']])}}">
                                             <figure class="card-banner">
-                                                <img src="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $film['backdrop_path'] }}"
+                                                <img src="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $film['poster_path'] }}"
                                                     alt="Movie poster">
                                             </figure>
                                         </a>
@@ -436,12 +436,12 @@
 
 
                         @foreach ($shuffledTops as $top)
-                            @if (is_array($top) && isset($top['backdrop_path']))
+                            @if (is_array($top) && isset($top['poster_path']))
                                 <li>
                                     <div class="movie-card">
                                         <a href="#detail">
                                             <figure class="card-banner">
-                                                <img src="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $top['backdrop_path'] }}"
+                                                <img src="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $top['poster_path'] }}"
                                                     alt="Movie poster">
                                             </figure>
                                         </a>
@@ -498,12 +498,12 @@
 
                     <ul class="movies-list">
                         @foreach ($tvs['results'] as $tv)
-                            @if (is_array($tv) && isset($tv['backdrop_path']))
+                            @if (is_array($tv) && isset($tv['poster_path']))
                                 <li>
                                     <div class="movie-card">
                                         <a href="#detail">
                                             <figure class="card-banner">
-                                                <img src="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $tv['backdrop_path'] }}"
+                                                <img src="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $tv['poster_path'] }}"
                                                     alt="Movie poster">
                                             </figure>
                                         </a>
