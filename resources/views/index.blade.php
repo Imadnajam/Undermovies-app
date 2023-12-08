@@ -107,8 +107,8 @@
                     </li>
 
                     <li>
-                        
-                <a href="{{ route('authentification') }}"><button class="btn btn-primary">Sign in</button></a>
+
+                        <a href="{{ route('authentification') }}"><button class="btn btn-primary">Sign in</button></a>
                     </li>
 
                 </ul>
@@ -162,12 +162,12 @@
             <!--
         - #HERO
       -->
-      @php
-      $list = ['Hero7.jpg', 'Hero1.jpg', 'Hero3.jpg', 'Hero2.jpg', 'Hero0.jpg','Hero4.jpg','Hero5.jpg','Hero6.jpg'];
-  @endphp
-  
-  <section id="hero" class="hero" style="background-image: url({{ asset('image/home/'.$list[0]) }})">
-       <div class="container">
+            @php
+                $list = ['Hero7.jpg', 'Hero1.jpg', 'Hero3.jpg', 'Hero2.jpg', 'Hero0.jpg', 'Hero4.jpg', 'Hero5.jpg', 'Hero6.jpg'];
+            @endphp
+
+            <section id="hero" class="hero" style="background-image: url({{ asset('image/home/' . $list[0]) }})">
+                <div class="container">
 
                     <div class="hero-content">
 
@@ -258,9 +258,9 @@
                     </div>
 
                     @php
-                    $shuffledfilms = $films['results'];
-                    shuffle($shuffledfilms);
-    
+                        $shuffledfilms = $films['results'];
+                        shuffle($shuffledfilms);
+
                     @endphp
 
                     <ul class="movies-list  has-scrollbar">
@@ -268,7 +268,7 @@
                             @if (is_array($film) && isset($film['poster_path']))
                                 <li>
                                     <div class="movie-card">
-                                        <a href="{{route('detailmovieI',['id' => $film['id']])}}">
+                                        <a href="{{ route('detailmovieI', ['id' => $film['id']]) }}">
                                             <figure class="card-banner">
                                                 <img src="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $film['poster_path'] }}"
                                                     alt="Movie poster">
@@ -402,9 +402,9 @@
         - #TOP RATED
       -->
 
-      
+
             <section class="top-rated">
-              
+
                 <div class="container">
 
                     <p class="section-subtitle">Online Streaming</p>
@@ -443,7 +443,7 @@
                             @if (is_array($top) && isset($top['poster_path']))
                                 <li>
                                     <div class="movie-card">
-                                        <a href="{{route('detailmovieI',['id' => $top['id']])}}">
+                                        <a href="{{ route('detailmovieI', ['id' => $top['id']]) }}">
                                             <figure class="card-banner">
                                                 <img src="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $top['poster_path'] }}"
                                                     alt="Movie poster">
@@ -688,7 +688,7 @@
                     &copy; 2024 <a href="#">NJ</a>. All Rights Reserved
                 </p>
 
-              
+
 
             </div>
         </div>
@@ -718,26 +718,26 @@
     <script src="{{ asset('js/home.js') }}"></script>
 
     <script>
-         // Set the list of background images
-    var backgroundList = @json($list);
+        // Set the list of background images
+        var backgroundList = @json($list);
 
-// Get the hero section element
-var heroSection = document.getElementById('hero');
+        // Get the hero section element
+        var heroSection = document.getElementById('hero');
 
-// Function to change the background after 20 seconds
-function changeBackground() {
-    // Get the current background image index
-    var currentIndex = backgroundList.indexOf(heroSection.style.backgroundImage.split('/').pop().replace('")', ''));
+        // Function to change the background after 20 seconds
+        function changeBackground() {
+            // Get the current background image index
+            var currentIndex = backgroundList.indexOf(heroSection.style.backgroundImage.split('/').pop().replace('")', ''));
 
-    // Calculate the next index with wrap-around
-    var nextIndex = (currentIndex + 1) % backgroundList.length;
+            // Calculate the next index with wrap-around
+            var nextIndex = (currentIndex + 1) % backgroundList.length;
 
-    // Set the new background image
-    heroSection.style.backgroundImage = 'url(' + "{{ asset('image/home/') }}/" + backgroundList[nextIndex] + ')';
-}
+            // Set the new background image
+            heroSection.style.backgroundImage = 'url(' + "{{ asset('image/home/') }}/" + backgroundList[nextIndex] + ')';
+        }
 
-// Change the background every 20 seconds
-setInterval(changeBackground, 20000);
+        // Change the background every 20 seconds
+        setInterval(changeBackground, 20000);
     </script>
     <!--
     - ionicon link
