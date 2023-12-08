@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>UnderMovie - Best Anime</title>
     <!--
     - favicon
@@ -15,7 +16,7 @@
     - custom css link
   -->
     <link rel="stylesheet" href="{{ asset('css/home.css') }}">
-
+    <link rel="stylesheet" href="{{ asset('css/search.css') }}">
 
     <!--
     - google font link
@@ -30,7 +31,7 @@
     <!--
         - #TOP RATED
       -->
-
+  
     <section class="top-rated">
         <div class="container">
             <a href="{{ route('home') }}"> <img src="{{ asset('image/series/logo.png') }}" width="100px"></a>
@@ -81,6 +82,7 @@
 
 
             </ul>
+
 
             @php
                 $shuffledTops = $animes;

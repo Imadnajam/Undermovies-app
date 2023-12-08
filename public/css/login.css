@@ -12,7 +12,7 @@
 :root {
   /* Colors */
   --pink: #31304D;
-  --lightpink: #30475E;
+  --lightpink:  hsl(229, 100%, 88%);
   --blue: #1a1aff;
   --lightblue: hsl(207, 19%, 11%);
   --color: #4d4d4d;
