@@ -14,7 +14,7 @@
       <div class="container">
         <div class="user login">
           <div class="img-box">
-            <img src="{{asset('image/login/login.svg')}}" alt="" />
+            <img src="{{asset('image/login/l2.jpeg')}}" alt="" />
           </div>
           <div class="form-box">
             <div class="top">
@@ -103,7 +103,7 @@
             </form>
           </div>
           <div class="img-box">
-            <img src="{{asset('image/login/trial.svg')}}" alt="" />
+            <img src="{{asset('image/login/l3.jpeg')}}" alt="" />
           </div>
         </div>
       </div>
