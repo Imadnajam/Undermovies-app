@@ -60,7 +60,6 @@
                     </select>
                 </div>
 
-                <a href="{{ route('authentification') }}"><button class="btn btn-primary">Sign in</button></a>
 
             </div>
 
@@ -73,7 +72,7 @@
                 <div class="navbar-top">
 
                     <a href="{{ route('home') }}" class="logo">
-                        <img src="{{ asset('image/home/logo.svg') }}" alt="Filmlane logo">
+                        <img src="{{ asset('image/home/logo.png') }}" width="100px" alt="Filmlane logo">
                     </a>
 
                     <button class="menu-close-btn" data-menu-close-btn>
@@ -105,6 +104,11 @@
                     </li>
                     <li>
                         <a href="{{ route('about') }}" class="navbar-link">About</a>
+                    </li>
+
+                    <li>
+                        
+                <a href="{{ route('authentification') }}"><button class="btn btn-primary">Sign in</button></a>
                     </li>
 
                 </ul>
