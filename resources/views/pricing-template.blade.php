@@ -16,10 +16,9 @@
 
     <section class="table">
         <div id="plan" class="table-header">
-            <span>misocial</span>
+            <span>Join the Hobby Plan</span>
             <h2>Select a Plan</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod
-                tempor incididunt ut</p>
+            <p>Upgrade your resources, remove usage limits, and ship with ease.</p>
         </div>
 
         <div class="price-tags">
@@ -44,7 +43,7 @@
                 <img src="{{ asset('image/pricing/Asset1@4x.svg') }}" width="112" height="110">
 
                 <span>personal</span>
-                <h4><sup>$</sup>49<sub>/month</sub></h4>
+                <h4><sup>$</sup>35<sub>/month</sub></h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua.</p>
                 <a href="#" class="price-btn">Select plan</a>
