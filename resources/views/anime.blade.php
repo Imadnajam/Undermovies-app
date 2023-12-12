@@ -7,9 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>UnderMovie - Best Anime</title>
-    <!--
-    - favicon
-  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
     <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
     <!--
@@ -28,10 +27,6 @@
 
 <body>
 
-    <!--
-        - #TOP RATED
-      -->
-  
     <section class="top-rated">
         <div class="container">
             <a href="{{ route('home') }}"> <img src="{{ asset('image/series/logo.png') }}" width="100px"></a>
@@ -84,17 +79,12 @@
             </ul>
 
 
-            @php
-                $shuffledTops = $animes;
-                shuffle($shuffledTops);
-
-            @endphp
 
 
 
 
             <ul class="movies-list">
-                @foreach ($shuffledTops as $anime)
+                @foreach ($animes as $anime)
                     <li>
                         <div class="movie-card">
                             <a href="{{ route('detailanime', ['id' => $anime['Aid']]) }}">
@@ -119,9 +109,19 @@
                         </div>
                     </li>
                 @endforeach
-
+               
+                
+                
             </ul>
 
+
+<br>
+            <div class="pagination justify-content-center custom-background">
+                {{ $animes->appends(request()->query())->links('pagination::bootstrap-4') }}
+            </div>
+            
+            
+            
         </div>
     </section>
 
@@ -133,8 +133,6 @@
       -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-
 </body>
 
 </html>
