@@ -7,6 +7,392 @@
     "results": [
         {
             "adult": false,
+            "backdrop_path": "/1DzZhqgfb6WrJ5DHCGOE9Uu9Fkz.jpg",
+            "genre_ids": [
+                27
+            ],
+            "id": 845783,
+            "original_language": "en",
+            "original_title": "Baghead",
+            "overview": "Following the death of her estranged father, Iris learns she has inherited a run-down, centuries-old pub. She travels to Berlin to identify her father’s body and meet with The Solicitor to discuss the estate. Little does she know, when the deed is signed she will become inextricably tied to an unspeakable entity that resides in the pub’s basement – Baghead – a shape-shifting creature that can transform into the dead.",
+            "popularity": 15.785,
+            "poster_path": "/b4Bildpu9TycUlrK7mFV1tGhcEg.jpg",
+            "release_date": "2023-12-28",
+            "title": "Baghead",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8x0kWa30xdLKBjQWnZNvORnv02v.jpg",
+            "genre_ids": [
+                18,
+                53
+            ],
+            "id": 664341,
+            "original_language": "en",
+            "original_title": "Eileen",
+            "overview": "During a bitter 1964 Massachusetts winter, young secretary Eileen becomes enchanted by Rebecca, the glamorous new counselor at the prison where she works. Their budding friendship takes a twisted turn when Rebecca reveals a dark secret — throwing Eileen onto a sinister path.",
+            "popularity": 24.787,
+            "poster_path": "/gdGKBa3UVS5GMZsayqnfupBB5fb.jpg",
+            "release_date": "2023-12-01",
+            "title": "Eileen",
+            "video": false,
+            "vote_average": 6.5,
+            "vote_count": 13
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                35,
+                10749
+            ],
+            "id": 1143119,
+            "original_language": "es",
+            "original_title": "Colao 2",
+            "overview": "",
+            "popularity": 21.185,
+            "poster_path": "/3AJ7XTLiAGHrUACxGxYediCEqEH.jpg",
+            "release_date": "2023-12-07",
+            "title": "Colao 2",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/i3FuO7aSoVRoS63if3aetJYJJjF.jpg",
+            "genre_ids": [
+                27,
+                53
+            ],
+            "id": 977013,
+            "original_language": "en",
+            "original_title": "Haunting of the Queen Mary",
+            "overview": "When photographers Erin and Patrick are brought aboard the ship with their young son Lukas, they unleash a series of events that entwines their family with the ship’s dark past. As the terror unfolds around them they begin to realise there is more to this sumptuous ocean liner than meets the eye: its remarkable legacy masking violent secrets.",
+            "popularity": 23.419,
+            "poster_path": "/1uNMAlNanIQohAofjyyad2WVCdk.jpg",
+            "release_date": "2023-07-19",
+            "title": "Haunting of the Queen Mary",
+            "video": false,
+            "vote_average": 4.705,
+            "vote_count": 45
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/cofs7Y72FkRjALbOOOz8q7Uty6h.jpg",
+            "genre_ids": [
+                18,
+                53
+            ],
+            "id": 944952,
+            "original_language": "en",
+            "original_title": "The Royal Hotel",
+            "overview": "After running out of money while backpacking in a tiny, male-dominated town in the Australian outback, two friends resort to a working holiday at the Royal Hotel. When the locals behavior starts crossing the line, the girls find themselves trapped in an unnerving situation that grows rapidly out of their control.",
+            "popularity": 19.61,
+            "poster_path": "/oJwb2PV1LGxDp6Q3lynrjADxOIv.jpg",
+            "release_date": "2023-10-06",
+            "title": "The Royal Hotel",
+            "video": false,
+            "vote_average": 5.658,
+            "vote_count": 57
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/Aq9YY4SLQaqsmaR3D4WiSuG33ga.jpg",
+            "genre_ids": [
+                18,
+                36
+            ],
+            "id": 823452,
+            "original_language": "en",
+            "original_title": "The Boys in the Boat",
+            "overview": "The triumphant underdog story of the University of Washington men's rowing team, who stunned the world by winning gold at the 1936 Berlin Olympics.",
+            "popularity": 28.099,
+            "poster_path": "/eNOyS9hmdBoP5zpowbU4Kfh1JYB.jpg",
+            "release_date": "2023-12-25",
+            "title": "The Boys in the Boat",
+            "video": false,
+            "vote_average": 10.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/909IaV0KqiXvgqZ43stoPwlaHiI.jpg",
+            "genre_ids": [
+                35,
+                18,
+                10749
+            ],
+            "id": 1036619,
+            "original_language": "en",
+            "original_title": "Good Grief",
+            "overview": "When his husband unexpectedly dies, Marc's world shatters, sending him and his two best friends on a soul-searching trip to Paris that reveals some hard truths they each needed to face.",
+            "popularity": 14.017,
+            "poster_path": "/wJFHUglmh7xlY7g9Ql85QAJBZ6n.jpg",
+            "release_date": "2023-12-29",
+            "title": "Good Grief",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4AuQx4r6SFzSXpbHr4ynZPSat29.jpg",
+            "genre_ids": [
+                18,
+                12,
+                14
+            ],
+            "id": 837335,
+            "original_language": "it",
+            "original_title": "La chimera",
+            "overview": "Just out of jail and still searching for his late beloved Beniamina, crumpled English archaeologist Arthur reconnects with his wayward crew of tombaroli accomplices – a happy-go-lucky collective of itinerant grave-robbers who survive by looting Etruscan tombs and fencing the ancient treasures they dig up. Arthur isn’t interested in the artefacts, though; he’s seeking a legendary door to the underworld, and to Beniamina.",
+            "popularity": 13.468,
+            "poster_path": "/dV6SYHmmFLXQU7oKRfK4pOFCX6M.jpg",
+            "release_date": "2023-10-12",
+            "title": "La Chimera",
+            "video": false,
+            "vote_average": 7.686,
+            "vote_count": 94
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xCXMHUMQJess3GACbR2PQI7sjeH.jpg",
+            "genre_ids": [
+                878,
+                35,
+                18
+            ],
+            "id": 1072371,
+            "original_language": "en",
+            "original_title": "Jules",
+            "overview": "A flying saucer lands in the backyard of an elderly suburbanite with memory problems, who forms a bond with the scared alien inside.",
+            "popularity": 19.143,
+            "poster_path": "/yMOWu8rpZPiBI0j8MInBTtNO0vU.jpg",
+            "release_date": "2023-08-10",
+            "title": "Jules",
+            "video": false,
+            "vote_average": 7.573,
+            "vote_count": 122
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/sdCf5jFzyZRGS1umUlmXz7Gn3ao.jpg",
+            "genre_ids": [
+                18,
+                53
+            ],
+            "id": 879689,
+            "original_language": "en",
+            "original_title": "Raging Grace",
+            "overview": "An undocumented Filipina immigrant lands a job as a careworker for a seemingly terminal old man, securing a better life for her and her daughter. But a dark discovery threatens to destroy everything she’s strived for and holds dear.",
+            "popularity": 12.942,
+            "poster_path": "/6jTCxDmiQmrgBvtbf6hWynmWX39.jpg",
+            "release_date": "2023-12-01",
+            "title": "Raging Grace",
+            "video": false,
+            "vote_average": 6.0,
+            "vote_count": 4
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/mzIMCqi7erjyFmQJ0ITq9QntDUN.jpg",
+            "genre_ids": [
+                35,
+                36
+            ],
+            "id": 975762,
+            "original_language": "fr",
+            "original_title": "À la belle étoile",
+            "overview": "Since he was a kid, Yazid has one big passion, pastry making. Raised between foster homes and group homes, the young man will try to make his dream come true: to work with the greatest pastry chefs and become the best.",
+            "popularity": 20.974,
+            "poster_path": "/nGH4UVgexqBJDaNb2rUZyt9HPwD.jpg",
+            "release_date": "2023-02-22",
+            "title": "Under the stars",
+            "video": false,
+            "vote_average": 6.5,
+            "vote_count": 31
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/2178xLOOzDzyAPMI7qpDU5W3Hya.jpg",
+            "genre_ids": [
+                10749,
+                18
+            ],
+            "id": 898673,
+            "original_language": "fr",
+            "original_title": "Passages",
+            "overview": "Tomas and Martin are a gay couple living in Paris whose marriage is thrown into crisis when Tomas impulsively begins a passionate affair with young schoolteacher Agathe. But when Martin begins an affair of his own, Tomas must confront life decisions he may be unprepared—or unwilling—to deal with.",
+            "popularity": 21.285,
+            "poster_path": "/s1VdsH0XYVtF06vsZpZR1aWaX4z.jpg",
+            "release_date": "2023-06-28",
+            "title": "Passages",
+            "video": false,
+            "vote_average": 6.6,
+            "vote_count": 84
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vQpvNDc0AFao8BbWyXDFVVrqiZj.jpg",
+            "genre_ids": [
+                27
+            ],
+            "id": 853387,
+            "original_language": "en",
+            "original_title": "Lord of Misrule",
+            "overview": "When the daughter of the town's new priest goes missing during the harvest festival, a desperate search begins, uncovering the town's dark history and resurfacing tales of a mysterious, malevolent spirit that demands sacrifice.",
+            "popularity": 24.48,
+            "poster_path": "/eCNJuGsCNdf2yf4F3UcDg1WZTbo.jpg",
+            "release_date": "2023-10-26",
+            "title": "Lord of Misrule",
+            "video": false,
+            "vote_average": 5.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/b1gUBdMY0zKHZ8uzDeDwwioa9zw.jpg",
+            "genre_ids": [
+                35,
+                10749
+            ],
+            "id": 1128959,
+            "original_language": "en",
+            "original_title": "The Christmas Classic",
+            "overview": "Elizabeth works for her fiancé’s father’s real estate company in the big city. Fed up with Elizabeth’s unprofessional antics, her soon-to-be father-in-law sends her back to her hometown during the holiday season to convince an old flame, Randy, to sell his ski resort to the firm in order to keep her job. Randy agrees to sell, but only if she can win the town’s annual winter challenge, which includes outrageous and fun ski events. Aggravating her plans further, she must face off against the perennial champion, her estranged sister Lynn, now more determined than ever to ‘out-sleigh’ her rivals!",
+            "popularity": 12.218,
+            "poster_path": "/wC7GQl6cbTbFGx0PEZaUXaJXYB2.jpg",
+            "release_date": "2023-11-03",
+            "title": "The Christmas Classic",
+            "video": false,
+            "vote_average": 6.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/oMsoN3RsJEjxOWcImvwTffEnkMd.jpg",
+            "genre_ids": [
+                16,
+                10751,
+                35,
+                9648
+            ],
+            "id": 987750,
+            "original_language": "es",
+            "original_title": "Inspector Sun y la maldición de la viuda negra",
+            "overview": "After being put on indefinite leave by his chief of police uncle, the highly intelligent and arrogant huntsman spider Inspector Sun boards a San Francisco bound seaplane. Joined by an intrepid young fan, Sun is pulled into a murder case where the turnout could affect both the insect and human worlds.",
+            "popularity": 17.753,
+            "poster_path": "/zUYleUhOpEew8wdcusS0eGytZ6T.jpg",
+            "release_date": "2022-12-28",
+            "title": "Inspector Sun and the Curse of the Black Widow",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 135
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kWDW8eFAss0dvM3D38iPNli7Jg4.jpg",
+            "genre_ids": [
+                12,
+                18,
+                878
+            ],
+            "id": 943134,
+            "original_language": "fr",
+            "original_title": "Le règne animal",
+            "overview": "In a world hit by a wave of mutations transforming humans into animals, François does everything he can to save his wife. As some of the creatures disappear into a nearby forest, he and their son Émile embark on a quest that will change their lives forever.",
+            "popularity": 15.444,
+            "poster_path": "/xa43y8EFgTYy984OL8IV0Ifem6D.jpg",
+            "release_date": "2023-10-04",
+            "title": "The Animal Kingdom",
+            "video": false,
+            "vote_average": 7.387,
+            "vote_count": 181
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/3Ed9375VaD20Ko9Asf58wvP4PgT.jpg",
+            "genre_ids": [
+                878,
+                10749,
+                35,
+                18
+            ],
+            "id": 889675,
+            "original_language": "en",
+            "original_title": "The Pod Generation",
+            "overview": "Set in a near future where AI is all the rage and nature is becoming a distant memory, Rachel and Alvy are a New York couple ready to take their relationship to the next level and start a family.",
+            "popularity": 18.143,
+            "poster_path": "/8A1gNoYBjmwcShNtxYCfkZkMKIj.jpg",
+            "release_date": "2023-08-11",
+            "title": "The Pod Generation",
+            "video": false,
+            "vote_average": 5.3,
+            "vote_count": 35
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bFVs7PnCaapkWpyU81r2ixL979b.jpg",
+            "genre_ids": [
+                18,
+                53
+            ],
+            "id": 972433,
+            "original_language": "en",
+            "original_title": "Race for Glory: Audi vs. Lancia",
+            "overview": "Inspired by true events that occurred during the fierce rivalry between Germany (Audi) and Italy (Lancia) at the 1983 Rally World Championships.",
+            "popularity": 11.746,
+            "poster_path": "/kylbUxi51hdvk8cIhMdZMV5eQ5x.jpg",
+            "release_date": "2024-01-05",
+            "title": "Race for Glory: Audi vs. Lancia",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bX6C4gPpNF6SoVRIBqmD9MW3oU8.jpg",
+            "genre_ids": [
+                80,
+                18
+            ],
+            "id": 1109586,
+            "original_language": "zh",
+            "original_title": "三大队",
+            "overview": "Adapted from documentary literature \" Please tell the director, three brigade task completed. \" The rape and murder suspect died in the interrogation room after being beaten by the crowd. The three brigades in charge of the case were also sent to prison. The other suspect is still at large. After his release from prison, three brigade under the leadership of Captain Old Cheng to track down his whereabouts, and finally assist the police to capture the suspect, chasing the murderer for 12 years.",
+            "popularity": 27.01,
+            "poster_path": "/vo4JbsDUg4O9TmeefZEHzneXYaz.jpg",
+            "release_date": "2023-12-15",
+            "title": "Endless Journey",
+            "video": false,
+            "vote_average": 7.0,
+            "vote_count": 2
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/cjcEZW4DzJgdzF3MeA9XhIdq4z5.jpg",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "id": 774714,
+            "original_language": "en",
+            "original_title": "Out of Death",
+            "overview": "As Shannon, a woman who wants to put her father's ashes away in the woods witnesses a corrupt cop dealing drugs with a junkie, she has to try and run away after she gets rampaged by two discreditable cops after they see her taking secret photographs of their crime maneuver. They then do a cat-and-mouse game around the woods as Shannon teams up with a retired sheriff along the way for more reinforcement. It's just a diversion of survival and egalitarianism.",
+            "popularity": 18.911,
+            "poster_path": "/zan6xYKNGKgkp2hFajU398I1iTD.jpg",
+            "release_date": "2021-07-16",
+            "title": "Out of Death",
+            "video": false,
+            "vote_average": 5.7,
+            "vote_count": 222
+        },
+        {
+            "adult": false,
             "backdrop_path": "/bckxSN9ueOgm0gJpVJmPQrecWul.jpg",
             "genre_ids": [
                 28,
