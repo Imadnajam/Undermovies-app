@@ -22,4 +22,13 @@ return [
     'EnjoyT' => 'Une fois le téléchargement terminé, rendez-vous dans votre section Téléchargements et commencez à regarder hors ligne.',
     'WatchE' => 'Regardez partout',
     'WatchET' => 'Regardez à tout moment, n importe où : Pas d internet ? Pas de problème ! Les émissions téléchargées sont disponibles pour être visionnées.',
+    'Online_Streaming' => 'Streaming en ligne',
+    'Top_Rated_Movies' => 'Meilleurs films notés',
+    'documentary' => 'Documentaire',
+    'Best_TV_Series' => 'Meilleures séries TV',
+    'World_Best_TV_Series' => 'Meilleures séries TV mondiales',
+    'Trial' => 'Essai - Début des 30 premiers jours.',
+    'ctaE' => 'Entrez votre adresse e-mail pour créer ou redémarrer votre adhésion.',
+    'Get_started' => 'Commencer',
+    
 ];

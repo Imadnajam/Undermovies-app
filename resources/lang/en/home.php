@@ -22,4 +22,13 @@ return [
     'EnjoyT' => 'Once the download is complete, head to your Downloads section and start watching offline.',
     'WatchE' => 'Watch Everywhere',
     'WatchET' => 'Watch Anytime, Anywhere: No internet? No problem! Downloaded shows are available for viewing.',
+    'Online_Streaming' => 'Online Streaming',
+    'Top_Rated_Movies' => 'Top Rated Movies',
+    'documentary' => 'Documentary',
+    'Best_TV_Series' => 'Best TV Series',
+    'World_Best_TV_Series' => 'World Best TV Series',
+    'Trial' => 'Trial start first 30 days.',
+    'ctaE' => 'Enter your email to create or restart your membership.',
+    'Get_started' => 'Get Started',
+    
 ];

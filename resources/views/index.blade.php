@@ -407,26 +407,26 @@
 
                 <div class="container">
 
-                    <p class="section-subtitle">Online Streaming</p>
+                    <p class="section-subtitle">{{__('home.Online_Streaming')}}</p>
 
-                    <h2 class="h2 section-title">Top Rated Movies</h2>
+                    <h2 class="h2 section-title">{{__('home.Top_Rated_Movies')}}</h2>
 
                     <ul class="filter-list">
 
                         <li>
-                            <button class="filter-btn">Movies</button>
+                            <button class="filter-btn">{{__('home.movie')}}</button>
                         </li>
 
                         <li>
-                            <button class="filter-btn">TV Shows</button>
+                            <button class="filter-btn">{{__('home.series')}}</button>
                         </li>
 
                         <li>
-                            <button class="filter-btn">Documentary</button>
+                            <button class="filter-btn">{{__('home.anime')}}</button>
                         </li>
 
                         <li>
-                            <button class="filter-btn">Sports</button>
+                            <button class="filter-btn">{{__('home.documentary')}}</button>
                         </li>
 
                     </ul>
@@ -496,9 +496,9 @@
             <section class="tv-series">
                 <div class="container">
 
-                    <p class="section-subtitle">Best TV Series</p>
+                    <p class="section-subtitle">{{__('home.Best_TV_Series')}}</p>
 
-                    <h2 class="h2 section-title">World Best TV Series</h2>
+                    <h2 class="h2 section-title">{{__('home.World_Best_TV_Series')}}</h2>
 
                     <ul class="movies-list">
                         @foreach ($tvs['results'] as $tv)
@@ -559,10 +559,10 @@
                 <div class="container">
 
                     <div class="title-wrapper">
-                        <h2 class="cta-title">Trial start first 30 days.</h2>
+                        <h2 class="cta-title">{{__('home.Trial')}}</h2>
 
                         <p class="cta-text">
-                            Enter your email to create or restart your membership.
+                            {{__('home.ctaE')}}
                         </p>
                     </div>
 
@@ -570,7 +570,7 @@
                         <input type="email" name="email" required placeholder="Enter your email"
                             class="email-field">
 
-                        <button type="submit" class="cta-form-btn">Get started</button>
+                        <button type="submit" class="cta-form-btn">{{__('home.Get_started')}}</button>
                     </form>
 
                 </div>
