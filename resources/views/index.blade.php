@@ -601,23 +601,23 @@
                     <ul class="footer-list">
 
                         <li>
-                            <a href="./index.html" class="footer-link">Home</a>
+                            <a href="./index.html" class="footer-link">{{ __('home.home') }}</a>
                         </li>
 
                         <li>
-                            <a href="#" class="footer-link">Movie</a>
+                            <a href="#" class="footer-link">{{ __('home.movie') }}</a>
                         </li>
 
                         <li>
-                            <a href="#" class="footer-link">TV Show</a>
+                            <a href="#" class="footer-link">{{ __('home.anime') }}</a>
                         </li>
 
                         <li>
-                            <a href="#" class="footer-link">Web Series</a>
+                            <a href="#" class="footer-link">{{ __('home.pricing') }}</a>
                         </li>
 
                         <li>
-                            <a href="#" class="footer-link">Pricing</a>
+                            <a href="#" class="footer-link">{{ __('home.pricing') }}</a>
                         </li>
 
                     </ul>
