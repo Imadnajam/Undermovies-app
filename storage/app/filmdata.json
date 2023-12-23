@@ -752,7 +752,391 @@
             "vote_average": 0.0,
             "vote_count": 0
         },
-        
+        {
+            "adult": false,
+            "backdrop_path": "/c7MRmF3LMiBWokedmdQl3roTUv2.jpg",
+            "genre_ids": [
+                53,
+                18
+            ],
+            "id": 798362,
+            "original_language": "en",
+            "original_title": "The Marsh King's Daughter",
+            "overview": "Helena, a woman living a seemingly ordinary life, hides a dark secret—her father is the infamous 'Marsh King', the man who kept her and her mother captive in the wilderness for years. After a lifetime of trying to escape her past, Helena is forced to face her demons when her father unexpectedly escapes from prison.",
+            "popularity": 37.014,
+            "poster_path": "/bcuEjrwhp5HgEUnFe5lc4xpEqzt.jpg",
+            "release_date": "2023-09-28",
+            "title": "The Marsh King's Daughter",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 57
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/80yOEJKsXGSKGu0n5YFHLsNJvou.jpg",
+            "genre_ids": [
+                36,
+                18
+            ],
+            "id": 980026,
+            "original_language": "da",
+            "original_title": "Bastarden",
+            "overview": "In 1755, the impoverished Captain Ludvig Kahlen sets out to conquer the uninhabitable Danish heath in the name of the King. But the sole ruler of the area, the merciless Frederik de Schinkel, who believes the land belongs to him, swears revenge when the maid Ann Barbara and her serf husband escape for refuge with Kahlen.",
+            "popularity": 35.783,
+            "poster_path": "/odleOyza2eEDUmjGiG5bedfoM2u.jpg",
+            "release_date": "2023-10-05",
+            "title": "The Promised Land",
+            "video": false,
+            "vote_average": 7.5,
+            "vote_count": 4
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9yUoLlrdV130FKr69r9zqm0bBkV.jpg",
+            "genre_ids": [
+                27,
+                53
+            ],
+            "id": 1072342,
+            "original_language": "en",
+            "original_title": "Night Swim",
+            "overview": "Forced into early retirement by a degenerative illness, former baseball player Ray Waller moves into a new house with his wife and two children. He hopes that the backyard swimming pool will be fun for the kids and provide physical therapy for himself. However, a dark secret from the home's past soon unleashes a malevolent force that drags the family into the depths of inescapable terror.",
+            "popularity": 33.572,
+            "poster_path": "/gSkfBGdxdialBMM7P02V4hcI6Ij.jpg",
+            "release_date": "2024-01-03",
+            "title": "Night Swim",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bq9FpkTw9I3s1cSRuZxQibM2xOx.jpg",
+            "genre_ids": [
+                18,
+                10752
+            ],
+            "id": 467244,
+            "original_language": "en",
+            "original_title": "The Zone of Interest",
+            "overview": "The commandant of Auschwitz, Rudolf Höss, and his wife Hedwig, strive to build a dream life for their family in a house and garden next to the camp.",
+            "popularity": 33.435,
+            "poster_path": "/ruyeAfmxbNPWZ92dWymqwTc6nWV.jpg",
+            "release_date": "2023-11-03",
+            "title": "The Zone of Interest",
+            "video": false,
+            "vote_average": 7.222,
+            "vote_count": 9
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/AfyuI3glMCBDFmNPj9PY6DwbgGp.jpg",
+            "genre_ids": [
+                16,
+                878,
+                28,
+                18
+            ],
+            "id": 18491,
+            "original_language": "ja",
+            "original_title": "新世紀エヴァンゲリオン劇場版 Air／まごころを、君に",
+            "overview": "The second of two theatrically released follow-ups to the Neon Genesis Evangelion series. Comprising of two alternate episodes which were first intended to take the place of episodes 25 and 26, this finale answers many of the questions surrounding the series, while also opening up some new possibilities.",
+            "popularity": 33.107,
+            "poster_path": "/j6G24dqI4WgUtChhWjfnI4lnmiK.jpg",
+            "release_date": "1997-07-19",
+            "title": "Neon Genesis Evangelion: The End of Evangelion",
+            "video": false,
+            "vote_average": 8.33,
+            "vote_count": 1421
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/cru4rjGcdHGhnPyjNXvW82jOrif.jpg",
+            "genre_ids": [
+                35,
+                18,
+                10749
+            ],
+            "id": 986280,
+            "original_language": "fi",
+            "original_title": "Kuolleet lehdet",
+            "overview": "The film tells the story of Ansa, a supermarket shelf-stocker on a zero-hour contract, later a recyclable plastic sorter, and Holappa, a sandblaster, an alcoholic, later an ex-alcoholic, whose paths have accidentally crossed and who, despite adversity and misunderstandings, try to build some kind of relationship on the harsher side of state welfare.",
+            "popularity": 29.652,
+            "poster_path": "/ca9341N5crOnOCPhCJhQu0iYcTb.jpg",
+            "release_date": "2023-09-14",
+            "title": "Fallen Leaves",
+            "video": false,
+            "vote_average": 7.005,
+            "vote_count": 99
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kcHGf7yDJGrtCVMhqz0DVdvZg5A.jpg",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "id": 1030987,
+            "original_language": "en",
+            "original_title": "Sympathy for the Devil",
+            "overview": "After being forced to drive a mysterious passenger at gunpoint, a man finds himself in a high-stakes game of cat and mouse where it becomes clear that not everything is as it seems.",
+            "popularity": 29.651,
+            "poster_path": "/afGdVMa80LMs6ibLP22CwM5uI4e.jpg",
+            "release_date": "2023-07-20",
+            "title": "Sympathy for the Devil",
+            "video": false,
+            "vote_average": 6.326,
+            "vote_count": 138
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xdlAS0BH3aVP74ABH15bDe4KgLi.jpg",
+            "genre_ids": [
+                12,
+                18
+            ],
+            "id": 937746,
+            "original_language": "wo",
+            "original_title": "Io Capitano",
+            "overview": "Seydou, a teenage boy who, together with his cousin Moussa, decides to leave Dakar in Senegal and make his way to Europe. A contemporary Odyssey through the dangers of the desert, the horrors of the detention centers in Libya and the perils of the sea.",
+            "popularity": 29.512,
+            "poster_path": "/3XhtyFEGrRjvgz11OEWZtXsGSV1.jpg",
+            "release_date": "2023-09-07",
+            "title": "The Captain",
+            "video": false,
+            "vote_average": 8.0,
+            "vote_count": 186
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vAsxVpXP53cMSsD9u4EekQKz4ur.jpg",
+            "genre_ids": [
+                18,
+                53
+            ],
+            "id": 1050035,
+            "original_language": "ja",
+            "original_title": "怪物",
+            "overview": "When her young son Minato starts to behave strangely, his mother feels that there is something wrong. Discovering that a teacher is responsible, she storms into the school demanding to know what's going on. But as the story unfolds through the eyes of mother, teacher and child, the truth gradually emerges.",
+            "popularity": 28.708,
+            "poster_path": "/uCxeoP5DKOt5ovEsY4jerxwbcbe.jpg",
+            "release_date": "2023-06-02",
+            "title": "Monster",
+            "video": false,
+            "vote_average": 8.1,
+            "vote_count": 31
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/Aq9YY4SLQaqsmaR3D4WiSuG33ga.jpg",
+            "genre_ids": [
+                18,
+                36
+            ],
+            "id": 823452,
+            "original_language": "en",
+            "original_title": "The Boys in the Boat",
+            "overview": "The triumphant underdog story of the University of Washington men's rowing team, who stunned the world by winning gold at the 1936 Berlin Olympics.",
+            "popularity": 28.099,
+            "poster_path": "/eNOyS9hmdBoP5zpowbU4Kfh1JYB.jpg",
+            "release_date": "2023-12-25",
+            "title": "The Boys in the Boat",
+            "video": false,
+            "vote_average": 10.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vXjpwkXPirBmgdEpIknfN8ziDD.jpg",
+            "genre_ids": [
+                16,
+                12,
+                14,
+                35
+            ],
+            "id": 947938,
+            "original_language": "ru",
+            "original_title": "Мальчик-дельфин",
+            "overview": "When a plane crashes at sea, dolphins rescue a little boy and raise him as family. He lives a carefree life beneath the waves until an evil monster seizes power over the underwater world. The boy is banished to dry land, where a kind-hearted captain takes him in. With the captain’s help, the boy sets out on a journey to solve the mystery of his true identity.",
+            "popularity": 27.66,
+            "poster_path": "/AcBgfBhdhvv5aKQP7iE8QsxFWBV.jpg",
+            "release_date": "2022-04-07",
+            "title": "Dolphin Boy",
+            "video": false,
+            "vote_average": 6.4,
+            "vote_count": 66
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bX6C4gPpNF6SoVRIBqmD9MW3oU8.jpg",
+            "genre_ids": [
+                80,
+                18
+            ],
+            "id": 1109586,
+            "original_language": "zh",
+            "original_title": "三大队",
+            "overview": "Adapted from documentary literature \" Please tell the director, three brigade task completed. \" The rape and murder suspect died in the interrogation room after being beaten by the crowd. The three brigades in charge of the case were also sent to prison. The other suspect is still at large. After his release from prison, three brigade under the leadership of Captain Old Cheng to track down his whereabouts, and finally assist the police to capture the suspect, chasing the murderer for 12 years.",
+            "popularity": 27.01,
+            "poster_path": "/vo4JbsDUg4O9TmeefZEHzneXYaz.jpg",
+            "release_date": "2023-12-15",
+            "title": "Endless Journey",
+            "video": false,
+            "vote_average": 7.0,
+            "vote_count": 2
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/oeBom7DLr85lixEkWOGmhCPEfuY.jpg",
+            "genre_ids": [
+                80,
+                18,
+                53
+            ],
+            "id": 842942,
+            "original_language": "en",
+            "original_title": "Bandit",
+            "overview": "After escaping a Michigan prison, a charming career criminal assumes a new identity in Canada and goes on to rob a record 59 banks and jewellery stores while being hunted by a rogue task force. Based on the story of The Flying Bandit.",
+            "popularity": 26.794,
+            "poster_path": "/yph9PAbmjYPvyvbeZvdYIhCZHEu.jpg",
+            "release_date": "2022-09-23",
+            "title": "Bandit",
+            "video": false,
+            "vote_average": 6.173,
+            "vote_count": 246
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bBr0KBXmqKMvX1M62IU2efJz0L6.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 1032760,
+            "original_language": "es",
+            "original_title": "La memoria infinita",
+            "overview": "Augusto and Paulina have been together for 25 years. Eight years ago, he was diagnosed with Alzheimer's disease. Both fear the day he no longer recognizes her.",
+            "popularity": 26.07,
+            "poster_path": "/7iZSeErC7JdOjdRkuMTfgUxvzx9.jpg",
+            "release_date": "2023-08-11",
+            "title": "The Eternal Memory",
+            "video": false,
+            "vote_average": 8.9,
+            "vote_count": 16
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/d1xgTgcAd5VKDbXwLfnlM9OIWfP.jpg",
+            "genre_ids": [
+                12,
+                27,
+                28,
+                36
+            ],
+            "id": 6312,
+            "original_language": "fr",
+            "original_title": "Le Pacte des loups",
+            "overview": "In 18th century France, the Chevalier de Fronsac and his Native American friend Mani are sent by the King to the Gevaudan province to investigate the killings of hundreds by a mysterious beast.",
+            "popularity": 25.63,
+            "poster_path": "/x0bsgEeWqpvH8Lgwgmzi2tujlrV.jpg",
+            "release_date": "2001-01-31",
+            "title": "Brotherhood of the Wolf",
+            "video": false,
+            "vote_average": 6.719,
+            "vote_count": 1387
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18,
+                9648,
+                53
+            ],
+            "id": 1205334,
+            "original_language": "pt",
+            "original_title": "Sara's School Life 3",
+            "overview": "Horrified to learn that her precocious brother Soma is dating school bully Akari, Sara's peaceful matriculation soon becomes chaotic as new enemies arrive.",
+            "popularity": 25.261,
+            "poster_path": "/45wc9KGScCDQqMqJn1Cy1Jah79i.jpg",
+            "release_date": "2023-12-22",
+            "title": "Sara's School Life 3",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/hjWxngV6tidwDkfJDEgMjHD2KEz.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 976893,
+            "original_language": "ja",
+            "original_title": "Perfect Days",
+            "overview": "Hirayama seems utterly content with his simple life as a cleaner of toilets in Tokyo. Outside of his very structured everyday routine he enjoys his passion for music and for books. And he loves trees and takes photos of them. A series of unexpected encounters gradually reveal more of his past.",
+            "popularity": 24.952,
+            "poster_path": "/dENgZn7CD6GkPvmxaBAsk8eZDnI.jpg",
+            "release_date": "2023-11-10",
+            "title": "Perfect Days",
+            "video": false,
+            "vote_average": 7.0,
+            "vote_count": 50
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8x0kWa30xdLKBjQWnZNvORnv02v.jpg",
+            "genre_ids": [
+                18,
+                53
+            ],
+            "id": 664341,
+            "original_language": "en",
+            "original_title": "Eileen",
+            "overview": "During a bitter 1964 Massachusetts winter, young secretary Eileen becomes enchanted by Rebecca, the glamorous new counselor at the prison where she works. Their budding friendship takes a twisted turn when Rebecca reveals a dark secret — throwing Eileen onto a sinister path.",
+            "popularity": 24.787,
+            "poster_path": "/gdGKBa3UVS5GMZsayqnfupBB5fb.jpg",
+            "release_date": "2023-12-01",
+            "title": "Eileen",
+            "video": false,
+            "vote_average": 6.5,
+            "vote_count": 13
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vQpvNDc0AFao8BbWyXDFVVrqiZj.jpg",
+            "genre_ids": [
+                27
+            ],
+            "id": 853387,
+            "original_language": "en",
+            "original_title": "Lord of Misrule",
+            "overview": "When the daughter of the town's new priest goes missing during the harvest festival, a desperate search begins, uncovering the town's dark history and resurfacing tales of a mysterious, malevolent spirit that demands sacrifice.",
+            "popularity": 24.48,
+            "poster_path": "/eCNJuGsCNdf2yf4F3UcDg1WZTbo.jpg",
+            "release_date": "2023-10-26",
+            "title": "Lord of Misrule",
+            "video": false,
+            "vote_average": 5.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/H8YE8DDrnvr869RgCqLvhfcUFM.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 970348,
+            "original_language": "en",
+            "original_title": "The Old Oak",
+            "overview": "A pub landlord in a previously thriving mining community struggles to hold onto his pub. Meanwhile, tensions rise in the town when Syrian refugees are placed in the empty houses in the community.",
+            "popularity": 23.722,
+            "poster_path": "/xN293BKB0MDqpILmLCtGGYxQXKW.jpg",
+            "release_date": "2023-09-29",
+            "title": "The Old Oak",
+            "video": false,
+            "vote_average": 7.41,
+            "vote_count": 128
+        },
         {
             "adult": false,
             "backdrop_path": "/jqFjgNnxpXIXWuPsyfqmcLXRo9p.jpg",
