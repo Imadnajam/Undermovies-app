@@ -8,7 +8,7 @@ use App\Http\Controllers\PricingController;
 use App\Http\Controllers\FilmController;
 use App\Http\Controllers\AnimeController;
 use App\Http\Controllers\detailanimeController;
-
+use App\Http\Controllers\LanguageController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/authentification', [AuthController::class, 'index'])->name('authentification');
@@ -26,4 +26,6 @@ Route::get('/detailanime/{id}', [detailanimeController::class, 'detail'])->name(
 Route::get('/indexMD/{id}', [MovieController::class, 'detailI'])->name('detailmovieI');
 
 Route::get('/watchNow/{id}', [MovieController::class, 'watchNow'])->name('watchNow');
+
+Route::post('/change-language',[LanguageController::class, 'changeLanguage'])->name('change.language');
 

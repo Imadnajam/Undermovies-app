@@ -52,12 +52,15 @@
                         <ion-icon name="globe-outline"></ion-icon>
                     </label>
 
-                    <select name="language" id="language">
-                        <option value="en">EN</option>
-                        <option value="au">AU</option>
-                        <option value="ar">AR</option>
-                        <option value="tu">TU</option>
-                    </select>
+                    <form action="{{ route('change.language') }}" method="post">
+                        @csrf
+                        <select name="language" id="language" onchange="this.form.submit()">
+                            <option value="en" {{ app()->getLocale() == 'en' ? 'selected' : '' }}>EN</option>
+                            <option value="ar" {{ app()->getLocale() == 'ar' ? 'selected' : '' }}>AR</option>
+                            <option value="fr" {{ app()->getLocale() == 'fr' ? 'selected' : '' }}>FR</option>
+                        </select>
+                    </form>
+                    
                 </div>
 
 
@@ -84,31 +87,31 @@
                 <ul class="navbar-list">
 
                     <li>
-                        <a href="{{ route('home') }}" class="navbar-link">Home</a>
+                        <a href="{{ route('home') }}" class="navbar-link">{{ __('home.home') }}</a>
                     </li>
 
                     <li>
-                        <a href="{{ route('films') }}" class="navbar-link">Movie</a>
+                        <a href="{{ route('films') }}" class="navbar-link">{{ __('home.movie') }}</a>
                     </li>
 
                     <li>
-                        <a href="{{ route('anime') }}" class="navbar-link">Anime</a>
+                        <a href="{{ route('anime') }}" class="navbar-link">{{ __('home.anime') }}</a>
                     </li>
 
                     <li>
-                        <a href="{{ route('series') }}" class="navbar-link">Web Series</a>
+                        <a href="{{ route('series') }}" class="navbar-link">{{ __('home.series') }}</a>
                     </li>
 
                     <li>
-                        <a href="{{ route('pricing') }}" class="navbar-link">Pricing</a>
+                        <a href="{{ route('pricing') }}" class="navbar-link">{{ __('home.pricing') }}</a>
                     </li>
                     <li>
-                        <a href="{{ route('about') }}" class="navbar-link">About</a>
+                        <a href="{{ route('about') }}" class="navbar-link">{{ __('home.about') }}</a>
                     </li>
 
                     <li>
 
-                        <a href="{{ route('authentification') }}"><button class="btn btn-primary">Sign in</button></a>
+                        <a href="{{ route('authentification') }}"><button class="btn btn-primary">{{ __('home.sign_in') }}</button></a>
                     </li>
 
                 </ul>
@@ -174,7 +177,7 @@
                         <p class="hero-subtitle">UnderMovie</p>
 
                         <h1 class="h1 hero-title">
-                            Unlimited <strong>Movie</strong> TVs Shows & More.
+                            {{ __('home.Unlimited') }}  <strong> {{ __('home.movie') }} </strong> {{ __('home.TVs_Shows_&_More') }}  
                         </h1>
 
                         <div class="meta-wrapper">
@@ -186,9 +189,9 @@
                             </div>
 
                             <div class="ganre-wrapper">
-                                <a href="#">Romance,</a>
+                                <a href="#">{{ __('home.Romance') }} ,</a>
 
-                                <a href="#">Drama</a>
+                                <a href="#">{{ __('home.Drama') }}</a>
                             </div>
 
                             <div class="date-time">
@@ -212,7 +215,7 @@
                         <button class="btn btn-primary">
                             <ion-icon name="play"></ion-icon>
 
-                            <span>Watch now</span>
+                            <span>{{ __('home.Watch_now') }}</span>
                         </button>
 
                     </div>
@@ -234,23 +237,24 @@
                     <div class="flex-wrapper">
 
                         <div class="title-wrapper">
-                            <p class="section-subtitle">Online Streaming</p>
+                            <p class="section-subtitle">{{ __('home.online_streaming') }}</p>
 
-                            <h2 class="h2 section-title">Upcoming Movies</h2>
+                            <h2 class="h2 section-title">{{ __('home.upcoming_movies') }}</h2>
+                            
                         </div>
 
                         <ul class="filter-list">
 
                             <li>
-                                <button class="filter-btn">Movies</button>
+                                <button class="filter-btn">{{ __('home.movie') }}</button>
                             </li>
 
                             <li>
-                                <button class="filter-btn">TV Shows</button>
+                                <button class="filter-btn">{{ __('home.movie') }}</button>
                             </li>
 
                             <li>
-                                <button class="filter-btn">Anime</button>
+                                <button class="filter-btn">{{ __('home.anime') }}</button>
                             </li>
 
                         </ul>
@@ -328,7 +332,7 @@
                         </figure>
 
                         <a href="{{ asset('image/home/service-banner.jpeg') }}" download class="service-btn">
-                            <span>Download</span>
+                            <span>{{ __('home.download') }}</span>
 
                             <ion-icon name="download-outline"></ion-icon>
                         </a>
@@ -336,15 +340,12 @@
 
                     <div class="service-content">
 
-                        <p class="service-subtitle">Our Services</p>
+                        <p class="service-subtitle">{{ __('home.Our_Services') }}</p>
 
-                        <h2 class="h2 service-title">Download Your Shows Watch Offline.</h2>
+                        <h2 class="h2 service-title">{{ __('home.service_title') }}</h2>
 
                         <p class="service-text">
-                            Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many
-                            variations of
-                            passages of lorem
-                            Ipsum available, but the majority have suffered alteration in some injected humour.
+                            {{ __('home.service_text') }} 
                         </p>
 
                         <ul class="service-list">
@@ -357,11 +358,11 @@
                                     </div>
 
                                     <div class="card-content">
-                                        <h3 class="h3 card-title">Enjoy on Your TV.</h3>
+                                        <h3 class="h3 card-title">  {{ __('home.Enjoy') }}</h3>
 
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet, consecetur adipiscing elit, sed do eiusmod
-                                            tempor.
+                                            {{ __('home.EnjoyT') }}
+                                           
                                         </p>
                                     </div>
 
@@ -376,11 +377,10 @@
                                     </div>
 
                                     <div class="card-content">
-                                        <h3 class="h3 card-title">Watch Everywhere.</h3>
+                                        <h3 class="h3 card-title"> {{ __('home.WatchE') }}</h3>
 
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet, consecetur adipiscing elit, sed do eiusmod
-                                            tempor.
+                                            {{ __('home.WatchET') }}
                                         </p>
                                     </div>
 
