@@ -250,7 +250,7 @@
                             </li>
 
                             <li>
-                                <button class="filter-btn">{{ __('home.movie') }}</button>
+                                <button class="filter-btn">{{ __('home.series') }}</button>
                             </li>
 
                             <li>
