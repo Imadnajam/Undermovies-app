@@ -7,6 +7,792 @@
     "results": [
         {
             "adult": false,
+            "backdrop_path": "/bckxSN9ueOgm0gJpVJmPQrecWul.jpg",
+            "genre_ids": [
+                28,
+                12,
+                14
+            ],
+            "id": 572802,
+            "original_language": "en",
+            "original_title": "Aquaman and the Lost Kingdom",
+            "overview": "Black Manta, still driven by the need to avenge his father's death and wielding the power of the mythic Black Trident, will stop at nothing to take Aquaman down once and for all. To defeat him, Aquaman must turn to his imprisoned brother Orm, the former King of Atlantis, to forge an unlikely alliance in order to save the world from irreversible destruction.",
+            "popularity": 1891.141,
+            "poster_path": "/8xV47NDrjdZDpkVcCFqkdHa3T0C.jpg",
+            "release_date": "2023-12-20",
+            "title": "Aquaman and the Lost Kingdom",
+            "video": false,
+            "vote_average": 6.465,
+            "vote_count": 101
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
+            "genre_ids": [
+                18,
+                36
+            ],
+            "id": 872585,
+            "original_language": "en",
+            "original_title": "Oppenheimer",
+            "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+            "popularity": 611.128,
+            "poster_path": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+            "release_date": "2023-07-19",
+            "title": "Oppenheimer",
+            "video": false,
+            "vote_average": 8.128,
+            "vote_count": 5541
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/k1KrbaCMACQiq7EA0Yhw3bdzMv7.jpg",
+            "genre_ids": [
+                16,
+                10751,
+                10402,
+                14,
+                35
+            ],
+            "id": 901362,
+            "original_language": "en",
+            "original_title": "Trolls Band Together",
+            "overview": "When Branch's brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
+            "popularity": 605.385,
+            "poster_path": "/bkpPTZUdq31UGDovmszsg2CchiI.jpg",
+            "release_date": "2023-10-12",
+            "title": "Trolls Band Together",
+            "video": false,
+            "vote_average": 7.153,
+            "vote_count": 402
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ktHEdqmMWC1wdfPRMRCTZe2OISL.jpg",
+            "genre_ids": [
+                27,
+                53,
+                9648
+            ],
+            "id": 1071215,
+            "original_language": "en",
+            "original_title": "Thanksgiving",
+            "overview": "After a Black Friday riot ends in tragedy, a mysterious Thanksgiving-inspired killer terrorizes Plymouth, Massachusetts - the birthplace of the holiday. Picking off residents one by one, what begins as random revenge killings are soon revealed to be part of a larger, sinister holiday plan.",
+            "popularity": 499.897,
+            "poster_path": "/f5f3TEVst1nHHyqgn7Z3tlwnBIH.jpg",
+            "release_date": "2023-11-16",
+            "title": "Thanksgiving",
+            "video": false,
+            "vote_average": 6.635,
+            "vote_count": 207
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/gg4zZoTggZmpAQ32qIrP5dtnkEZ.jpg",
+            "genre_ids": [
+                28,
+                80,
+                53
+            ],
+            "id": 891699,
+            "original_language": "en",
+            "original_title": "Silent Night",
+            "overview": "A tormented father witnesses his young son die when caught in a gang's crossfire on Christmas Eve. While recovering from a wound that costs him his voice, he makes vengeance his life's mission and embarks on a punishing training regimen in order to avenge his son's death.",
+            "popularity": 484.673,
+            "poster_path": "/tlcuhdNMKNGEVpGqBZrAaOOf1A6.jpg",
+            "release_date": "2023-11-30",
+            "title": "Silent Night",
+            "video": false,
+            "vote_average": 5.896,
+            "vote_count": 101
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ptz5ETMxDoRRiE69BVuIxJzyTEO.jpg",
+            "genre_ids": [
+                16,
+                35,
+                12,
+                10751
+            ],
+            "id": 940551,
+            "original_language": "en",
+            "original_title": "Migration",
+            "overview": "After a migrating duck family alights on their pond with thrilling tales of far-flung places, the Mallard family embarks on a family road trip, from New England, to New York City, to tropical Jamaica.",
+            "popularity": 309.179,
+            "poster_path": "/kJG74Y1RxLLjRLYOTrBclWpbvkz.jpg",
+            "release_date": "2023-12-06",
+            "title": "Migration",
+            "video": false,
+            "vote_average": 7.342,
+            "vote_count": 38
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bWIIWhnaoWx3FTVXv6GkYDv3djL.jpg",
+            "genre_ids": [
+                878,
+                27,
+                28
+            ],
+            "id": 940721,
+            "original_language": "ja",
+            "original_title": "ゴジラ-1.0",
+            "overview": "In postwar Japan, a new terror rises. Will the devastated people be able to survive... let alone fight back?",
+            "popularity": 307.176,
+            "poster_path": "/hkxxMIGaiCTmrEArK7J56JTKUlB.jpg",
+            "release_date": "2023-11-03",
+            "title": "Godzilla Minus One",
+            "video": false,
+            "vote_average": 8.034,
+            "vote_count": 163
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ehumsuIBbgAe1hg343oszCLrAfI.jpg",
+            "genre_ids": [
+                16,
+                10751,
+                14,
+                12
+            ],
+            "id": 1022796,
+            "original_language": "en",
+            "original_title": "Wish",
+            "overview": "Asha, a sharp-witted idealist, makes a wish so powerful that it is answered by a cosmic force – a little ball of boundless energy called Star. Together, Asha and Star confront a most formidable foe - the ruler of Rosas, King Magnifico - to save her community and prove that when the will of one courageous human connects with the magic of the stars, wondrous things can happen.",
+            "popularity": 264.413,
+            "poster_path": "/AcoVfiv1rrWOmAdpnAMnM56ki19.jpg",
+            "release_date": "2023-11-13",
+            "title": "Wish",
+            "video": false,
+            "vote_average": 6.546,
+            "vote_count": 141
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/mowTk9LFSr8rW3EG2CUSwzuvx0g.jpg",
+            "genre_ids": [
+                10402
+            ],
+            "id": 1160164,
+            "original_language": "en",
+            "original_title": "TAYLOR SWIFT | THE ERAS TOUR",
+            "overview": "The cultural phenomenon continues on the big screen! Immerse yourself in this once-in-a-lifetime concert film experience with a breathtaking, cinematic view of the history-making tour.",
+            "popularity": 188.151,
+            "poster_path": "/jf3YO8hOqGHCupsREf5qymYq1n.jpg",
+            "release_date": "2023-10-13",
+            "title": "TAYLOR SWIFT | THE ERAS TOUR",
+            "video": false,
+            "vote_average": 8.307,
+            "vote_count": 176
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/lyHmhoRj3zXSdeCYbs2oOXLCF4K.jpg",
+            "genre_ids": [
+                16,
+                12,
+                10751,
+                14
+            ],
+            "id": 459003,
+            "original_language": "uk",
+            "original_title": "Мавка: Лісова пісня",
+            "overview": "Forest soul Mavka faces an impossible choice between her heart and her duty as guardian to the Heart of the Forest, when she falls in love with the talented young human musician Lukas.",
+            "popularity": 171.313,
+            "poster_path": "/eeJjd9JU2Mdj9d7nWRFLWlrcExi.jpg",
+            "release_date": "2023-03-02",
+            "title": "Mavka: The Forest Song",
+            "video": false,
+            "vote_average": 7.326,
+            "vote_count": 553
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/iEFuHjqrE059SmflBva1JzDJutE.jpg",
+            "genre_ids": [
+                16,
+                14,
+                28,
+                10749,
+                10751
+            ],
+            "id": 496450,
+            "original_language": "fr",
+            "original_title": "Miraculous - le film",
+            "overview": "A life of an ordinary Parisian teenager Marinette goes superhuman when she becomes Ladybug. Bestowed with magical powers of creation, Ladybug must unite with her opposite, Cat Noir, to save Paris as a new villain unleashes chaos unto the city.",
+            "popularity": 147.536,
+            "poster_path": "/dQNJ8SdCMn3zWwHzzQD2xrphR1X.jpg",
+            "release_date": "2023-07-05",
+            "title": "Miraculous: Ladybug & Cat Noir, The Movie",
+            "video": false,
+            "vote_average": 7.794,
+            "vote_count": 690
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/p9DKeXp6FPJtAQ1k13Z4zPWrCbN.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 1058694,
+            "original_language": "en",
+            "original_title": "Radical",
+            "overview": "In a Mexican border town plagued by neglect, corruption, and violence, a frustrated teacher tries a radical new method to break through his students’ apathy and unlock their curiosity, their potential… and maybe even their genius.",
+            "popularity": 131.589,
+            "poster_path": "/eSatbygYZp8ooprBHZdb6GFZxGB.jpg",
+            "release_date": "2023-10-19",
+            "title": "Radical",
+            "video": false,
+            "vote_average": 7.6,
+            "vote_count": 13
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/hXvx5YJbexKxsVD1NTEARObSnt2.jpg",
+            "genre_ids": [
+                35,
+                10749
+            ],
+            "id": 1072790,
+            "original_language": "en",
+            "original_title": "Anyone But You",
+            "overview": "After an amazing first date, Bea and Ben's fiery attraction turns ice cold — until they find themselves unexpectedly reunited at a destination wedding in Australia. So they do what any two mature adults would do: pretend to be a couple.",
+            "popularity": 113.723,
+            "poster_path": "/xvPCsU1iwAQJpJZOuHyYtFpwV1R.jpg",
+            "release_date": "2023-12-21",
+            "title": "Anyone But You",
+            "video": false,
+            "vote_average": 9.8,
+            "vote_count": 4
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kszooR7v1TLFM4pzx6IkKq2jDAN.jpg",
+            "genre_ids": [
+                18,
+                9648
+            ],
+            "id": 915935,
+            "original_language": "fr",
+            "original_title": "Anatomie d'une chute",
+            "overview": "A woman is suspected of her husband’s murder, and their blind son faces a moral dilemma as the sole witness.",
+            "popularity": 111.903,
+            "poster_path": "/kQs6keheMwCxJxrzV83VUwFtHkB.jpg",
+            "release_date": "2023-08-23",
+            "title": "Anatomy of a Fall",
+            "video": false,
+            "vote_average": 7.737,
+            "vote_count": 446
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/50stq3Jlny6oEgJjsXbQvbajCNw.jpg",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "id": 1020006,
+            "original_language": "en",
+            "original_title": "Priscilla",
+            "overview": "When teenage Priscilla Beaulieu meets Elvis Presley at a party, the man who is already a meteoric rock-and-roll superstar becomes someone entirely unexpected in private moments: a thrilling crush, an ally in loneliness, a vulnerable best friend.",
+            "popularity": 102.493,
+            "poster_path": "/uDCeELWWpsNq7ErM61Yuq70WAE9.jpg",
+            "release_date": "2023-10-27",
+            "title": "Priscilla",
+            "video": false,
+            "vote_average": 7.051,
+            "vote_count": 78
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/a0GM57AnJtNi7lMOCamniiyV10W.jpg",
+            "genre_ids": [
+                16,
+                12,
+                14,
+                18
+            ],
+            "id": 508883,
+            "original_language": "ja",
+            "original_title": "君たちはどう生きるか",
+            "overview": "While the Second World War rages, the teenage Mahito, haunted by his mother's tragic death, is relocated from Tokyo to the serene rural home of his new stepmother Natsuko, a woman who bears a striking resemblance to the boy's mother. As he tries to adjust, this strange new world grows even stranger following the appearance of a persistent gray heron, who perplexes and bedevils Mahito, dubbing him the \"long-awaited one.\"",
+            "popularity": 101.215,
+            "poster_path": "/jDQPkgzerGophKRRn7MKm071vCU.jpg",
+            "release_date": "2023-07-14",
+            "title": "The Boy and the Heron",
+            "video": false,
+            "vote_average": 7.3,
+            "vote_count": 292
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/gsVC7HMf4VR2XFOyqjTSklY2Tms.jpg",
+            "genre_ids": [
+                878,
+                35,
+                18
+            ],
+            "id": 792307,
+            "original_language": "en",
+            "original_title": "Poor Things",
+            "overview": "Brought back to life by an unorthodox scientist, a young woman runs off with a debauched lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.",
+            "popularity": 100.638,
+            "poster_path": "/mPdeQ1H6IXDAXtwQ2EdQuSCNmwV.jpg",
+            "release_date": "2023-12-07",
+            "title": "Poor Things",
+            "video": false,
+            "vote_average": 8.7,
+            "vote_count": 20
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8RBwd37p2p48lUmZuWBLSkFLprd.jpg",
+            "genre_ids": [
+                27,
+                53,
+                35
+            ],
+            "id": 1113278,
+            "original_language": "en",
+            "original_title": "It's a Wonderful Knife",
+            "overview": "Winnie's life is less than wonderful one year after saving her town from a psychotic killer on Christmas Eve. When she wishes she was never born, she finds herself magically transported to a nightmarish parallel universe. With the murderous maniac now back, she must team up with a misfit to identify the culprit and get back to her own reality.",
+            "popularity": 96.991,
+            "poster_path": "/bnm5NntrQBcG3P7DbO00v2FmXm8.jpg",
+            "release_date": "2023-11-10",
+            "title": "It's a Wonderful Knife",
+            "video": false,
+            "vote_average": 5.3,
+            "vote_count": 40
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jBOyi3ibJbVa1imTCcddPUxTVAV.jpg",
+            "genre_ids": [
+                35,
+                27,
+                14
+            ],
+            "id": 956920,
+            "original_language": "no",
+            "original_title": "There's Something in the Barn",
+            "overview": "An American family fulfills their dream of moving back to their roots after inheriting a remote cabin in the mountains of Norway. But there's a surprise waiting for them.",
+            "popularity": 84.139,
+            "poster_path": "/axrzMJR5VPWYNiW9ArENiMEPTjr.jpg",
+            "release_date": "2023-11-02",
+            "title": "There's Something in the Barn",
+            "video": false,
+            "vote_average": 7.078,
+            "vote_count": 58
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rQaHA74pevnGsxcKGaoZVGWe9TC.jpg",
+            "genre_ids": [
+                16,
+                10751,
+                35,
+                14,
+                18
+            ],
+            "id": 508442,
+            "original_language": "en",
+            "original_title": "Soul",
+            "overview": "Joe Gardner is a middle school teacher with a love for jazz music. After a successful audition at the Half Note Club, he suddenly gets into an accident that separates his soul from his body and is transported to the You Seminar, a center in which souls develop and gain passions before being transported to a newborn child. Joe must enlist help from the other souls-in-training, like 22, a soul who has spent eons in the You Seminar, in order to get back to Earth.",
+            "popularity": 71.08,
+            "poster_path": "/hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg",
+            "release_date": "2020-12-25",
+            "title": "Soul",
+            "video": false,
+            "vote_average": 8.145,
+            "vote_count": 9676
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9ZlGiEKmcYrrxmiQEJDhjeT2kEW.jpg",
+            "genre_ids": [
+                28,
+                12,
+                10752
+            ],
+            "id": 1061181,
+            "original_language": "ja",
+            "original_title": "キングダム 運命の炎",
+            "overview": "It follows Li Xin and Wang Qi as they stand on the battlefield for the first time to fight off an invasion by Zhao, and it also follows Ying Zheng's unknown past.",
+            "popularity": 71.003,
+            "poster_path": "/qnmV2Wq2H5ThqASx6vcwh25sUiG.jpg",
+            "release_date": "2023-07-28",
+            "title": "Kingdom 3: The Flame of Fate",
+            "video": false,
+            "vote_average": 7.5,
+            "vote_count": 76
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bQTfSXQrcVwXJ5TvNzbd3ioMnnM.jpg",
+            "genre_ids": [
+                9648,
+                53,
+                28,
+                18
+            ],
+            "id": 862552,
+            "original_language": "en",
+            "original_title": "The Ritual Killer",
+            "overview": "Unable to process the death of his daughter, Detective Boyd embarks on a hunt for a serial killer who murders according to a brutal tribal ritual: Muti. The only person who can help Boyd is Professor Mackles, an anthropologist who hides an unspeakable secret. The line between sanity and madness thins as Boyd goes deeper into the killer’s world.",
+            "popularity": 68.808,
+            "poster_path": "/1VtHaELqLMovl8EueBWHDtihhzF.jpg",
+            "release_date": "2023-03-09",
+            "title": "The Ritual Killer",
+            "video": false,
+            "vote_average": 6.038,
+            "vote_count": 211
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rron9HAuS9s7zBF8iCX1tsafxUo.jpg",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "id": 666277,
+            "original_language": "en",
+            "original_title": "Past Lives",
+            "overview": "Nora and Hae Sung, two childhood friends, are reunited in New York for one fateful week as they confront notions of destiny, love, and the choices that make a life.",
+            "popularity": 68.765,
+            "poster_path": "/k3waqVXSnvCZWfJYNtdamTgTtTA.jpg",
+            "release_date": "2023-06-02",
+            "title": "Past Lives",
+            "video": false,
+            "vote_average": 7.886,
+            "vote_count": 390
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rmfIhftLXpHEZzkLSpWQMZhirMJ.jpg",
+            "genre_ids": [
+                35,
+                14
+            ],
+            "id": 823482,
+            "original_language": "en",
+            "original_title": "Dream Scenario",
+            "overview": "Hapless family man Paul Matthews finds his life turned upside down when millions of strangers suddenly start seeing him in their dreams. But when his nighttime appearances take a nightmarish turn, Paul is forced to navigate his newfound stardom.",
+            "popularity": 62.143,
+            "poster_path": "/2RSMu2iMDCdMKmvBWWvcmE8vjMj.jpg",
+            "release_date": "2023-11-10",
+            "title": "Dream Scenario",
+            "video": false,
+            "vote_average": 7.45,
+            "vote_count": 70
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/uJwTRJxMnZcnDTyesNyeZhkHaOp.jpg",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "id": 621587,
+            "original_language": "en",
+            "original_title": "Next Goal Wins",
+            "overview": "Dutch coach Thomas Rongen attempts the nearly impossible task of turning the American Samoa soccer team from perennial losers into winners.",
+            "popularity": 58.821,
+            "poster_path": "/zWmKqcox4AgM3deEEVCeYqEOOJ2.jpg",
+            "release_date": "2023-11-16",
+            "title": "Next Goal Wins",
+            "video": false,
+            "vote_average": 6.545,
+            "vote_count": 22
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/fYxAAWbU54SzJ42H0FaaNdOeuqw.jpg",
+            "genre_ids": [
+                18,
+                36
+            ],
+            "id": 365620,
+            "original_language": "en",
+            "original_title": "Ferrari",
+            "overview": "A biopic of automotive mogul Enzo Ferrari, whose family redefined the idea of the high-powered Italian sports car and practically spawned the concept of Formula One racing.",
+            "popularity": 57.857,
+            "poster_path": "/nNMoJMDCeF4Q5wpWvKuh5b8K2sX.jpg",
+            "release_date": "2023-12-14",
+            "title": "Ferrari",
+            "video": false,
+            "vote_average": 7.046,
+            "vote_count": 54
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/tL8fzn7JaBzRJKsE1W6GrVxmMQj.jpg",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "id": 866398,
+            "original_language": "en",
+            "original_title": "The Beekeeper",
+            "overview": "One man’s campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
+            "popularity": 55.325,
+            "poster_path": "/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+            "release_date": "2024-01-11",
+            "title": "The Beekeeper",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/A1g8AvP3KpDyu0iyjS6roRxK77v.jpg",
+            "genre_ids": [
+                53,
+                80
+            ],
+            "id": 978870,
+            "original_language": "it",
+            "original_title": "L'ultima notte di Amore",
+            "overview": "On the night before his retirement, police lieutenant Franco Amore is called to investigate the death of a long-time partner of his in a diamond heist in which he was involved.",
+            "popularity": 55.124,
+            "poster_path": "/dBp0REsZkZ1HK1PycwlLdBtYdsd.jpg",
+            "release_date": "2023-03-09",
+            "title": "Last Night of Amore",
+            "video": false,
+            "vote_average": 7.236,
+            "vote_count": 322
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/b1dUCCd1hi5ZfyyCCoJTmViaXM2.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 850165,
+            "original_language": "en",
+            "original_title": "The Iron Claw",
+            "overview": "The true story of the inseparable Von Erich brothers, who made history in the intensely competitive world of professional wrestling in the early 1980s. Through tragedy and triumph, under the shadow of their domineering father and coach, the brothers seek larger-than-life immortality on the biggest stage in sports.",
+            "popularity": 54.551,
+            "poster_path": "/lsdismtCDga4vsKnmliz0h7CaZT.jpg",
+            "release_date": "2023-12-21",
+            "title": "The Iron Claw",
+            "video": false,
+            "vote_average": 9.0,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/hhSERBXQ5FrwSpZkDQ17IAszgkA.jpg",
+            "genre_ids": [
+                18,
+                35
+            ],
+            "id": 993933,
+            "original_language": "en",
+            "original_title": "Bad Behaviour",
+            "overview": "Lucy, a former child actor, seeks enlightenment at a retreat led by spiritual leader Elon while she navigates her close yet turbulent relationship with her stunt-performer daughter, Dylan.",
+            "popularity": 53.292,
+            "poster_path": "/jffVOSdNae2sjUAgCksWuevsOvj.jpg",
+            "release_date": "2023-11-02",
+            "title": "Bad Behaviour",
+            "video": false,
+            "vote_average": 6.2,
+            "vote_count": 5
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4kmNLwmVeT3xMciSRefE6SCi2hX.jpg",
+            "genre_ids": [
+                80,
+                18,
+                53
+            ],
+            "id": 1027073,
+            "original_language": "en",
+            "original_title": "In the Land of Saints and Sinners",
+            "overview": "In a remote Irish village, a damaged Finbar is forced to fight for redemption after a lifetime of sins, but what price is he willing to pay? In the land of saints and sinners, some sins can't be buried.",
+            "popularity": 49.419,
+            "poster_path": "/jN8JJaVpADPEU6SZX8QBCZHAFrU.jpg",
+            "release_date": "2023-10-06",
+            "title": "In the Land of Saints and Sinners",
+            "video": false,
+            "vote_average": 6.577,
+            "vote_count": 52
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/lr2kcIbCgP7Q06DV5Hfs3J6yuJy.jpg",
+            "genre_ids": [
+                12,
+                28,
+                18
+            ],
+            "id": 845111,
+            "original_language": "fr",
+            "original_title": "Les trois mousquetaires : Milady",
+            "overview": "D'Artagnan, on a quest to rescue the abducted Constance, runs into the mysterious Milady de Winter again. The tension between the Catholics and the Protestants finally escalates, as the king declares war — forcing the now four musketeers into battle. But as the war goes on, they are tested physically, mentally and emotionally.",
+            "popularity": 47.405,
+            "poster_path": "/rtosxP5sXuoRFPH4sVbMccLIPiV.jpg",
+            "release_date": "2023-12-13",
+            "title": "The Three Musketeers: Milady",
+            "video": false,
+            "vote_average": 6.701,
+            "vote_count": 72
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/lPzJ3oBHAs4L3Od74y5ml3HyGhy.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 1025491,
+            "original_language": "en",
+            "original_title": "Freud's Last Session",
+            "overview": "On the eve of the Second World War, two of the greatest minds of the twentieth century, C.S. Lewis and Sigmund Freud converge for their own personal battle over the existence of God. The film interweaves the lives of Freud and Lewis, past, present, and through fantasy, bursting from the confines of Freud’s study on a dynamic journey.",
+            "popularity": 44.782,
+            "poster_path": "/kgeMru3ypLeV09YvifofMQrvwkH.jpg",
+            "release_date": "2023-12-22",
+            "title": "Freud's Last Session",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jYUBWwa1UdpcoUBY7I4nFdnZPDO.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 979097,
+            "original_language": "en",
+            "original_title": "Memory",
+            "overview": "Sylvia is a social worker who leads a simple and structured life. This is blown open when Saul follows her home from their high school reunion. Their surprise encounter will profoundly impact both of them as they open the door to the past.",
+            "popularity": 42.56,
+            "poster_path": "/cZgTA5ZOKOIRGyYClJMu02VUNcE.jpg",
+            "release_date": "2023-12-22",
+            "title": "Memory",
+            "video": false,
+            "vote_average": 8.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/hGPa3WPxuyoVSexd962Sf3rh5Rt.jpg",
+            "genre_ids": [
+                10751,
+                12
+            ],
+            "id": 926946,
+            "original_language": "de",
+            "original_title": "Die Schule der magischen Tiere 2",
+            "overview": "Theater fun at the School of Magical Animals: The students want to perform a musical for the school's anniversary. Will the rehearsals end in chaos or will the class pull together? And what's up with the strange holes on the school grounds? With the help of the magical animals, the children learn what really matters: teamwork.",
+            "popularity": 40.952,
+            "poster_path": "/tzOGGLfHJ5SI0QX8fUg1surA6s5.jpg",
+            "release_date": "2022-09-29",
+            "title": "The School of Magical Animals 2",
+            "video": false,
+            "vote_average": 6.1,
+            "vote_count": 15
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/2GzgongTSptjSkT7iCoXUcGIVB9.jpg",
+            "genre_ids": [
+                18,
+                10749,
+                14
+            ],
+            "id": 994108,
+            "original_language": "en",
+            "original_title": "All of Us Strangers",
+            "overview": "One night, screenwriter Adam, in his near-empty tower block in contemporary London, has a chance encounter with his mysterious neighbor Harry that punctures the rhythm of his everyday life. As Adam and Harry get closer, Adam is pulled back to his childhood home where he discovers that his long-dead parents are both living and look the same age as the day they died over 30 years ago.",
+            "popularity": 40.888,
+            "poster_path": "/9ezfT70CrORubJktOA88kfTb9L.jpg",
+            "release_date": "2023-12-21",
+            "title": "All of Us Strangers",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/hb0BeFvZNx2zLGWwuwENOIVeK1U.jpg",
+            "genre_ids": [
+                35,
+                18,
+                36
+            ],
+            "id": 792293,
+            "original_language": "en",
+            "original_title": "Dumb Money",
+            "overview": "Vlogger Keith Gill sinks his life savings into GameStop stock and posts about it. When social media starts blowing up, so do his life and the lives of everyone following him. As a stock tip becomes a movement, everyone gets rich—until the billionaires fight back, and both sides find their worlds turned upside down.",
+            "popularity": 39.984,
+            "poster_path": "/bqs4TeKFbfkcbQbuGAuKYu82tnp.jpg",
+            "release_date": "2023-09-15",
+            "title": "Dumb Money",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 169
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kyYTmtydNfWDaZI1tHBZ6z8WIil.jpg",
+            "genre_ids": [
+                35
+            ],
+            "id": 673593,
+            "original_language": "en",
+            "original_title": "Mean Girls",
+            "overview": "New student Cady Heron is welcomed into the top of the social food chain by the elite group of popular girls called ‘The Plastics,’ ruled by the conniving queen bee Regina George and her minions Gretchen and Karen. However, when Cady makes the major misstep of falling for Regina’s ex-boyfriend Aaron Samuels, she finds herself prey in Regina’s crosshairs. As Cady sets to take down the group’s apex predator with the help of her outcast friends Janis and Damian, she must learn how to stay true to herself while navigating the most cutthroat jungle of all: high school.",
+            "popularity": 38.515,
+            "poster_path": "/aYonZXaoKkPLFBDczdZHTrTaoZs.jpg",
+            "release_date": "2024-01-10",
+            "title": "Mean Girls",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        
+        {
+            "adult": false,
+            "backdrop_path": "/jqFjgNnxpXIXWuPsyfqmcLXRo9p.jpg",
+            "genre_ids": [
+                80,
+                53
+            ],
+            "id": 500,
+            "original_language": "en",
+            "original_title": "Reservoir Dogs",
+            "overview": "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.",
+            "popularity": 37.758,
+            "poster_path": "/xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg",
+            "release_date": "1992-09-02",
+            "title": "Reservoir Dogs",
+            "video": false,
+            "vote_average": 8.131,
+            "vote_count": 13480
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/sQLMaESdeELB7Dl8HdxfGlZYRzu.jpg",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "id": 840430,
+            "original_language": "en",
+            "original_title": "The Holdovers",
+            "overview": "A curmudgeonly instructor at a New England prep school is forced to remain on campus during Christmas break to babysit the handful of students with nowhere to go. Eventually, he forms an unlikely bond with one of them — a damaged, brainy troublemaker — and with the school’s head cook, who has just lost a son in Vietnam.",
+            "popularity": 78.255,
+            "poster_path": "/VHSzNBTwxV8vh7wylo7O9CLdac.jpg",
+            "release_date": "2023-10-27",
+            "title": "The Holdovers",
+            "video": false,
+            "vote_average": 7.68,
+            "vote_count": 175
+        },
+        {
+            "adult": false,
             "backdrop_path": "/2UCByZl8CCkmtIo6pX4iJaswFxB.jpg",
             "genre_ids": [
                 27,
