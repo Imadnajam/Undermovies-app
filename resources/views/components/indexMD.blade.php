@@ -166,10 +166,12 @@
 
                             <img src="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $movie['backdrop_path'] }}"
                                 alt="{{ $movie['original_title'] }}">
-                                <a style="color: rgb(255, 255, 255)" href="{{route('watchNow' ,['id' => $movie['id'] ,'title'=>$movie['original_title']])}}">  <button class="play-btn">
+                            <a style="color: rgb(255, 255, 255)"
+                                href="{{ route('watchNow', ['id' => $movie['id'], 'title' => $movie['original_title']]) }}">
+                                <button class="play-btn">
                                     <ion-icon name="play-circle-outline"></ion-icon>
-                                </button></a>  
-                          
+                                </button></a>
+
 
                         </figure>
 
@@ -189,14 +191,16 @@
                                     <div class="badge badge-outline">HD</div>
                                 </div>
 
+                                <span style="color: hsl(248, 69%, 75%)">
 
-                                @foreach ($movie['genres'] as $genre)
-                                    {{ $genre['name'] }}
-                                    @if (!$loop->last)
-                                        ,
-                                    @endif
-                                @endforeach
+                                    @foreach ($movie['genres'] as $genre)
+                                        {{ $genre['name'] }}
+                                        @if (!$loop->last)
+                                            ,
+                                        @endif
+                                    @endforeach
 
+                                </span>
 
 
                                 <div class="date-time">
@@ -247,11 +251,15 @@
 
                             <div class="details-actions">
 
-                                <button class="share">
-                                    <ion-icon name="share-social"></ion-icon>
-
-                                    <span>Share</span>
+                                <button class="share" id="whatsappShare">
+                                    <ion-icon name="logo-whatsapp"></ion-icon>
+                                    <span>Share on WhatsApp</span>
                                 </button>
+                                <button class="share" id="facebookShare">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                    <span>Share on Facebook</span>
+                                </button>
+
 
                                 <div class="title-wrapper">
                                     <p class="title">Prime Video</p>
@@ -262,7 +270,9 @@
                                 <button class="btn btn-primary">
                                     <ion-icon name="play"></ion-icon>
 
-                                  <a style="color: rgb(255, 255, 255)" href="{{route('watchNow' ,['id' => $movie['id'] ,'title'=>$movie['original_title']])}}"><span>Watch Now</span></a>  
+                                    <a style="color: rgb(255, 255, 255)"
+                                        href="{{ route('watchNow', ['id' => $movie['id'], 'title' => $movie['original_title']]) }}"><span>Watch
+                                            Now</span></a>
                                 </button>
 
                             </div>
@@ -404,29 +414,36 @@
 
 
 
-
-                <script src="{{ asset('js/home.js') }}"></script>
                 <script>
-                    document.addEventListener('DOMContentLoaded', function () {
-                        // Get the "Share" button element
-                        const shareButton = document.querySelector('.share');
-                
-                        // Add a click event listener to the "Share" button
-                        shareButton.addEventListener('click', function () {
+                    document.addEventListener('DOMContentLoaded', function() {
+                        // Get the WhatsApp and Facebook share buttons
+                        const whatsappShareButton = document.getElementById('whatsappShare');
+                        const facebookShareButton = document.getElementById('facebookShare');
+
+                        // Add a click event listener to the WhatsApp share button
+                        whatsappShareButton.addEventListener('click', function() {
                             // Generate the sharing link based on your movie details
                             const shareLink = window.location.href; // You can customize this based on your requirements
-                
+
                             // Open the WhatsApp sharing link
                             const whatsappLink = `https://api.whatsapp.com/send?text=${encodeURIComponent(shareLink)}`;
                             window.open(whatsappLink, '_blank');
-                
+                        });
+
+                        // Add a click event listener to the Facebook share button
+                        facebookShareButton.addEventListener('click', function() {
+                            // Generate the sharing link based on your movie details
+                            const shareLink = window.location.href; // You can customize this based on your requirements
+
                             // Open the Facebook sharing link
-                            const facebookLink = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareLink)}`;
+                            const facebookLink =
+                                `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareLink)}`;
                             window.open(facebookLink, '_blank');
                         });
                     });
                 </script>
-                
+
+
                 <!--
       - ionicon link
     -->
