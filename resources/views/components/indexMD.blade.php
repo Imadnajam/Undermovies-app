@@ -406,7 +406,27 @@
 
 
                 <script src="{{ asset('js/home.js') }}"></script>
-
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        // Get the "Share" button element
+                        const shareButton = document.querySelector('.share');
+                
+                        // Add a click event listener to the "Share" button
+                        shareButton.addEventListener('click', function () {
+                            // Generate the sharing link based on your movie details
+                            const shareLink = window.location.href; // You can customize this based on your requirements
+                
+                            // Open the WhatsApp sharing link
+                            const whatsappLink = `https://api.whatsapp.com/send?text=${encodeURIComponent(shareLink)}`;
+                            window.open(whatsappLink, '_blank');
+                
+                            // Open the Facebook sharing link
+                            const facebookLink = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareLink)}`;
+                            window.open(facebookLink, '_blank');
+                        });
+                    });
+                </script>
+                
                 <!--
       - ionicon link
     -->
