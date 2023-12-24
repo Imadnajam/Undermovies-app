@@ -58,6 +58,10 @@
                             <option value="en" {{ app()->getLocale() == 'en' ? 'selected' : '' }}>EN</option>
                             <option value="ar" {{ app()->getLocale() == 'ar' ? 'selected' : '' }}>AR</option>
                             <option value="fr" {{ app()->getLocale() == 'fr' ? 'selected' : '' }}>FR</option>
+                            <option value="al" {{ app()->getLocale() == 'al' ? 'selected' : '' }}>AL</option>
+                            <option value="it" {{ app()->getLocale() == 'it' ? 'selected' : '' }}>IT</option>
+                    
+                    
                         </select>
                     </form>
                     
