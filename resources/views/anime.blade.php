@@ -78,7 +78,7 @@
 
         .btn-outline-primary:hover {
             color: #fff;
-            background-color: hsl(249, 49%, 26%);
+            background-color: hsl(249, 61%, 38%);
             border-color: hsl(249, 98%, 67%);
         }
 </style>
