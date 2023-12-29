@@ -2252,6 +2252,383 @@
         },
         {
             "adult": false,
+            "backdrop_path": "/uTH0z94C5RtM1EtHtBvFl1ZYqxQ.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 1173807,
+            "original_language": "tr",
+            "original_title": "Her Şeye Rağmen",
+            "overview": "The true story of a man who grew up surrounded by violence and absence of love. But despite everything he became a world-class networking master in his business life. He started from the bottom and was able to reach the top. His story show us that there is no obstacle that cannot be overcome in life.",
+            "popularity": 12.917,
+            "poster_path": "/xrpgepIdD1yrZQlLR1Ty7XnEQIk.jpg",
+            "release_date": "2023-09-29",
+            "title": "Her Seye Ragmen",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/30wIzvX5LmiYtsjxDGt1NCqx6A.jpg",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "id": 1015634,
+            "original_language": "en",
+            "original_title": "Sasquatch Sunset",
+            "overview": "A year in the life of a singular family.",
+            "popularity": 12.842,
+            "poster_path": "/akv9VfJQ34ds4vIPUuEv8ZDLA9I.jpg",
+            "release_date": "2024-01-19",
+            "title": "Sasquatch Sunset",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/tWEcrdHbQLJUuetCQupgCJaTRQ9.jpg",
+            "genre_ids": [
+                16,
+                878,
+                28
+            ],
+            "id": 1155089,
+            "original_language": "en",
+            "original_title": "Justice League: Crisis on Infinite Earths Part One",
+            "overview": "Death is coming. Worse than death: oblivion. Not just for our Earth, but for everyone, everywhere, in every universe! Against this ultimate destruction, the mysterious Monitor has gathered the greatest team of Super Heroes ever assembled. But what can the combined might of Superman, Wonder Woman, Batman, The Flash, Green Lantern and hundreds of Super Heroes from multiple Earths even do to save all of reality from an unstoppable antimatter armageddon?!",
+            "popularity": 12.779,
+            "poster_path": "/zR6C66EDklgTPLHRSmmMt5878MR.jpg",
+            "release_date": "2024-01-09",
+            "title": "Justice League: Crisis on Infinite Earths Part One",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bPe6svQylMx7zS4RyuMJbOL46ao.jpg",
+            "genre_ids": [
+                10402,
+                18
+            ],
+            "id": 802219,
+            "original_language": "en",
+            "original_title": "Bob Marley: One Love",
+            "overview": "Jamaican singer-songwriter Bob Marley overcomes adversity to become the most famous reggae musician in the world.",
+            "popularity": 12.732,
+            "poster_path": "/mKWalirPreEdCKDJjc5TKeOP2xi.jpg",
+            "release_date": "2024-01-10",
+            "title": "Bob Marley: One Love",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                53,
+                36
+            ],
+            "id": 1021130,
+            "original_language": "bn",
+            "original_title": "হুব্বা",
+            "overview": "A political thriller based on the life of Hubba Shyamal Das, a gangster, often referred to as the ‘Dawood Ibrahim of Hooghly’, who was booked in over 30 cases, including murder, extortion and drug smuggling. Inspired by true stories.",
+            "popularity": 12.711,
+            "poster_path": "/eEFvPQ6JRQmcrIdSQkqnTFLVWyZ.jpg",
+            "release_date": "2024-01-19",
+            "title": "Hubba",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/sxWMTytiAl8kLqr2uaUAy8Dg868.jpg",
+            "genre_ids": [
+                18,
+                10402
+            ],
+            "id": 1115577,
+            "original_language": "ja",
+            "original_title": "キリエのうた",
+            "overview": "Luca lost her family in the Great East Japan Earthquake causing her not to be able to speak. However, her singing voice shakes the hearts of those who listen to her. It is a hymn of compassion played by Luca and the people.",
+            "popularity": 12.554,
+            "poster_path": "/4QutpFH8fRM9YEXBBubRAlEO9Dh.jpg",
+            "release_date": "2023-10-13",
+            "title": "Kyrie",
+            "video": false,
+            "vote_average": 8.0,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vGTX1IZ6TELGBrnOujN5kIwJk8v.jpg",
+            "genre_ids": [
+                35
+            ],
+            "id": 926516,
+            "original_language": "fr",
+            "original_title": "Plancha",
+            "overview": "To celebrate Yves’ 50th birthday, his friends plan to take him to the sunny paradise of Paros in Greece. But due to a cancelled flight, the holiday will take place in a far less glamorous and much rainier destination: Yves’ family home in Brittany. During the vacation, their bonds are challenged by Antoine’s constant complaining, Yves’ pride, Baptiste’s superstition and Laurent’s jealousy of Jean-Mich’s perfect life and family. On top of that, Antoine’s supposedly harmless joke – offering Yves a DNA ancestry test – has unforeseen consequences…",
+            "popularity": 12.487,
+            "poster_path": "/vUZVyYwtVljeY57EY5R1PEdfy9m.jpg",
+            "release_date": "2022-10-26",
+            "title": "Happy 50",
+            "video": false,
+            "vote_average": 5.3,
+            "vote_count": 111
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/1qXeeWsXm1cmvG5K2x3RQpLPkuL.jpg",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "id": 893372,
+            "original_language": "fr",
+            "original_title": "Une belle course",
+            "overview": "A seemingly simple taxi ride across Paris evolves into a profound meditation on the realities of the driver, whose personal life is in shambles, and his fare, an elderly woman whose warmth belies her shocking past.",
+            "popularity": 12.271,
+            "poster_path": "/w7V3UqmdBwwzSmBRuRd6WT5Xm1Q.jpg",
+            "release_date": "2022-09-21",
+            "title": "Driving Madeleine",
+            "video": false,
+            "vote_average": 7.3,
+            "vote_count": 94
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/cg5LEgjffD3uhE7kOnvkvvpAfL2.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 974521,
+            "original_language": "fa",
+            "original_title": "خرس نیست",
+            "overview": "Iranian director Jafar Panahi, who has been barred from leaving the country, arrives at a village on the Iran-Turkey border to supervise a film based on a real-life couple seeking passports to Europe being shot in Turkey, but both his stay and the production run into trouble.",
+            "popularity": 12.205,
+            "poster_path": "/AqxE1Pm7EmnhKDe6pXBJF4sHLMU.jpg",
+            "release_date": "2022-10-06",
+            "title": "No Bears",
+            "video": false,
+            "vote_average": 7.0,
+            "vote_count": 77
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 900439,
+            "original_language": "en",
+            "original_title": "Qazaq",
+            "overview": "A documentary that explores the challenges, misconceptions, and difficulties in being the last of the Soviet republics to declare independence through the obstacles faced in reconstructing a nation from scratch.",
+            "popularity": 11.809,
+            "poster_path": "/dMI1bLPzHGJ5cH1ISzRPaqwepXj.jpg",
+            "release_date": "2024-01-01",
+            "title": "Qazaq",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/lPzJ3oBHAs4L3Od74y5ml3HyGhy.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 1025491,
+            "original_language": "en",
+            "original_title": "Freud's Last Session",
+            "overview": "On the eve of the Second World War, two of the greatest minds of the twentieth century, C.S. Lewis and Sigmund Freud converge for their own personal battle over the existence of God. The film interweaves the lives of Freud and Lewis, past, present, and through fantasy, bursting from the confines of Freud’s study on a dynamic journey.",
+            "popularity": 11.772,
+            "poster_path": "/kgeMru3ypLeV09YvifofMQrvwkH.jpg",
+            "release_date": "2023-12-22",
+            "title": "Freud's Last Session",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                53
+            ],
+            "id": 912600,
+            "original_language": "en",
+            "original_title": "Some Other Woman",
+            "overview": "Eve was promised a few months on a tropical island for her husband’s work… but years later, unable to build the family they wanted, she has given up on any of her own desires. As the island fever grows stronger, reality unravels around Eve as a strange woman begins taking over her life piece by piece.",
+            "popularity": 11.673,
+            "poster_path": "/9jdx8BHQZ6cCKsv5yHBh7tMDols.jpg",
+            "release_date": "2024-01-05",
+            "title": "Some Other Woman",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/moBSCWVeQwLae00W56KeRH3Dlki.jpg",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "id": 1039659,
+            "original_language": "en",
+            "original_title": "Winner",
+            "overview": "The story follows Winner, a brilliant young misfit from Texas who finds her morals challenged while serving in the U.S. Air Force and working as an NSA contractor. The film will offer a fresh take on the traditional whistleblower thriller; the coming-of-age story follows an idealistic young woman persecuted for standing by her principles.",
+            "popularity": 11.638,
+            "poster_path": "/7OvQBpOOMiixPYZWEDc7kpytyxr.jpg",
+            "release_date": "2024-01-20",
+            "title": "Winner",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/7YI3LxKLTxHjes9OaBUYrKdXqh3.jpg",
+            "genre_ids": [
+                53
+            ],
+            "id": 948333,
+            "original_language": "en",
+            "original_title": "Into the Deep",
+            "overview": "Follows a woman desperate to escape her town, she meets a stranger who promises a romantic escape, but it results in deceit, mistrust, and violence.",
+            "popularity": 11.623,
+            "poster_path": "/bPyBqGBYjGzyLVHJEIsCwlZejk.jpg",
+            "release_date": "2022-08-26",
+            "title": "Into the Deep",
+            "video": false,
+            "vote_average": 5.8,
+            "vote_count": 58
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/zMZvyVa0jQ8Citp0JCwfQ9LqjUl.jpg",
+            "genre_ids": [
+                18,
+                35
+            ],
+            "id": 1025231,
+            "original_language": "en",
+            "original_title": "Little Death",
+            "overview": "A middle-aged filmmaker on the verge of a breakthrough. Two kids in search of a lost backpack. A small dog a long way from home.",
+            "popularity": 11.416,
+            "poster_path": "/uCky4r1ZDNBWMTmwTogqY00Cqvg.jpg",
+            "release_date": "2024-01-19",
+            "title": "Little Death",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4U7dAFf9VzIkpH9loQapo7IMS5C.jpg",
+            "genre_ids": [
+                18,
+                35,
+                10749
+            ],
+            "id": 792614,
+            "original_language": "fr",
+            "original_title": "Complètement cramé!",
+            "overview": "Since his wife's death, Andrew Blake is depressed. In an ultimate impetus, he leaves London to go back to France, in the house he met her. This journey through happy days memories won't go as planned.",
+            "popularity": 11.287,
+            "poster_path": "/pDR9RS4XqITHUAyWYSNDdAIPgR3.jpg",
+            "release_date": "2023-11-01",
+            "title": "Mr. Blake At Your Service!",
+            "video": false,
+            "vote_average": 6.9,
+            "vote_count": 13
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/eBjtU1wUFq8qEllmROSmYG3dycr.jpg",
+            "genre_ids": [
+                878,
+                35,
+                10749
+            ],
+            "id": 605722,
+            "original_language": "en",
+            "original_title": "Distant",
+            "overview": "After crash-landing on an alien planet, an asteroid miner must contend with the challenges of his new surroundings, while making his way across the harsh terrain to the only other survivor – a woman who is trapped in her escape pod.",
+            "popularity": 11.276,
+            "poster_path": "/rXbgn0NKeBOGyqUGa6hpYF996A6.jpg",
+            "release_date": "2024-01-19",
+            "title": "Distant",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/teqw59Lm9wBjJABw0Y6p7frScPL.jpg",
+            "genre_ids": [
+                10770,
+                35,
+                10749
+            ],
+            "id": 1164897,
+            "original_language": "en",
+            "original_title": "Take a Chance at Christmas",
+            "overview": "Balancing life is not difficult for single mother Sutton Kim, even when she must spend the Christmas season finding new clients for her publishing firm. Her son Jae, however, is convinced that her mom needs something (or someone!) else in her life, and convinced her to sign up on a dating app. Sutton swipes left on single father Mateo, but when she realizes this Mateo could land her a career changing book deal, she might just let Christmas work its magic…",
+            "popularity": 11.262,
+            "poster_path": "/1JHH0gOVXED7HQU9i3QXID7MGJU.jpg",
+            "release_date": "2024-01-04",
+            "title": "Take a Chance at Christmas",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/91qRaBoTE71JaUAxy7V5FrJmHve.jpg",
+            "genre_ids": [
+                53,
+                80,
+                18
+            ],
+            "id": 1052155,
+            "original_language": "en",
+            "original_title": "Ponyboi",
+            "overview": "Unfolding over the course of Valentine’s Day in New Jersey, a young intersex sex worker must run from the mob after a drug deal goes sideways, forcing him to confront his past.",
+            "popularity": 10.814,
+            "poster_path": "/pHKufWCsNYeHN9xOHekWjtW3DKc.jpg",
+            "release_date": "2024-01-20",
+            "title": "Ponyboi",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ngSBejAkA0bepSSBuEn7VQU09HE.jpg",
+            "genre_ids": [
+                53,
+                9648
+            ],
+            "id": 1170824,
+            "original_language": "en",
+            "original_title": "American Star",
+            "overview": "An assassin on a final assignment in Fuerteventura, to kill a man he has never met. When his target is delayed, he finds himself drawn to the island, people and a ghostly shipwreck. Instead of following protocol he stays. But when the target returns, the world has shifted. Before everything was simple, now nothing is.",
+            "popularity": 10.533,
+            "poster_path": "/l3UO18fD7rSPRw8AYB8d19zwxUb.jpg",
+            "release_date": "2024-01-05",
+            "title": "American Star",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },{
+            "adult": false,
             "backdrop_path": "/xGW2hWSmL92qKsgUQEpzTOdWmmk.jpg",
             "genre_ids": [
                 12,
