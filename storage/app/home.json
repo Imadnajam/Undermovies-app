@@ -773,6 +773,397 @@
         },
         {
             "adult": false,
+            "backdrop_path": "/u9x18arVbh9VRY05aeJ43eaiI3t.jpg",
+            "genre_ids": [
+                35
+            ],
+            "id": 673593,
+            "original_language": "en",
+            "original_title": "Mean Girls",
+            "overview": "New student Cady Heron is welcomed into the top of the social food chain by the elite group of popular girls called ‘The Plastics,’ ruled by the conniving queen bee Regina George and her minions Gretchen and Karen. However, when Cady makes the major misstep of falling for Regina’s ex-boyfriend Aaron Samuels, she finds herself prey in Regina’s crosshairs. As Cady sets to take down the group’s apex predator with the help of her outcast friends Janis and Damian, she must learn how to stay true to herself while navigating the most cutthroat jungle of all: high school.",
+            "popularity": 42.918,
+            "poster_path": "/aYonZXaoKkPLFBDczdZHTrTaoZs.jpg",
+            "release_date": "2024-01-10",
+            "title": "Mean Girls",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jqFjgNnxpXIXWuPsyfqmcLXRo9p.jpg",
+            "genre_ids": [
+                80,
+                53
+            ],
+            "id": 500,
+            "original_language": "en",
+            "original_title": "Reservoir Dogs",
+            "overview": "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.",
+            "popularity": 40.655,
+            "poster_path": "/xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg",
+            "release_date": "1992-09-02",
+            "title": "Reservoir Dogs",
+            "video": false,
+            "vote_average": 8.131,
+            "vote_count": 13496
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/g8kCHQzfogy1t1dE9nPBtiFkz64.jpg",
+            "genre_ids": [
+                53,
+                878,
+                18
+            ],
+            "id": 729854,
+            "original_language": "ko",
+            "original_title": "콘크리트 유토피아",
+            "overview": "The world has been reduced to rubble by a massive earthquake. While no one knows for sure how far the ruins stretch, or what the cause of the earthquake may be, in the heart of Seoul there is only one apartment building left standing. It is called Hwang Gung Apartments. As time passes, outsiders start coming in to Hwang Gung Apartments trying to escape the extreme cold. Before long, the apartment residents are unable to cope with the increasing numbers. Feeling a threat to their very survival, the residents enact a special measure.",
+            "popularity": 40.228,
+            "poster_path": "/4l68KHxnPSow8MvnGUpjqLzJtLJ.jpg",
+            "release_date": "2023-08-09",
+            "title": "Concrete Utopia",
+            "video": false,
+            "vote_average": 7.0,
+            "vote_count": 46
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vXjpwkXPirBmgdEpIknfN8ziDD.jpg",
+            "genre_ids": [
+                16,
+                12,
+                14,
+                35
+            ],
+            "id": 947938,
+            "original_language": "ru",
+            "original_title": "Мальчик-дельфин",
+            "overview": "When a plane crashes at sea, dolphins rescue a little boy and raise him as family. He lives a carefree life beneath the waves until an evil monster seizes power over the underwater world. The boy is banished to dry land, where a kind-hearted captain takes him in. With the captain’s help, the boy sets out on a journey to solve the mystery of his true identity.",
+            "popularity": 39.917,
+            "poster_path": "/AcBgfBhdhvv5aKQP7iE8QsxFWBV.jpg",
+            "release_date": "2022-04-07",
+            "title": "Dolphin Boy",
+            "video": false,
+            "vote_average": 6.4,
+            "vote_count": 66
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/83g3gkDw6oc2mxkyB8DSoXQZJHl.jpg",
+            "genre_ids": [
+                18,
+                80,
+                53
+            ],
+            "id": 912480,
+            "original_language": "fr",
+            "original_title": "Les chambres rouges",
+            "overview": "The high-profile case of serial killer Ludovic Chevalier has just gone to trial, and Kelly-Anne is obsessed. When reality blurs with her morbid fantasies, she goes down a dark path to seek the final piece of the case's puzzle.",
+            "popularity": 38.612,
+            "poster_path": "/wyVtWLItC0tHFSM1UqLL45hf7Rk.jpg",
+            "release_date": "2023-08-11",
+            "title": "Red Rooms",
+            "video": false,
+            "vote_average": 6.635,
+            "vote_count": 26
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/1AT4Nc6oHkmL3p6i27P14SBnIpb.jpg",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "id": 1056360,
+            "original_language": "en",
+            "original_title": "American Fiction",
+            "overview": "Thelonious “Monk” Ellison's writing career has stalled because his work isn’t deemed “Black enough.” Monk, a writer and English professor, writes a satirical novel under a pseudonym, aiming to expose the publishing world's hypocrisies. The book’s immediate success forces him to get deeper enmeshed in his assumed identity and challenges his closely-held worldviews.",
+            "popularity": 38.542,
+            "poster_path": "/htPScB9pEDmYOT0eCW6kahgv77t.jpg",
+            "release_date": "2023-11-10",
+            "title": "American Fiction",
+            "video": false,
+            "vote_average": 7.8,
+            "vote_count": 5
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/q1vulfV2Ulj8jJFQC3ywLNWqrFk.jpg",
+            "genre_ids": [
+                28,
+                80,
+                18,
+                53
+            ],
+            "id": 999056,
+            "original_language": "cn",
+            "original_title": "潛行",
+            "overview": "In the new century, the fight against drugs faces an unprecedented and difficult challenge! Under the deep and complex dark network, an invisible war is being waged in Hong Kong......  Typhoon signal was hoisted in Hong Kong. Under the cover of the fierce wind, four tons of methamphetamine were entering Hong Kong, pending to be sold on the dark network. A cyber revelry of druggies was about to be unveiled, and a storm was brewing in the quiet Victoria Harbour.  Police had to arrest the “boss” behind the scenes and nip the “drug network” in the bud in no time, that pushed their undercover intelligence to the narrow road. In the center of the storm, undercover agents, police officers, drug lords, black, white, and gray entangled.",
+            "popularity": 33.978,
+            "poster_path": "/5ogr1Tt3m6Jpb3gQEivJlB4ExAn.jpg",
+            "release_date": "2023-12-29",
+            "title": "I Did It My Way",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/Aq9YY4SLQaqsmaR3D4WiSuG33ga.jpg",
+            "genre_ids": [
+                18,
+                36
+            ],
+            "id": 823452,
+            "original_language": "en",
+            "original_title": "The Boys in the Boat",
+            "overview": "The triumphant underdog story of the University of Washington men's rowing team, who stunned the world by winning gold at the 1936 Berlin Olympics.",
+            "popularity": 33.594,
+            "poster_path": "/eNOyS9hmdBoP5zpowbU4Kfh1JYB.jpg",
+            "release_date": "2023-12-25",
+            "title": "The Boys in the Boat",
+            "video": false,
+            "vote_average": 8.571,
+            "vote_count": 7
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/aznaT2jkJW9OH0e7j40uLeoxppv.jpg",
+            "genre_ids": [
+                10770,
+                9648,
+                18
+            ],
+            "id": 1212670,
+            "original_language": "en",
+            "original_title": "True Justice: Family Ties",
+            "overview": "A law school student with the help of her friends sets out to prove her brother was wrongfully convicted. The only way to clear his name is by finding the real killer, but the closer they get, the more danger they are all in.",
+            "popularity": 32.866,
+            "poster_path": "/pN7VxfVY0dtgcoaA1CD3dir649U.jpg",
+            "release_date": "2024-01-12",
+            "title": "True Justice: Family Ties",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/2GzgongTSptjSkT7iCoXUcGIVB9.jpg",
+            "genre_ids": [
+                18,
+                14,
+                10749
+            ],
+            "id": 994108,
+            "original_language": "en",
+            "original_title": "All of Us Strangers",
+            "overview": "One night, screenwriter Adam, in his near-empty tower block in contemporary London, has a chance encounter with his mysterious neighbor Harry that punctures the rhythm of his everyday life. As Adam and Harry get closer, Adam is pulled back to his childhood home where he discovers that his long-dead parents are both living and look the same age as the day they died over 30 years ago.",
+            "popularity": 31.856,
+            "poster_path": "/9ezfT70CrORubJktOA88kfTb9L.jpg",
+            "release_date": "2023-12-21",
+            "title": "All of Us Strangers",
+            "video": false,
+            "vote_average": 8.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ksZTspehDCC4PCZN8ci31pFT6yp.jpg",
+            "genre_ids": [
+                36,
+                28,
+                18,
+                10752
+            ],
+            "id": 660360,
+            "original_language": "ko",
+            "original_title": "노량: 죽음의 바다",
+            "overview": "The Imjin War reaches its seventh year in December of 1598. Admiral Yi Sun-shin learns that the Wa invaders in Joseon are preparing for a swift withdrawal following the deathbed orders of their leader Toyotomi Hideyoshi. Determined to destroy the enemy once and for all, Admiral Yi leads an allied fleet of Joseon and Ming ships to mount a blockade and annihilate the Wa army. However, once Ming commander Chen Lin is bribed into lifting the blockade, Wa lord Shimazu Yoshihiro and his Satsuma army sail to the Wa army’s rescue at Noryang Strait.",
+            "popularity": 31.517,
+            "poster_path": "/wFAe7gA513Pi2meI4ECwf6YEKR1.jpg",
+            "release_date": "2023-12-20",
+            "title": "Noryang: Deadly Sea",
+            "video": false,
+            "vote_average": 7.3,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kcHGf7yDJGrtCVMhqz0DVdvZg5A.jpg",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "id": 1030987,
+            "original_language": "en",
+            "original_title": "Sympathy for the Devil",
+            "overview": "After being forced to drive a mysterious passenger at gunpoint, a man finds himself in a high-stakes game of cat and mouse where it becomes clear that not everything is as it seems.",
+            "popularity": 31.321,
+            "poster_path": "/afGdVMa80LMs6ibLP22CwM5uI4e.jpg",
+            "release_date": "2023-07-20",
+            "title": "Sympathy for the Devil",
+            "video": false,
+            "vote_average": 6.325,
+            "vote_count": 140
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ik7weMW5cize6A1ApJ9dXHG6QQn.jpg",
+            "genre_ids": [
+                35,
+                18,
+                10749
+            ],
+            "id": 1096342,
+            "original_language": "en",
+            "original_title": "Beautiful Wedding",
+            "overview": "In the aftermath of Beautiful Disaster, Abby and Travis wake after a crazy night in Vegas as accidental newlyweds! With the mob on their heels, they flee to Mexico for a wild, weird honeymoon—but are they in for another disaster?",
+            "popularity": 30.174,
+            "poster_path": "/yA9CO79V0lr9IWEmqQdp2ozvYQE.jpg",
+            "release_date": "2024-01-24",
+            "title": "Beautiful Wedding",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bBr0KBXmqKMvX1M62IU2efJz0L6.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 1032760,
+            "original_language": "es",
+            "original_title": "La memoria infinita",
+            "overview": "Augusto and Paulina have been together for 25 years. Eight years ago, he was diagnosed with Alzheimer's disease. Both fear the day he no longer recognizes her.",
+            "popularity": 29.804,
+            "poster_path": "/7iZSeErC7JdOjdRkuMTfgUxvzx9.jpg",
+            "release_date": "2023-08-11",
+            "title": "The Eternal Memory",
+            "video": false,
+            "vote_average": 8.9,
+            "vote_count": 16
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/6cSavkIT0aMLDz7NNriYsMt5QlI.jpg",
+            "genre_ids": [
+                18,
+                36,
+                10749,
+                10751
+            ],
+            "id": 779816,
+            "original_language": "en",
+            "original_title": "White Bird",
+            "overview": "Julian Albans, the bully who left Beecher Prep, is visited by his Grandmère from Paris and is transformed by her remarkable story of compassion and courage. As a girl in Nazi-occupied France, the young Grandmère goes into hiding with the help of a schoolmate, a young man who risks everything to give her the chance to survive. Together, they find beauty and love in the secret world of their own creation.",
+            "popularity": 29.33,
+            "poster_path": "/1BS7e6MiWlgemAwHCaRCt41Zp3x.jpg",
+            "release_date": "2024-01-18",
+            "title": "White Bird",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/o3EuhA51thgZfFxJTgK7nzAOU4P.jpg",
+            "genre_ids": [
+                80,
+                18
+            ],
+            "id": 823598,
+            "original_language": "cn",
+            "original_title": "金手指",
+            "overview": "In 1970s Hong Kong, the Independent Commission Against Corruption (ICAC) was formed to bring down the corruption syndicate led by British government officials. One of its top investigators is Senior Investigator Lau Kai-Yuen, who brought down countless corrupted officials. Just as he thought stability and prosperity are within reach, a new era of greed and riches takes him into a new battlefield of corruption.",
+            "popularity": 29.155,
+            "poster_path": "/53lyXVLL83dC9AYrpEXfB7Xe34j.jpg",
+            "release_date": "2023-12-30",
+            "title": "The Goldfinger",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/pYYI9IgmJ01xiwFWPlisu8XW7Ax.jpg",
+            "genre_ids": [
+                28,
+                35
+            ],
+            "id": 955916,
+            "original_language": "en",
+            "original_title": "Lift",
+            "overview": "An international heist crew, led by Cyrus Whitaker, race to lift $500 million in gold from a passenger plane at 40,000 feet.",
+            "popularity": 29.073,
+            "poster_path": "/46sp1Z9b2PPTgCMyA87g9aTLUXi.jpg",
+            "release_date": "2024-01-12",
+            "title": "Lift",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bq9FpkTw9I3s1cSRuZxQibM2xOx.jpg",
+            "genre_ids": [
+                18,
+                10752,
+                36
+            ],
+            "id": 467244,
+            "original_language": "en",
+            "original_title": "The Zone of Interest",
+            "overview": "The commandant of Auschwitz, Rudolf Höss, and his wife Hedwig, strive to build a dream life for their family in a house and garden next to the camp.",
+            "popularity": 28.546,
+            "poster_path": "/ruyeAfmxbNPWZ92dWymqwTc6nWV.jpg",
+            "release_date": "2023-11-03",
+            "title": "The Zone of Interest",
+            "video": false,
+            "vote_average": 7.4,
+            "vote_count": 10
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/H8YE8DDrnvr869RgCqLvhfcUFM.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 970348,
+            "original_language": "en",
+            "original_title": "The Old Oak",
+            "overview": "A pub landlord in a previously thriving mining community struggles to hold onto his pub. Meanwhile, tensions rise in the town when Syrian refugees are placed in the empty houses in the community.",
+            "popularity": 27.894,
+            "poster_path": "/xN293BKB0MDqpILmLCtGGYxQXKW.jpg",
+            "release_date": "2023-09-29",
+            "title": "The Old Oak",
+            "video": false,
+            "vote_average": 7.416,
+            "vote_count": 132
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/cofs7Y72FkRjALbOOOz8q7Uty6h.jpg",
+            "genre_ids": [
+                18,
+                53
+            ],
+            "id": 944952,
+            "original_language": "en",
+            "original_title": "The Royal Hotel",
+            "overview": "After running out of money while backpacking in a tiny, male-dominated town in the Australian outback, two friends resort to a working holiday at the Royal Hotel. When the locals behavior starts crossing the line, the girls find themselves trapped in an unnerving situation that grows rapidly out of their control.",
+            "popularity": 27.409,
+            "poster_path": "/oJwb2PV1LGxDp6Q3lynrjADxOIv.jpg",
+            "release_date": "2023-10-06",
+            "title": "The Royal Hotel",
+            "video": false,
+            "vote_average": 5.658,
+            "vote_count": 57
+        },
+        {
+            "adult": false,
             "backdrop_path": "/hjWxngV6tidwDkfJDEgMjHD2KEz.jpg",
             "genre_ids": [
                 18
