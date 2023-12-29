@@ -3022,6 +3022,407 @@
             "video": false,
             "vote_average": 6.5,
             "vote_count": 442
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg",
+            "genre_ids": [
+                28,
+                12,
+                53
+            ],
+            "id": 299054,
+            "original_language": "en",
+            "original_title": "Expend4bles",
+            "overview": "Armed with every weapon they can get their hands on and the skills to use them, The Expendables are the world’s last line of defense and the team that gets called when all other options are off the table. But new team members with new styles and tactics are going to give “new blood” a whole new meaning.",
+            "popularity": 447.368,
+            "poster_path": "/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
+            "release_date": "2023-09-15",
+            "title": "Expend4bles",
+            "video": false,
+            "vote_average": 6.434,
+            "vote_count": 937
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nHf61UzkfFno5X1ofIhugCPus2R.jpg",
+            "genre_ids": [
+                35,
+                12,
+                14
+            ],
+            "id": 346698,
+            "original_language": "en",
+            "original_title": "Barbie",
+            "overview": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
+            "popularity": 464.685,
+            "poster_path": "/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
+            "release_date": "2023-07-19",
+            "title": "Barbie",
+            "video": false,
+            "vote_average": 7.162,
+            "vote_count": 6531
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bg66dvmJg3ReDzfppT748SIJRmw.jpg",
+            "genre_ids": [
+                27
+            ],
+            "id": 1131755,
+            "original_language": "en",
+            "original_title": "A Creature Was Stirring",
+            "overview": "A nurse taking care of her daughter's mysterious affliction struggles to hide her secrets when uninvited strangers take shelter in her house during a lethal blizzard.",
+            "popularity": 404.998,
+            "poster_path": "/ikQG3byEFyfwcnF0zmyNtXTmr5v.jpg",
+            "release_date": "2023-12-08",
+            "title": "A Creature Was Stirring",
+            "video": false,
+            "vote_average": 4.4,
+            "vote_count": 8
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/tLsc8SCFO0rMVgVyNm9XtfnyX84.jpg",
+            "genre_ids": [
+                18,
+                9648,
+                53,
+                878
+            ],
+            "id": 726209,
+            "original_language": "en",
+            "original_title": "Leave the World Behind",
+            "overview": "A family's getaway to a luxurious rental home takes an ominous turn when a cyberattack knocks out their devices—and two strangers appear at their door.",
+            "popularity": 436.498,
+            "poster_path": "/29rhl1xopxA7JlGVVsf1UHfYPvN.jpg",
+            "release_date": "2023-11-22",
+            "title": "Leave the World Behind",
+            "video": false,
+            "vote_average": 6.522,
+            "vote_count": 1232
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vruRG9oFSC2QI3F6vLAsj1ND14S.jpg",
+            "genre_ids": [
+                878,
+                28,
+                53,
+                27
+            ],
+            "id": 934194,
+            "original_language": "en",
+            "original_title": "Slash/Back",
+            "overview": "In a remote Arctic community, a group of Inuit girls fight off an alien invasion, all while trying to make it to the coolest party in town.",
+            "popularity": 635.388,
+            "poster_path": "/fmmRFQtsRrNOpmcfoxVIyE1LxxT.jpg",
+            "release_date": "2022-06-24",
+            "title": "Slash/Back",
+            "video": false,
+            "vote_average": 6.722,
+            "vote_count": 36
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/5lWIYxYEqWi8j3ZloxXntw3ImBo.jpg",
+            "genre_ids": [
+                16,
+                10751,
+                35,
+                14
+            ],
+            "id": 360920,
+            "original_language": "en",
+            "original_title": "The Grinch",
+            "overview": "The Grinch hatches a scheme to ruin Christmas when the residents of Whoville plan their annual holiday celebration.",
+            "popularity": 433.504,
+            "poster_path": "/1Bc9VNd9CIHIyJtPKFqSQzrXWru.jpg",
+            "release_date": "2018-11-08",
+            "title": "The Grinch",
+            "video": false,
+            "vote_average": 6.8,
+            "vote_count": 3609
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ptz5ETMxDoRRiE69BVuIxJzyTEO.jpg",
+            "genre_ids": [
+                16,
+                35,
+                12,
+                10751,
+                28
+            ],
+            "id": 940551,
+            "original_language": "en",
+            "original_title": "Migration",
+            "overview": "After a migrating duck family alights on their pond with thrilling tales of far-flung places, the Mallard family embarks on a family road trip, from New England, to New York City, to tropical Jamaica.",
+            "popularity": 405.345,
+            "poster_path": "/ldfCF9RhR40mppkzmftxapaHeTo.jpg",
+            "release_date": "2023-12-06",
+            "title": "Migration",
+            "video": false,
+            "vote_average": 7.287,
+            "vote_count": 61
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ufR7C4AtkqS0INda0qBICpupOxy.jpg",
+            "genre_ids": [
+                28,
+                53,
+                18
+            ],
+            "id": 982932,
+            "original_language": "en",
+            "original_title": "Shrapnel",
+            "overview": "A former Marine and his old war buddy face off against the Mexican cartel behind the disappearance of his daughter.",
+            "popularity": 354.474,
+            "poster_path": "/gsRDrAML7hJC8ZCgRQobHIrzbxR.jpg",
+            "release_date": "2023-07-28",
+            "title": "Shrapnel",
+            "video": false,
+            "vote_average": 6.0,
+            "vote_count": 19
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
+            "genre_ids": [
+                16,
+                10751,
+                12,
+                14,
+                35
+            ],
+            "id": 502356,
+            "original_language": "en",
+            "original_title": "The Super Mario Bros. Movie",
+            "overview": "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
+            "popularity": 403.257,
+            "poster_path": "/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
+            "release_date": "2023-04-05",
+            "title": "The Super Mario Bros. Movie",
+            "video": false,
+            "vote_average": 7.72,
+            "vote_count": 7561
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/2vFuG6bWGyQUzYS9d69E5l85nIz.jpg",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "id": 667538,
+            "original_language": "en",
+            "original_title": "Transformers: Rise of the Beasts",
+            "overview": "When a new threat capable of destroying the entire planet emerges, Optimus Prime and the Autobots must team up with a powerful faction known as the Maximals. With the fate of humanity hanging in the balance, humans Noah and Elena will do whatever it takes to help the Transformers as they engage in the ultimate battle to save Earth.",
+            "popularity": 405.919,
+            "poster_path": "/gPbM0MK8CP8A174rmUwGsADNYKD.jpg",
+            "release_date": "2023-06-06",
+            "title": "Transformers: Rise of the Beasts",
+            "video": false,
+            "vote_average": 7.412,
+            "vote_count": 3777
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4MUfDtBqUFqotGF5RJOfNfoBTLo.jpg",
+            "genre_ids": [
+                28,
+                27,
+                14
+            ],
+            "id": 951546,
+            "original_language": "en",
+            "original_title": "Reign of Chaos",
+            "overview": "When the world is gripped by a plague unleashed by the evil lord Chaos, and humans are turned into rabid creatures, mankind can only be saved by three young women, descendants of a Goddess, with the power to stop Chaos' evil.",
+            "popularity": 370.936,
+            "poster_path": "/nTMmpvR9TyV631tpFr4FtYxG0FC.jpg",
+            "release_date": "2022-04-12",
+            "title": "Reign of Chaos",
+            "video": false,
+            "vote_average": 5.983,
+            "vote_count": 30
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/628Dep6AxEtDxjZoGP78TsOxYbK.jpg",
+            "genre_ids": [
+                28
+            ],
+            "id": 575264,
+            "original_language": "en",
+            "original_title": "Mission: Impossible - Dead Reckoning Part One",
+            "overview": "Ethan Hunt and his IMF team embark on their most dangerous mission yet: To track down a terrifying new weapon that threatens all of humanity before it falls into the wrong hands. With control of the future and the world's fate at stake and dark forces from Ethan's past closing in, a deadly race around the globe begins. Confronted by a mysterious, all-powerful enemy, Ethan must consider that nothing can matter more than his mission—not even the lives of those he cares about most.",
+            "popularity": 399.97,
+            "poster_path": "/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+            "release_date": "2023-07-08",
+            "title": "Mission: Impossible - Dead Reckoning Part One",
+            "video": false,
+            "vote_average": 7.583,
+            "vote_count": 2760
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/5mzr6JZbrqnqD8rCEvPhuCE5Fw2.jpg",
+            "genre_ids": [
+                28,
+                878,
+                27
+            ],
+            "id": 615656,
+            "original_language": "en",
+            "original_title": "Meg 2: The Trench",
+            "overview": "An exploratory dive into the deepest depths of the ocean of a daring research team spirals into chaos when a malevolent mining operation threatens their mission and forces them into a high-stakes battle for survival.",
+            "popularity": 360.292,
+            "poster_path": "/4m1Au3YkjqsxF8iwQy0fPYSxE0h.jpg",
+            "release_date": "2023-08-02",
+            "title": "Meg 2: The Trench",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 2727
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/tC78Pck2YCsUAtEdZwuHYUFYtOj.jpg",
+            "genre_ids": [
+                28,
+                53,
+                80
+            ],
+            "id": 926393,
+            "original_language": "en",
+            "original_title": "The Equalizer 3",
+            "overview": "Robert McCall finds himself at home in Southern Italy but he discovers his friends are under the control of local crime bosses. As events turn deadly, McCall knows what he has to do: become his friends' protector by taking on the mafia.",
+            "popularity": 340.04,
+            "poster_path": "/b0Ej6fnXAP8fK75hlyi2jKqdhHz.jpg",
+            "release_date": "2023-08-30",
+            "title": "The Equalizer 3",
+            "video": false,
+            "vote_average": 7.423,
+            "vote_count": 1968
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9QusGjxcYvfPD1THg6oW3RLeNn7.jpg",
+            "genre_ids": [
+                28,
+                12,
+                14
+            ],
+            "id": 297802,
+            "original_language": "en",
+            "original_title": "Aquaman",
+            "overview": "Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orm's half-human, half-Atlantean brother and true heir to the throne.",
+            "popularity": 352.24,
+            "poster_path": "/xLPffWMhMj1l50ND3KchMjYoKmE.jpg",
+            "release_date": "2018-12-07",
+            "title": "Aquaman",
+            "video": false,
+            "vote_average": 6.9,
+            "vote_count": 13199
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/1pFSJ9lxMYLkgLS5gmnwm1AEiqx.jpg",
+            "genre_ids": [
+                878
+            ],
+            "id": 798141,
+            "original_language": "en",
+            "original_title": "Doors",
+            "overview": "Without warning, millions of mysterious alien “doors” suddenly appear around the globe. In a rush to determine the reason for their arrival, mankind must work together to understand the purpose of these cosmic anomalies.",
+            "popularity": 527.671,
+            "poster_path": "/pGPUXyhQTOqskKdDOD3Fmicqfc0.jpg",
+            "release_date": "2021-03-23",
+            "title": "Doors",
+            "video": false,
+            "vote_average": 4.919,
+            "vote_count": 118
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ehumsuIBbgAe1hg343oszCLrAfI.jpg",
+            "genre_ids": [
+                16,
+                10751,
+                14,
+                12
+            ],
+            "id": 1022796,
+            "original_language": "en",
+            "original_title": "Wish",
+            "overview": "Asha, a sharp-witted idealist, makes a wish so powerful that it is answered by a cosmic force – a little ball of boundless energy called Star. Together, Asha and Star confront a most formidable foe - the ruler of Rosas, King Magnifico - to save her community and prove that when the will of one courageous human connects with the magic of the stars, wondrous things can happen.",
+            "popularity": 364.056,
+            "poster_path": "/8QtDhh8mnGUEyrJsaeb3kYgDRaA.jpg",
+            "release_date": "2023-11-13",
+            "title": "Wish",
+            "video": false,
+            "vote_average": 6.53,
+            "vote_count": 181
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/pwvVS1AiRWLropqJ03i5ovynZhk.jpg",
+            "genre_ids": [
+                27,
+                53
+            ],
+            "id": 517929,
+            "original_language": "en",
+            "original_title": "Fog City",
+            "overview": "A group of friends seal themselves inside a secluded Cape Cod vacation home after a mysterious orange fog leaks from an old nearby factory. Once trapped, they quickly learn there is no escape.",
+            "popularity": 333.987,
+            "poster_path": "/isewxmxthIUrmPpGHQQlIuOid3s.jpg",
+            "release_date": "2023-10-20",
+            "title": "Fog City",
+            "video": false,
+            "vote_average": 3.0,
+            "vote_count": 2
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8rpDcsfLJypbO6vREc0547VKqEv.jpg",
+            "genre_ids": [
+                878,
+                12,
+                28
+            ],
+            "id": 76600,
+            "original_language": "en",
+            "original_title": "Avatar: The Way of Water",
+            "overview": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+            "popularity": 352.297,
+            "poster_path": "/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+            "release_date": "2022-12-14",
+            "title": "Avatar: The Way of Water",
+            "video": false,
+            "vote_average": 7.7,
+            "vote_count": 10443
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/h3X1YZXNeklLNKRVOS6DHGRosog.jpg",
+            "genre_ids": [
+                27,
+                35,
+                14
+            ],
+            "id": 287903,
+            "original_language": "en",
+            "original_title": "Krampus",
+            "overview": "When his dysfunctional family clashes over the holidays, young Max is disillusioned and turns his back on Christmas.  Little does he know, this lack of festive spirit has unleashed the wrath of Krampus: a demonic force of ancient evil intent on punishing non-believers.",
+            "popularity": 285.761,
+            "poster_path": "/sAolMRD9rFSTU7tssfFuLEJJa7w.jpg",
+            "release_date": "2015-11-26",
+            "title": "Krampus",
+            "video": false,
+            "vote_average": 6.197,
+            "vote_count": 2030
         },{
             "adult": false,
             "backdrop_path": "/xGW2hWSmL92qKsgUQEpzTOdWmmk.jpg",
