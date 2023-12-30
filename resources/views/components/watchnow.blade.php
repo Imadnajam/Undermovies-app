@@ -27,7 +27,8 @@
     <div class="row">
       <div class="col-lg-12 text-center">
            <div style='max-width: 900px; position: relative; margin: 0 auto; margin-top: 0px; margin-top: 0px; margin-top: 43px;'>
-              <img src="{{asset('image/series/logo.png')}}" style="max-width: 214px;">
+          <a href="{{route('home')}}"><img src="{{asset('image/series/logo.png')}}" style="max-width: 214px;"></a>
+     
               <p style="margin-bottom: 49px; font-size: 28pt; color: white; font-family: Montserrat;">Media player made for movies</p>
             </div>
             
