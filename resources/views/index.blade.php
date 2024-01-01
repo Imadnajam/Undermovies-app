@@ -298,7 +298,7 @@
                                             <div class="duration">
                                                 <ion-icon name="time-outline"></ion-icon>
 
-                                             
+                                                <time datetime="PT137M">137 min</time>
                                             </div>
 
                                             <div class="rating">
