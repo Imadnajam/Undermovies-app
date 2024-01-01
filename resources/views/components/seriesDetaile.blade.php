@@ -189,13 +189,16 @@
               </div>
 
               <div class="ganre-wrapper">
-                <a href="#">Comedy,</a>
+                @foreach ($tvSeriesData['genres'] as $genre)
+                <a href="#">{{ $genre['name'] }}</a>
+                
+                @if (!$loop->last)
+                    ,
+                @endif
+            @endforeach
+                
 
-                <a href="#">Action,</a>
-
-                <a href="#">Adventure,</a>
-
-                <a href="#">Science Fiction</a>
+          
               </div>
 
               <div class="date-time">
