@@ -32,4 +32,3 @@ Route::get('/watchNow/{id}', [MovieController::class, 'watchNow'])->name('watchN
 Route::post('/change-language',[LanguageController::class, 'changeLanguage'])->name('change.language');
 
 Route::get('/adminI',[AdminC::class, 'start'])->name('admin.index');
-
