@@ -23,7 +23,7 @@ class HomeController extends Controller
         
         $randomPage = $pageNumbers[array_rand($pageNumbers)];
         
-        $response = Http::get("https://api.themoviedb.org/3/tv/popular", [
+        $response = Http::get("https://api.themoviedb.org/3/tv/top_rated", [
             'api_key' => $apiKey,
             'page' => $randomPage,
         ]);
