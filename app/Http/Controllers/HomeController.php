@@ -14,13 +14,20 @@ class HomeController extends Controller
          $films = json_decode($jsonContent, true);
 
          /////////////////////////////////////
-
-         $response = Http::get("https://api.themoviedb.org/3/tv/top_rated", [
-            'api_key' => '0269e1f69afd6ff169f8a6a2d9f0dc4d',
-        ]);
         $filePath = storage_path('app/home1.json');
         $jsonContent = file_get_contents($filePath);
         $tops = json_decode($jsonContent, true);
+
+        $apiKey = '0269e1f69afd6ff169f8a6a2d9f0dc4d';
+        $pageNumbers = [1, 2, 3, 4, 5,6,7,8,9,10]; // Replace with your desired page numbers
+        
+        $randomPage = $pageNumbers[array_rand($pageNumbers)];
+        
+        $response = Http::get("https://api.themoviedb.org/3/tv/popular", [
+            'api_key' => $apiKey,
+            'page' => $randomPage,
+        ]);
+        
         // Check if the request was successful (status code 200)
         if ($response->successful()) {
             // Get the JSON-decoded data from the response

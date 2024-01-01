@@ -546,6 +546,7 @@
                                 </li>
                             @endif
                         @endforeach
+<!-- Add this button wherever you want in your view -->
 
                     </ul>
 
@@ -742,11 +743,12 @@
         }
 
         // Change the background every 20 seconds
-        setInterval(changeBackground, 20000);
+        setInterval(changeBackground, 20000);      
     </script>
     <!--
     - ionicon link
   -->
+  <!-- Add this script section at the end of your view or in a separate JavaScript file -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
