@@ -15,7 +15,9 @@
   <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="stylesheet" href="{{ asset('css/home.css') }}">
+
 
   <!-- 
     - google font link
@@ -36,8 +38,8 @@
 
       <div class="overlay" data-overlay></div>
 
-      <a href="./index.html" class="logo">
-        <img src="./assets/images/logo.png" width="100px" alt="Filmlane logo">
+      <a href="{{route('home')}}" class="logo">
+        <img width="100px" src="{{ asset('image/home/logo.png') }}" alt="Filmlane logo">
       </a>
 
       <div class="header-actions">
