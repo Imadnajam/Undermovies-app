@@ -10,6 +10,8 @@ use App\Http\Controllers\AnimeController;
 use App\Http\Controllers\detailanimeController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\AdminC;
+use App\Http\Controllers\seriesDetaileController;
+
 
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
@@ -32,3 +34,4 @@ Route::get('/watchNow/{id}', [MovieController::class, 'watchNow'])->name('watchN
 Route::post('/change-language',[LanguageController::class, 'changeLanguage'])->name('change.language');
 
 Route::get('/adminI',[AdminC::class, 'start'])->name('admin.index');
+Route::get('/detailseries/{id}', [seriesDetaileController::class, 'detail'])->name('detailseries');
