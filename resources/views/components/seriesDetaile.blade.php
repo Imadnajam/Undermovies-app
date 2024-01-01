@@ -33,119 +33,121 @@
     - #HEADER
   -->
 
+
   <header class="header" data-header>
     <div class="container">
 
-      <div class="overlay" data-overlay></div>
+        <div class="overlay" data-overlay></div>
 
-      <a href="{{route('home')}}" class="logo">
-        <img width="100px" src="{{ asset('image/home/logo.png') }}" alt="Filmlane logo">
-      </a>
+        <a href="{{ route('home') }}" class="logo">
+            <img src="{{ asset('image/series/logo.png') }}" width="100px" alt="Filmlane logo">
+        </a>
 
-      <div class="header-actions">
+        <div class="header-actions">
 
-        <button class="search-btn">
-          <ion-icon name="search-outline"></ion-icon>
+            <button class="search-btn">
+                <ion-icon name="search-outline"></ion-icon>
+            </button>
+
+            <div class="lang-wrapper">
+                <label for="language">
+                    <ion-icon name="globe-outline"></ion-icon>
+                </label>
+
+                <select name="language" id="language">
+                    <option value="en">EN</option>
+                    <option value="au">AU</option>
+                    <option value="ar">AR</option>
+                    <option value="tu">TU</option>
+                </select>
+            </div>
+
+            <a href="{{ route('authentification') }}"><button class="btn btn-primary">Sign in</button></a>
+
+        </div>
+
+        <button class="menu-open-btn" data-menu-open-btn>
+            <ion-icon name="reorder-two"></ion-icon>
         </button>
 
-        <div class="lang-wrapper">
-          <label for="language">
-            <ion-icon name="globe-outline"></ion-icon>
-          </label>
+        <nav class="navbar" data-navbar>
 
-          <select name="language" id="language">
-            <option value="en">EN</option>
-            <option value="au">AU</option>
-            <option value="ar">AR</option>
-            <option value="tu">TU</option>
-          </select>
-        </div>
+            <div class="navbar-top">
 
-        <a href="./Login/index.html"><button class="btn btn-primary">Sign in</button></a> 
+                <a href="{{ route('home') }}" class="logo">
+                    <img src="{{ asset('image/series/logo.png') }}" width="100px" alt="Filmlane logo">
+                </a>
 
-      </div>
+                <button class="menu-close-btn" data-menu-close-btn>
+                    <ion-icon name="close-outline"></ion-icon>
+                </button>
 
-      <button class="menu-open-btn" data-menu-open-btn>
-        <ion-icon name="reorder-two"></ion-icon>
-      </button>
+            </div>
 
-      <nav class="navbar" data-navbar>
+            <ul class="navbar-list">
 
-        <div class="navbar-top">
+                <li>
+                    <a href="{{ route('home') }}" class="navbar-link">Home</a>
+                </li>
+                <li>
+                    <a href="{{route('anime')}}" class="navbar-link">animes</a>
+                  </li>
+                <li>
+                    <a href="{{ route('films') }}" class="navbar-link">Movie</a>
+                </li>
 
-          <a href="./index.html" class="logo">
-            <img src="./assets/images/logo.png" width="100px" alt="Filmlane logo">
-          </a>
+                <li>
+                    <a href="{{ route('about') }}" class="navbar-link">About</a>
+                </li>
 
-          <button class="menu-close-btn" data-menu-close-btn>
-            <ion-icon name="close-outline"></ion-icon>
-          </button>
+                <li>
+                    <a href="{{ route('series') }}" class="navbar-link">Web Series</a>
+                </li>
 
-        </div>
+                <li>
+                    <a href="{{ route('pricing') }}" class="navbar-link">Pricing</a>
+                </li>
 
-        <ul class="navbar-list">
+            </ul>
 
-          <li>
-            <a href="./index.html" class="navbar-link">Home</a>
-          </li>
+            <ul class="navbar-social-list">
 
-          <li>
-            <a href="#" class="navbar-link">Movie</a>
-          </li>
+                <li>
+                    <a href="#" class="navbar-social-link">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </li>
 
-          <li>
-            <a href="./About/about.html" class="navbar-link">About</a>
-          </li>
+                <li>
+                    <a href="#" class="navbar-social-link">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
 
-          <li>
-            <a href="./Web Series/index.html" class="navbar-link">Web Series</a>
-          </li>
+                <li>
+                    <a href="#" class="navbar-social-link">
+                        <ion-icon name="logo-pinterest"></ion-icon>
+                    </a>
+                </li>
 
-          <li>
-            <a href="./pricing/pricing-template.html" class="navbar-link">Pricing</a>
-          </li>
+                <li>
+                    <a href="#" class="navbar-social-link">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
 
-        </ul>
+                <li>
+                    <a href="#" class="navbar-social-link">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                </li>
 
-        <ul class="navbar-social-list">
+            </ul>
 
-          <li>
-            <a href="#" class="navbar-social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-social-link">
-              <ion-icon name="logo-pinterest"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </nav>
+        </nav>
 
     </div>
-  </header>
-
+</header>
 
 
 
