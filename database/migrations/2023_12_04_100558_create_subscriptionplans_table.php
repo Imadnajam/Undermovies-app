@@ -15,10 +15,10 @@ return new class extends Migration
     {
         Schema::create('subscriptionplans', function (Blueprint $table) {
             $table->id();
-    $table->string('name');
-    $table->decimal('price', 8, 2);
-    $table->json('features');
-    $table->timestamps();
+            $table->string('name');
+            $table->decimal('price', 8, 2);
+            $table->json('features');
+            $table->timestamps();
         });
     }
 
