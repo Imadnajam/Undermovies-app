@@ -278,7 +278,7 @@
             <li>
               <div class="movie-card">
 
-                <a href="#">
+                <a href="{{route('displayEpisod',['series_id'=>$tvSeriesData['id'] ,'season_number'=>$season['id']])}}">
                   <figure class="card-banner">
                     <img src="https://image.tmdb.org/t/p/w500{{ $season['poster_path'] }}" alt="{{ $season['name'] }}" alt="{{ $season['name'] }}">
                   </figure>
