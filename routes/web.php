@@ -11,6 +11,8 @@ use App\Http\Controllers\detailanimeController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\AdminC;
 use App\Http\Controllers\seriesDetaileController;
+use App\Http\Controllers\seriesEpisodeDisplay;
+
 
 
 
@@ -35,3 +37,4 @@ Route::post('/change-language',[LanguageController::class, 'changeLanguage'])->n
 
 Route::get('/adminI',[AdminC::class, 'start'])->name('admin.index');
 Route::get('/detailseries/{id}', [seriesDetaileController::class, 'detail'])->name('detailseries');
+Route::get('/tv/{series_id}/season/{season_number}', [TvSeriesController::class, 'getSeason'])->name('displayEpisod');
