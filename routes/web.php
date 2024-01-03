@@ -37,4 +37,4 @@ Route::post('/change-language',[LanguageController::class, 'changeLanguage'])->n
 
 Route::get('/adminI',[AdminC::class, 'start'])->name('admin.index');
 Route::get('/detailseries/{id}', [seriesDetaileController::class, 'detail'])->name('detailseries');
-Route::get('/tv/{series_id}/season/{season_number}', [TvSeriesController::class, 'getSeason'])->name('displayEpisod');
+Route::get('/tv/{series_id}/season/{season_number}', [seriesEpisodeDisplay::class, 'getEpisods'])->name('displayEpisod');
