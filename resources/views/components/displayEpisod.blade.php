@@ -33,6 +33,7 @@
 
     <section class="top-rated">
         <div class="container">
+            
             <a href="{{ route('home') }}"> <img src="{{ asset('image/series/logo.png') }}" width="100px"></a>
             
 
