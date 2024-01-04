@@ -163,9 +163,10 @@
         <div class="container">
 
           <figure class="movie-detail-banner">
-
-            <img src="{{'https://image.tmdb.org/t/p/w300_and_h450_bestv2/'.$tvSeriesData['backdrop_path']}}" alt="Free guy movie poster">
-
+<a href="{{route('traillerSeries')}}">
+  <img src="{{'https://image.tmdb.org/t/p/w300_and_h450_bestv2/'.$tvSeriesData['backdrop_path']}}" alt="Free guy movie poster">
+</a>
+           
             <button class="play-btn">
               <ion-icon name="play-circle-outline"></ion-icon>
             </button>
