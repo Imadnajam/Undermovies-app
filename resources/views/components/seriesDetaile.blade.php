@@ -244,7 +244,7 @@
               <button class="btn btn-primary">
                 <ion-icon name="play"></ion-icon>
 
-                <span>Watch Now</span>
+               <a href="{{route('traillerSeries',['id'=>$tvSeriesData['id']])}}"> <span>Watch Now </span></a>
               </button>
 
             </div>
