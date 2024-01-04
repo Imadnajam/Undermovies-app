@@ -19,11 +19,13 @@ class HomeController extends Controller
         $tops = json_decode($jsonContent, true);
 
         $apiKey = '0269e1f69afd6ff169f8a6a2d9f0dc4d';
-        $pageNumbers = [1, 2, 3, 4, 5,6,7,8,9,10]; // Replace with your desired page numbers
+        $pageNumbers = [1, 2, 3, 4, 5]; // Replace with your desired page numbers
+        $typeSeries=['airing_today','on_the_air','popular','top_rated'] ;       
         
         $randomPage = $pageNumbers[array_rand($pageNumbers)];
+        $randomType = $typeSeries[array_rand($typeSeries)];
         
-        $response = Http::get("https://api.themoviedb.org/3/tv/top_rated", [
+        $response = Http::get("https://api.themoviedb.org/3/tv/{$randomType}", [
             'api_key' => $apiKey,
             'page' => $randomPage,
         ]);
