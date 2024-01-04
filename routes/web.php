@@ -12,6 +12,7 @@ use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\AdminC;
 use App\Http\Controllers\seriesDetaileController;
 use App\Http\Controllers\seriesEpisodeDisplay;
+use App\Http\Controllers\EpisodeDisplayTrailler;
 
 
 
@@ -38,5 +39,5 @@ Route::post('/change-language',[LanguageController::class, 'changeLanguage'])->n
 Route::get('/adminI',[AdminC::class, 'start'])->name('admin.index');
 Route::get('/detailseries/{id}', [seriesDetaileController::class, 'detail'])->name('detailseries');
 Route::get('/tv/{series_id}/season/{season_number}', [seriesEpisodeDisplay::class, 'getEpisods'])->name('displayEpisod');
-Route::get('/tv/{series_id}/season/{season_number}/episode/{episode_number}', [getEpisodsTrailler::class, 'getEpisodsTrailler'])->name('displayEpisodTrailler');
+Route::get('/tv/{series_id}/season/{season_number}/episode/{episode_number}', [EpisodeDisplayTrailler::class, 'getEpisodsTrailler'])->name('displayEpisodTrailler');
 

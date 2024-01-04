@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>{{$title}}</title>
+  <title>hello</title>
 
 
   <!-- Moovie CSS Style -->
