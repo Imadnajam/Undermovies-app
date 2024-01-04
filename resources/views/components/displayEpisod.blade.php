@@ -45,7 +45,7 @@
                 @foreach ($data['episodes'] as $seriesE)
                     <li>
                         <div class="movie-card">
-                            <a href="#">
+                            <a href="{{route('displayEpisodTrailler',['series_id'=>$seriesId,'season_number'=>$seasonnumber ,'episode_number'=>$seriesE['episode_number']])}}">
                                 <figure class="card-banner">
                                     <img src="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $seriesE['still_path'] }}" alt="{{ $seriesE['name'] }}">
                                 </figure>

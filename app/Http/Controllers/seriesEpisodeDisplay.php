@@ -19,6 +19,6 @@ class seriesEpisodeDisplay extends Controller
         $data = $response->json();
 
         // Return the view 'displayEpisod' with the obtained data
-        return view('components.displayEpisod', ['data' => $data]);
+        return view('components.displayEpisod', ['data' => $data ,'seriesId'=>$seriesId,'seasonNumber'=>$seasonNumber]);
     }
 }
