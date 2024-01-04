@@ -40,4 +40,4 @@ Route::get('/adminI',[AdminC::class, 'start'])->name('admin.index');
 Route::get('/detailseries/{id}', [seriesDetaileController::class, 'detail'])->name('detailseries');
 Route::get('/tv/{series_id}/season/{season_number}', [seriesEpisodeDisplay::class, 'getEpisods'])->name('displayEpisod');
 Route::get('/tv/{series_id}/season/{season_number}/episode/{episode_number}', [EpisodeDisplayTrailler::class, 'getEpisodsTrailler'])->name('displayEpisodTrailler');
-
+Route::get('/traillerSeries/{id}', [seriesDetaileController::class, 'whatchTrailler'])->name('traillerSeries');
