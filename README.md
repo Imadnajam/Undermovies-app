@@ -4,6 +4,34 @@ Movie 🎥 & Series 📽️ Streaming Web Application 🕸️
 
 Welcome to our Movie & Series Streaming Web Application built with Laravel. This web application allows users to stream and enjoy a wide range of films and series. It is designed to be user-friendly, secure, and scalable.
 
+<h2 >Home Page</h2>
+<img width="1000" src="https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/1.png">
+
+<h2 >Movie slide</h2>
+<img width="1000" src="https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/2.png">
+<h2 >Movie detaile</h2>
+<img width="1000" src="https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/3.png">
+<h2 >Movie trailler</h2>
+<img width="1000" src="https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/4.png">
+<h2 >Anime page</h2>
+<img width="1000" src="https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/5.png">
+<h2 >Anime </h2>
+<img width="1000" src="https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/6.png">
+<h2 >Anime detaille</h2>
+<img width="1000" src="https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/7.png">
+<h2 >series</h2>
+<img width="1000" src="https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/8.png">
+<h2 >series saison</h2>
+<img width="1000" src="https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/9.png">
+<h2 >series episods</h2>
+<img width="1000" src="https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/10.png">
+<h2 >series trailler</h2>
+<img width="1000" src="https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/11.png">
+<h2 >pricing page</h2>
+<img width="1000" src="https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/12.png">
+<h2 >auth page</h2>
+<img width="1000" src="https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/13.png">
+
 ## Features 💼
 
 - **User Authentication:** Users can register, log in, and manage their profiles.
