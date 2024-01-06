@@ -29,10 +29,10 @@ class MovieController extends Controller
 
 public function detailI($id)
 {
-    $api_key = '0269e1f69afd6ff169f8a6a2d9f0dc4d'; // Replace 'your_api_key' with your actual API key
+    $apiKey = env('API_KEY'); // Replace 'your_api_key' with your actual API key
 
     // Make a request to the Movie Database API
-    $response = Http::get("https://api.themoviedb.org/3/movie/{$id}?api_key={$api_key}");
+    $response = Http::get("https://api.themoviedb.org/3/movie/{$id}?api_key={$apiKey}");
 
     // Check if the request was successful (status code 200)
     if ($response->successful()) {
@@ -49,7 +49,7 @@ public function detailI($id)
 
 public function watchNow($id)
 {
-    $apiKey = '0269e1f69afd6ff169f8a6a2d9f0dc4d'; // Replace with your TMDb API key
+    $apiKey = env('API_KEY');
     $url = "https://api.themoviedb.org/3/movie/{$id}/videos";
     $title = request()->input('title');
 

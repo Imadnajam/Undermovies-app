@@ -18,7 +18,8 @@ class HomeController extends Controller
         $jsonContent = file_get_contents($filePath);
         $tops = json_decode($jsonContent, true);
 
-        $apiKey = '0269e1f69afd6ff169f8a6a2d9f0dc4d';
+        $apiKey = env('API_KEY');
+
         $pageNumbers = [1, 2, 3, 4, 5]; // Replace with your desired page numbers
         $typeSeries=['airing_today','on_the_air','popular','top_rated'] ;       
         

@@ -7,11 +7,12 @@ use Illuminate\Support\Facades\Http;
 
 class seriesDetaileController extends Controller
 {
-
+  
   public function detail($id) {
       // Make API request to fetch TV series details
+      $apiKey = env('API_KEY');
       $response = Http::get("https://api.themoviedb.org/3/tv/$id", [
-          'api_key' => '0269e1f69afd6ff169f8a6a2d9f0dc4d',
+          'api_key' => $apiKey,
       ]);
   
       // Check if the request was successful (status code 200)
@@ -27,8 +28,9 @@ class seriesDetaileController extends Controller
       }
   }
   public function whatchTrailler($id){
+    $apiKey = env('API_KEY');
     $response = Http::get("https://api.themoviedb.org/3/tv/$id/videos", [
-        'api_key' => '0269e1f69afd6ff169f8a6a2d9f0dc4d',
+        'api_key' => $apiKey,
     ]);
     $TraillerS = $response->json();
     return view('components.seriesTrailler', ['Trailler' => $TraillerS]);

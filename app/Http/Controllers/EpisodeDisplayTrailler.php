@@ -9,7 +9,8 @@ class EpisodeDisplayTrailler extends Controller
 {
     public function getEpisodsTrailler($seriesId, $seasonNumber,$episode_number)
     {
-        $apiKey = '0269e1f69afd6ff169f8a6a2d9f0dc4d';
+        
+        $apiKey = env('API_KEY');
       
         // Make a request to the TMDb API
         $response = Http::get("https://api.themoviedb.org/3/tv/{$seriesId}/season/{$seasonNumber}/episode/{$episode_number}?api_key={$apiKey}");
