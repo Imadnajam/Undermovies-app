@@ -6,6 +6,10 @@
 
 Welcome to our Movie & Series Streaming Web Application built with Laravel. This web application allows users to stream and enjoy a wide range of films and series. It is designed to be user-friendly, secure, and scalable 🍿.
 
+
+[![Build Status](https://travis-ci.org/username/repo.svg?branch=main)](https://travis-ci.org/username/repo)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 ## Table of Contents
 - [Home Page](#home-page)
 - [Movie Slide](#movie-slide)
@@ -79,8 +83,10 @@ Welcome to our Movie & Series Streaming Web Application built with Laravel. This
 - **Notifications:** Users receive notifications about new releases and account-related activities.
 - **Analytics and Reporting:** Track user behavior and generate reports on platform performance.
 
+
 ## Installation
 
 1. **Clone Repository:**
    ```bash
    git clone https://github.com/yourusername/movie-streaming-app.git
+   
