@@ -9,6 +9,8 @@ Welcome to our Movie & Series Streaming Web Application built with Laravel. This
 
 [![Build Status](https://travis-ci.org/Imadnajam/Undermovies-app?branch=master)](https://travis-ci.org/username/repo)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Imadnajam/Undermovies-app)](https://github.com/Imadnajam/Undermovies-app/stargazers)
+
 
 ## Table of Contents
 - [Home Page](#home-page)
