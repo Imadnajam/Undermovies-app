@@ -7,7 +7,7 @@
 Welcome to our Movie & Series Streaming Web Application built with Laravel. This web application allows users to stream and enjoy a wide range of films and series. It is designed to be user-friendly, secure, and scalable 🍿.
 
 
-[![Build Status](https://travis-ci.org/username/repo.svg?branch=main)](https://travis-ci.org/username/repo)
+[![Build Status](https://travis-ci.org/Imadnajam/Undermovies-app?branch=master)](https://travis-ci.org/username/repo)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## Table of Contents
