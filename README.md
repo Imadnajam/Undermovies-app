@@ -20,7 +20,8 @@ Welcome to our Movie & Series Streaming Web Application built with Laravel. This
 <h2 >Anime detaille</h2>
 <img width="1000" src="https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/7.png">
 <h2 >series</h2>
-<img width="1000" src="https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/8.png">
+<kbd><img width="1000" alt="catalog" src="https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/8.png"></kbd>
+
 <h2 >series saison</h2>
 <img width="1000" src="https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/9.png">
 <h2 >series episods</h2>
