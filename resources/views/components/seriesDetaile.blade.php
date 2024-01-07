@@ -229,11 +229,14 @@
 
             <div class="details-actions">
 
-              <button class="share">
-                <ion-icon name="share-social"></ion-icon>
-
-                <span>Share</span>
-              </button>
+              <button class="share" id="whatsappShare">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                <span>Share on WhatsApp</span>
+            </button>
+            <button class="share" id="facebookShare">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <span>Share on Facebook</span>
+            </button>
 
               <div class="title-wrapper">
                 <p class="title">Prime Video</p>
