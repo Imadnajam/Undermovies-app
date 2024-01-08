@@ -13,6 +13,7 @@ use App\Http\Controllers\AdminC;
 use App\Http\Controllers\seriesDetaileController;
 use App\Http\Controllers\seriesEpisodeDisplay;
 use App\Http\Controllers\EpisodeDisplayTrailler;
+use App\Http\Controllers\searchController;
 
 
 
@@ -41,3 +42,5 @@ Route::get('/detailseries/{id}', [seriesDetaileController::class, 'detail'])->na
 Route::get('/tv/{series_id}/season/{season_number}', [seriesEpisodeDisplay::class, 'getEpisods'])->name('displayEpisod');
 Route::get('/tv/{series_id}/season/{season_number}/episode/{episode_number}', [EpisodeDisplayTrailler::class, 'getEpisodsTrailler'])->name('displayEpisodTrailler');
 Route::get('/traillerSeries/{id}', [seriesDetaileController::class, 'whatchTrailler'])->name('traillerSeries');
+Route::get('/search/{query}', [searchController::class, 'filterC'])->name('searchController');
+
