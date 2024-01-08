@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>UnderMovie - Best Anime</title>
+    <title>UnderMovie - Search</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
@@ -97,9 +97,9 @@
             <div class="form-container">
                 <form action="{{ route('searchController') }}" method="get" class="form-inline my-2 my-lg-0">
                     <div class="input-group">
-                        <label for="search" class="sr-only">Search for collection:</label>
+                        <label for="search" class="sr-only">Search for Film:</label>
                         <input type="text" id="search" name="search" value="{{ old('search', $search ?? '') }}"
-                            class="form-control" placeholder="">
+                            class="form-control" placeholder="Film Title">
                         <div class="input-group-append">
                             <button type="submit" class="btn btn-outline-primary">Search</button>
                         </div>
@@ -118,23 +118,37 @@
                     @foreach ($collections as $collection)
                         <li>
                             <div class="movie-card">
-                                <a href="#">
+                                <a href="{{ route('detailmovieI', ['id' => $collection['id']]) }}">
                                     <figure class="card-banner">
-                                        <img src="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $collection['backdrop_path'] }}"
-                                            alt="{{ $collection['id'] }}">
+                                        <img src="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $collection['poster_path'] }}"
+                                            alt="{{ $collection['original_title'] }}">
                                     </figure>
                                 </a>
 
                                 <div class="title-wrapper">
                                     <a href="#">
-                                        <h3 class="card-title">{{ $collection['name'] }}</h3>
+                                        <h3 class="card-title">{{ $collection['original_title'] }}</h3>
                                     </a>
                                 </div>
 
+                            
                                 <div class="card-meta">
-                                    <div class="badge badge-outline">{{ $collection['original_language'] }}</div>
+                                    <div class="badge badge-outline">HD</div>
+
+                                    <div class="duration">
+                                        <ion-icon name="time-outline"></ion-icon>
+
+                                        <time datetime="PT137M">137 min</time>
+                                    </div>
+
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+
+                                        <data>{{ $collection['vote_average'] }}</data>
+                                    </div>
                                 </div>
                             </div>
+
                         </li>
                     @endforeach
                 </ul>
