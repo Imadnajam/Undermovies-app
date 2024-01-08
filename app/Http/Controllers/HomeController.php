@@ -14,10 +14,7 @@ class HomeController extends Controller
          $films = json_decode($jsonContent, true);
 
          /////////////////////////////////////
-        $filePath = storage_path('app/home1.json');
-        $jsonContent = file_get_contents($filePath);
-        $tops = json_decode($jsonContent, true);
-
+     
         $apiKey = env('API_KEY');
 
         $pageNumbers = [1, 2, 3, 4, 5]; // Replace with your desired page numbers
@@ -25,6 +22,10 @@ class HomeController extends Controller
         
         $randomPage = $pageNumbers[array_rand($pageNumbers)];
         $randomType = $typeSeries[array_rand($typeSeries)];
+        $response1 = Http::get("https://api.themoviedb.org/3/movie/top_rated", [
+            'api_key' => $apiKey,
+            'page' => $randomPage,
+        ]);
         
         $response = Http::get("https://api.themoviedb.org/3/tv/{$randomType}", [
             'api_key' => $apiKey,
@@ -35,6 +36,7 @@ class HomeController extends Controller
         if ($response->successful()) {
             // Get the JSON-decoded data from the response
             $tvs = $response->json();
+            $tops=$response1->json();
     
             // Pass the data to the view
             return view('index',['films'=>$films,'tvs'=>$tvs,'tops'=>$tops]);
