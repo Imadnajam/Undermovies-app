@@ -113,27 +113,31 @@
             
 
 
-
+      @if (!empty($collections))
+      
+   
+            
+       
             <ul class="movies-list">
-                @foreach ($animes as $anime)
+                @foreach ($collections as $collection)
                     <li>
                         <div class="movie-card">
-                            <a href="{{ route('detailanime', ['id' => $anime['Aid']]) }}">
+                            <a href="#">
                                 <figure class="card-banner">
-                                    <img src="{{ $anime['ImageURL'] }}" alt="{{ $anime['Name'] }}">
+                                    <img src="{{'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' .$collection['backdrop_path'] }}" alt="{{ $collection['id'] }}">
                                 </figure>
                             </a>
 
                             <div class="title-wrapper">
-                                <a href="{{ route('detailmovie', ['id' => $anime['Aid']]) }}">
-                                    <h3 class="card-title">{{ $anime['Name'] }}</h3>
+                                <a href="#">
+                                    <h3 class="card-title">{{ $collection['Name'] }}</h3>
                                 </a>
 
-                                <time datetime="{{ $anime['Released'] }}">{{ $anime['Released'] }}</time>
+                              
                             </div>
 
                             <div class="card-meta">
-                                <div class="badge badge-outline">{{ $anime['Type'] }}</div>
+                                <div class="badge badge-outline">{{ $collection['original_language'] }}</div>
 
 
                             </div>
@@ -144,6 +148,8 @@
                 
                 
             </ul>
+            @endempty
+            @endif
 
 
 <br>
