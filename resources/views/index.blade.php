@@ -42,11 +42,12 @@
             </a>
 
             <div class="header-actions">
+                <a href="{{route('searchController')}}">
+                    <button class="search-btn">
+                        <ion-icon name="search-outline"></ion-icon>
 
-                <button class="search-btn">
-                    <ion-icon name="search-outline"></ion-icon>
-                </button>
-
+                    </button>
+                </a>
                 <div class="lang-wrapper">
                     <label for="language">
                         <ion-icon name="globe-outline"></ion-icon>
@@ -60,11 +61,11 @@
                             <option value="fr" {{ app()->getLocale() == 'fr' ? 'selected' : '' }}>FR</option>
                             <option value="al" {{ app()->getLocale() == 'al' ? 'selected' : '' }}>AL</option>
                             <option value="it" {{ app()->getLocale() == 'it' ? 'selected' : '' }}>IT</option>
-                    
-                    
+
+
                         </select>
                     </form>
-                    
+
                 </div>
 
 
@@ -115,7 +116,8 @@
 
                     <li>
 
-                        <a href="{{ route('authentification') }}"><button class="btn btn-primary">{{ __('home.sign_in') }}</button></a>
+                        <a href="{{ route('authentification') }}"><button
+                                class="btn btn-primary">{{ __('home.sign_in') }}</button></a>
                     </li>
 
                 </ul>
@@ -173,7 +175,8 @@
                 $list = ['Hero7.jpg', 'Hero1.jpg', 'Hero3.jpg', 'Hero2.jpg', 'Hero0.jpg', 'Hero4.jpg', 'Hero5.jpg', 'Hero6.jpg'];
             @endphp
 
-            <section id="hero" class="hero" style="background-image: url({{ asset('image/home/' . $list[0]) }})">
+            <section id="hero" class="hero"
+                style="background-image: url({{ asset('image/home/' . $list[0]) }})">
                 <div class="container">
 
                     <div class="hero-content">
@@ -181,7 +184,8 @@
                         <p class="hero-subtitle">UnderMovie</p>
 
                         <h1 class="h1 hero-title">
-                            {{ __('home.Unlimited') }}  <strong> {{ __('home.movie') }} </strong> {{ __('home.TVs_Shows_&_More') }}  
+                            {{ __('home.Unlimited') }} <strong> {{ __('home.movie') }} </strong>
+                            {{ __('home.TVs_Shows_&_More') }}
                         </h1>
 
                         <div class="meta-wrapper">
@@ -244,7 +248,7 @@
                             <p class="section-subtitle">{{ __('home.online_streaming') }}</p>
 
                             <h2 class="h2 section-title">{{ __('home.upcoming_movies') }}</h2>
-                            
+
                         </div>
 
                         <ul class="filter-list">
@@ -349,7 +353,7 @@
                         <h2 class="h2 service-title">{{ __('home.service_title') }}</h2>
 
                         <p class="service-text">
-                            {{ __('home.service_text') }} 
+                            {{ __('home.service_text') }}
                         </p>
 
                         <ul class="service-list">
@@ -362,11 +366,11 @@
                                     </div>
 
                                     <div class="card-content">
-                                        <h3 class="h3 card-title">  {{ __('home.Enjoy') }}</h3>
+                                        <h3 class="h3 card-title"> {{ __('home.Enjoy') }}</h3>
 
                                         <p class="card-text">
                                             {{ __('home.EnjoyT') }}
-                                           
+
                                         </p>
                                     </div>
 
@@ -411,26 +415,26 @@
 
                 <div class="container">
 
-                    <p class="section-subtitle">{{__('home.Online_Streaming')}}</p>
+                    <p class="section-subtitle">{{ __('home.Online_Streaming') }}</p>
 
-                    <h2 class="h2 section-title">{{__('home.Top_Rated_Movies')}}</h2>
+                    <h2 class="h2 section-title">{{ __('home.Top_Rated_Movies') }}</h2>
 
                     <ul class="filter-list">
 
                         <li>
-                            <button class="filter-btn">{{__('home.movie')}}</button>
+                            <button class="filter-btn">{{ __('home.movie') }}</button>
                         </li>
 
                         <li>
-                            <button class="filter-btn">{{__('home.series')}}</button>
+                            <button class="filter-btn">{{ __('home.series') }}</button>
                         </li>
 
                         <li>
-                            <button class="filter-btn">{{__('home.anime')}}</button>
+                            <button class="filter-btn">{{ __('home.anime') }}</button>
                         </li>
 
                         <li>
-                            <button class="filter-btn">{{__('home.documentary')}}</button>
+                            <button class="filter-btn">{{ __('home.documentary') }}</button>
                         </li>
 
                     </ul>
@@ -500,9 +504,9 @@
             <section class="tv-series">
                 <div class="container">
 
-                    <p class="section-subtitle">{{__('home.Best_TV_Series')}}</p>
+                    <p class="section-subtitle">{{ __('home.Best_TV_Series') }}</p>
 
-                    <h2 class="h2 section-title">{{__('home.World_Best_TV_Series')}}</h2>
+                    <h2 class="h2 section-title">{{ __('home.World_Best_TV_Series') }}</h2>
 
                     <ul class="movies-list">
                         @foreach ($tvs['results'] as $tv)
@@ -546,7 +550,7 @@
                                 </li>
                             @endif
                         @endforeach
-<!-- Add this button wherever you want in your view -->
+                        <!-- Add this button wherever you want in your view -->
 
                     </ul>
 
@@ -565,10 +569,10 @@
                 <div class="container">
 
                     <div class="title-wrapper">
-                        <h2 class="cta-title">{{__('home.Trial')}}</h2>
+                        <h2 class="cta-title">{{ __('home.Trial') }}</h2>
 
                         <p class="cta-text">
-                            {{__('home.ctaE')}}
+                            {{ __('home.ctaE') }}
                         </p>
                     </div>
 
@@ -576,7 +580,7 @@
                         <input type="email" name="email" required placeholder="Enter your email"
                             class="email-field">
 
-                        <button type="submit" class="cta-form-btn">{{__('home.Get_started')}}</button>
+                        <button type="submit" class="cta-form-btn">{{ __('home.Get_started') }}</button>
                     </form>
 
                 </div>
@@ -743,12 +747,12 @@
         }
 
         // Change the background every 20 seconds
-        setInterval(changeBackground, 20000);      
+        setInterval(changeBackground, 20000);
     </script>
     <!--
     - ionicon link
   -->
-  <!-- Add this script section at the end of your view or in a separate JavaScript file -->
+    <!-- Add this script section at the end of your view or in a separate JavaScript file -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
