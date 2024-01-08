@@ -94,17 +94,20 @@
             <h2 class="h2 section-title">Top Rated Anime</h2>
 
          
-    <div class="form-container">
-        <form action="{{ route('anime') }}" method="get" class="form-inline my-2 my-lg-0">
-            <div class="input-group">
-                <label for="search" class="sr-only">Search by Anime Name:</label>
-                <input type="text" id="search" name="search" value="{{ $search }}" class="form-control" placeholder="Enter anime name">
-                <div class="input-group-append">
-                    <button type="submit" class="btn btn-outline-primary">Search</button>
-                </div>
+<!-- Your Blade View -->
+
+<div class="form-container">
+    <form action="{{ route('searchController') }}" method="get" class="form-inline my-2 my-lg-0">
+        <div class="input-group">
+            <label for="search" class="sr-only">Search for collection:</label>
+            <input type="text" id="search" name="search" value="{{ $search }}" class="form-control" placeholder="Enter anime name">
+            <div class="input-group-append">
+                <button type="submit" class="btn btn-outline-primary">Search</button>
             </div>
-        </form>
-    </div>
+        </div>
+    </form>
+</div>
+
 
           
             
