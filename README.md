@@ -97,5 +97,5 @@ Welcome to our Movie & Series Streaming Web Application built with Laravel. This
 
 1. **Clone Repository:**
    ```bash
-   git clone https://github.com/yourusername/movie-streaming-app.git
+   git clone https://github.com/Imadnajam/Undermovies-app.git
    
