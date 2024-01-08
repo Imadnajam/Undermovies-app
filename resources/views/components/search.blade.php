@@ -20,16 +20,15 @@
     <!--
     - google font link
   -->
-  
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>
-    
-    .form-container {
+    <style>
+        .form-container {
             max-width: 400px;
             margin: 50px auto;
-           
+
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(24, 8, 8, 0.1);
@@ -81,82 +80,75 @@
             background-color: hsl(249, 49%, 26%);
             border-color: hsl(249, 98%, 67%);
         }
-</style>
+    </style>
 </head>
 
 <body>
-    
+
     <section class="top-rated">
         <div class="container">
             <a href="{{ route('home') }}"> <img src="{{ asset('image/series/logo.png') }}" width="100px"></a>
-            <p class="section-subtitle">Online Streaming</p>
 
-            <h2 class="h2 section-title">Top Rated Anime</h2>
 
-         
-<!-- Your Blade View -->
 
-<div class="form-container">
-    <form action="{{ route('searchController') }}" method="get" class="form-inline my-2 my-lg-0">
-        <div class="input-group">
-            <label for="search" class="sr-only">Search for collection:</label>
-            <input type="text" id="search" name="search" value="{{ $search }}" class="form-control" placeholder="Enter anime name">
-            <div class="input-group-append">
-                <button type="submit" class="btn btn-outline-primary">Search</button>
+            <!-- Your Blade View -->
+            <!-- Your Blade View -->
+
+            <div class="form-container">
+                <form action="{{ route('searchController') }}" method="get" class="form-inline my-2 my-lg-0">
+                    <div class="input-group">
+                        <label for="search" class="sr-only">Search for collection:</label>
+                        <input type="text" id="search" name="search" value="{{ old('search', $search ?? '') }}"
+                            class="form-control" placeholder="">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-outline-primary">Search</button>
+                        </div>
+                    </div>
+                </form>
             </div>
-        </div>
-    </form>
-</div>
 
 
-          
-            
 
 
-      @if (!empty($collections))
-      
-   
-            
-       
-            <ul class="movies-list">
-                @foreach ($collections as $collection)
-                    <li>
-                        <div class="movie-card">
-                            <a href="#">
-                                <figure class="card-banner">
-                                    <img src="{{'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' .$collection['backdrop_path'] }}" alt="{{ $collection['id'] }}">
-                                </figure>
-                            </a>
 
-                            <div class="title-wrapper">
+
+
+            @if (!empty($collections))
+                <ul class="movies-list">
+                    @foreach ($collections as $collection)
+                        <li>
+                            <div class="movie-card">
                                 <a href="#">
-                                    <h3 class="card-title">{{ $collection['Name'] }}</h3>
+                                    <figure class="card-banner">
+                                        <img src="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $collection['backdrop_path'] }}"
+                                            alt="{{ $collection['id'] }}">
+                                    </figure>
                                 </a>
 
-                              
+                                <div class="title-wrapper">
+                                    <a href="#">
+                                        <h3 class="card-title">{{ $collection['name'] }}</h3>
+                                    </a>
+                                </div>
+
+                                <div class="card-meta">
+                                    <div class="badge badge-outline">{{ $collection['original_language'] }}</div>
+                                </div>
                             </div>
-
-                            <div class="card-meta">
-                                <div class="badge badge-outline">{{ $collection['original_language'] }}</div>
-
-
-                            </div>
-                        </div>
-                    </li>
-                @endforeach
-               
-                
-                
-            </ul>
-            @endempty
+                        </li>
+                    @endforeach
+                </ul>
+            @else
+                {{-- Your code when $collections is empty --}}
+                <p>No collections found.</p>
             @endif
 
 
-<br>
-      
-            
-            
-            
+            <br>
+
+
+
+
         </div>
     </section>
 

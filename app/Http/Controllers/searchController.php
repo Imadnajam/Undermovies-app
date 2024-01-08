@@ -1,12 +1,12 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\Http;
 use Illuminate\Http\Request;
 
 class searchController extends Controller
 {
-    public function filterC(){
+    public function filterC(Request $request){
         $apiKey = env('API_KEY');
         $searchTerm = $request->input('search', '');
 
