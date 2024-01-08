@@ -17,12 +17,12 @@ class HomeController extends Controller
      
         $apiKey = env('API_KEY');
 
-        $pageNumbers = [1, 2, 3, 4, 5]; // Replace with your desired page numbers
+        $pageNumbers = [1, 2, 3, 4, 5,6,7,8,9]; // Replace with your desired page numbers
         $typeSeries=['airing_today','on_the_air','popular','top_rated'] ;       
         
         $randomPage = $pageNumbers[array_rand($pageNumbers)];
         $randomType = $typeSeries[array_rand($typeSeries)];
-        $response1 = Http::get("https://api.themoviedb.org/3/movie/top_rated", [
+        $response1 = Http::get("https://api.themoviedb.org/3/movie/popular", [
             'api_key' => $apiKey,
             'page' => $randomPage,
         ]);
