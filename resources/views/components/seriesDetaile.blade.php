@@ -18,7 +18,11 @@
 
   <link rel="stylesheet" href="{{ asset('css/home.css') }}">
 
-
+  <meta property="og:title" content="{{ $movie['original_title'] }}" />
+  <meta property="og:description" content="{{ $movie['overview'] }}" />
+  <meta property="og:image" content="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $tvSeriesData['poster_path'] }}" />
+  <meta property="og:url" content="{{ url()->current() }}" />
+  <meta property="og:type" content="video.movie" />
   <!-- 
     - google font link
   -->
@@ -464,32 +468,33 @@
   <script src="{{ asset('js/home.js') }}"></script>
   
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Get the WhatsApp and Facebook share buttons
-        const whatsappShareButton = document.getElementById('whatsappShare');
-        const facebookShareButton = document.getElementById('facebookShare');
+   document.addEventListener('DOMContentLoaded', function() {
+    // Get the WhatsApp and Facebook share buttons
+    const whatsappShareButton = document.getElementById('whatsappShare');
+    const facebookShareButton = document.getElementById('facebookShare');
 
-        // Add a click event listener to the WhatsApp share button
-        whatsappShareButton.addEventListener('click', function() {
-            // Generate the sharing link based on your movie details
-            const shareLink = window.location.href; // You can customize this based on your requirements
+    // Add a click event listener to the WhatsApp share button
+    whatsappShareButton.addEventListener('click', function() {
+        // Generate the sharing message based on your movie details
+        const shareMessage = `${$movie['original_title']} - ${$movie['overview']}\n${window.location.href}`;
 
-            // Open the WhatsApp sharing link
-            const whatsappLink = `https://api.whatsapp.com/send?text=${encodeURIComponent(shareLink)}`;
-            window.open(whatsappLink, '_blank');
-        });
-
-        // Add a click event listener to the Facebook share button
-        facebookShareButton.addEventListener('click', function() {
-            // Generate the sharing link based on your movie details
-            const shareLink = window.location.href; // You can customize this based on your requirements
-
-            // Open the Facebook sharing link
-            const facebookLink =
-                `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareLink)}`;
-            window.open(facebookLink, '_blank');
-        });
+        // Open the WhatsApp sharing link with the message
+        const whatsappLink = `https://wa.me/?text=${encodeURIComponent(shareMessage)}`;
+        window.open(whatsappLink, '_blank');
     });
+
+    // Add a click event listener to the Facebook share button
+    facebookShareButton.addEventListener('click', function() {
+        // Generate the sharing link based on your movie details
+        const shareLink = window.location.href; // You can customize this based on your requirements
+
+        // Open the Facebook sharing link
+        const facebookLink =
+            `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareLink)}`;
+        window.open(facebookLink, '_blank');
+    });
+});
+
 </script>
 
   <!-- 
