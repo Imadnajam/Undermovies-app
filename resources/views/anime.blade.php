@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>UnderMovie - Best Anime</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
@@ -81,6 +80,35 @@
             background-color: hsl(249, 49%, 26%);
             border-color: hsl(249, 98%, 67%);
         }
+        .pagination {
+                color: white;
+                display: flex;
+                justify-content: center;
+                list-style: none;
+                padding: 0;
+            }
+        
+            .pagination li {
+                margin: 0 5px;
+                display: inline-block;
+            }
+        
+            .pagination a, .pagination span {
+                padding: 8px 12px;
+                border: 1px solid #ccc;
+                text-decoration: none;
+                color: #333;
+                border-radius: 4px;
+            }
+        
+            .pagination .active span {
+                background-color: #007bff;
+                color: #fff;
+            }
+        
+            .pagination a:hover {
+                background-color: #f0f0f0;
+            }
 </style>
 </head>
 
@@ -200,8 +228,6 @@
     <script src="{{ asset('js/home.js') }}"></script>
 
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
