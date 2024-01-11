@@ -32,7 +32,7 @@
 
 <body>
 
-    <body id="#top">
+    <body id="#top" data-movie="{{ json_encode($movie) }}">
 
         <!--
       - #HEADER
@@ -425,11 +425,14 @@
                         const whatsappShareButton = document.getElementById('whatsappShare');
                         const facebookShareButton = document.getElementById('facebookShare');
 
+                        // Retrieve movie data from data-movie attribute
+                        const movieData = JSON.parse(document.body.getAttribute('data-movie'));
+
                         // Add a click event listener to the WhatsApp share button
                         whatsappShareButton.addEventListener('click', function() {
-                            // Generate the sharing message based on your movie details
+                            // Generate the sharing message based on the movie details
                             const shareMessage =
-                                `${$movie['original_title']} - ${$movie['overview']}\n${window.location.href}`;
+                                `${movieData.original_title} - ${movieData.overview}\n${window.location.href}`;
 
                             // Open the WhatsApp sharing link with the message
                             const whatsappLink = `https://wa.me/?text=${encodeURIComponent(shareMessage)}`;
@@ -438,7 +441,7 @@
 
                         // Add a click event listener to the Facebook share button
                         facebookShareButton.addEventListener('click', function() {
-                            // Generate the sharing link based on your movie details
+                            // Generate the sharing link based on the movie details
                             const shareLink = window.location.href; // You can customize this based on your requirements
 
                             // Open the Facebook sharing link
