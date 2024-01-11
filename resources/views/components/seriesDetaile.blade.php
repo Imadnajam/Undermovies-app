@@ -18,8 +18,8 @@
 
   <link rel="stylesheet" href="{{ asset('css/home.css') }}">
 
-  <meta property="og:title" content="{{ $movie['original_title'] }}" />
-  <meta property="og:description" content="{{ $movie['overview'] }}" />
+  <meta property="og:title" content="{{ $tvSeriesData['name'] }}" />
+  <meta property="og:description" content="{{ $tvSeriesData['overview'] }}" />
   <meta property="og:image" content="{{ 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/' . $tvSeriesData['poster_path'] }}" />
   <meta property="og:url" content="{{ url()->current() }}" />
   <meta property="og:type" content="video.movie" />
