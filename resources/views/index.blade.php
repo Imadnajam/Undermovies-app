@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    @include('frontend.components.headlinks')
+    @include('frontend.components.headlinks',['page'=>'home'])
 </head>
 
 <body id="top">
