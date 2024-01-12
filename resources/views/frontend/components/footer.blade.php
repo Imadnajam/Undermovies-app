@@ -4,14 +4,14 @@
 
         <div class="footer-brand-wrapper">
 
-            <a href="./index.html" class="logo">
+            <a href="{{route('home')}}" class="logo">
                 <img width="100px" src="{{ asset('image/home/logo.png') }}" alt="Filmlane logo">
             </a>
 
             <ul class="footer-list">
 
                 <li>
-                    <a href="./index.html" class="footer-link">{{ __('home.home') }}</a>
+                    <a href="{{route('home')}}" class="footer-link">{{ __('home.home') }}</a>
                 </li>
 
                 <li>

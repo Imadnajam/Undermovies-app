@@ -27,86 +27,30 @@
 </head>
 
 <body id="top">
-
-    <!--
-    - #HEADER
-  -->
-
     <header class="header" data-header>
         @include('frontend.components.header')
     </header>
-
-
-
-
-
     <main>
         <article>
-
-            <!--
-        - #HERO
-      -->
             @php
                 $list = ['Hero7.jpg', 'Hero1.jpg', 'Hero3.jpg', 'Hero2.jpg', 'Hero0.jpg', 'Hero4.jpg', 'Hero5.jpg', 'Hero6.jpg'];
             @endphp
 
             <section id="hero" class="hero" style="background-image: url({{ asset('image/home/' . $list[0]) }})">
-            @include('frontend.components.hero')
+                @include('frontend.components.hero')
             </section>
-
-
-
-
-
-            <!--
-        - #UPCOMING
-      -->
-
             <section class="upcoming">
                 @include('frontend.components.upcoming', ['films' => $films])
             </section>
-
-
-
-
-
-            <!--
-        - #SERVICE
-      -->
-
             <section class="service">
                 @include('frontend.components.services')
             </section>
-
-
-
-
-
-            <!--
-        - #TOP RATED
-      -->
-
-
             <section class="top-rated">
-
-
                 @include('frontend.components.toprated', ['tops' => $tops])
             </section>
-
-
-
-
-
-            <!--
-        - #TV SERIES
-      -->
-
             <section class="tv-series">
                 @include('frontend.components.tvseries', ['tvs' => $tvs])
             </section>
-            <!--
-        - #CTA
-      -->
 
             <section class="cta">
                 @include('frontend.components.cta')
