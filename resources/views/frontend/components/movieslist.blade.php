@@ -1,4 +1,4 @@
-@foreach ($shuffledTops as $film)
+@foreach ($films as $film)
                     <li>
                         <div class="movie-card">
                             <a href="{{route('detailmovieI',['id' => $film['id']])}}">
@@ -31,3 +31,6 @@
                         </div>
                     </li>
                 @endforeach
+
+
+              

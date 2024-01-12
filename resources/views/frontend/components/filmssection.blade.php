@@ -37,17 +37,17 @@
 
         </ul>
 
-        @php
-            $shuffledTops = $films['results'];
-            shuffle($shuffledTops);
-
-        @endphp
+      
 
 
 
         <ul class="movies-list">
-            @include('frontend.components.movieslist',['shuffledTops'=>$shuffledTops])
-        </ul>
+            @include('frontend.components.movieslist',['films'=>$films])
+        </ul><br><br>
+        <div class="pagination justify-content-center custom-background">
+            {{ $films->appends(request()->query())->links('pagination::bootstrap-4') }}
+        </div>
+
 
     </div>
 </section>
