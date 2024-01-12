@@ -39,7 +39,7 @@ class HomeController extends Controller
             $tops=$response1->json();
     
             // Pass the data to the view
-            return view('index',['films'=>$films,'tvs'=>$tvs,'tops'=>$tops]);
+            return view('layout.index',['films'=>$films,'tvs'=>$tvs,'tops'=>$tops]);
         } else {
             // Handle the error, for example, redirect to an error page
             return redirect()->route('error');

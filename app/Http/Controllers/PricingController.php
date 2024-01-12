@@ -8,6 +8,6 @@ class PricingController extends Controller
 {
     public function index()
     {
-        return view('pricing-template');
+        return view('layout.pricing-template');
     }
 }

@@ -15,6 +15,6 @@ class AdminC extends Controller
         ->count();
     
         
-        return view('admin.index',['clients'=>$clients ,'clientsCount'=>$clientsCount]);
+        return view('layout.admin.index',['clients'=>$clients ,'clientsCount'=>$clientsCount]);
     }
 }

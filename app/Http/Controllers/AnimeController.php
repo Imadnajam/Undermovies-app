@@ -46,6 +46,6 @@ class AnimeController extends Controller
             ]
         );
     
-        return view('anime', ['animes' => $animesPaginated, 'search' => $search]);
+        return view('layout.anime', ['animes' => $animesPaginated, 'search' => $search]);
     }
 }

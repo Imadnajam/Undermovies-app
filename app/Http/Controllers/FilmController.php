@@ -42,7 +42,7 @@ class FilmController extends Controller
     );
 
     // Return the paginated data
-    return view('films', ['films' => $filmsPaginated]);
+    return view('layout.films', ['films' => $filmsPaginated]);
 }
 
 }

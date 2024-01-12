@@ -16,7 +16,7 @@ class AuthController extends Controller
 {
     public function index()
 {
-    return view('signup-login');
+    return view('layout.signup-login');
 }
 
 public function verif(Request $request)
