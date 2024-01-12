@@ -6,21 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UnderMovie - Home</title>
-
-    <!--
-    - favicon
-  -->
     <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
-    <!--
-    - custom css link
-  -->
     <link rel="stylesheet" href="{{ asset('css/home.css') }}">
-
-
-    <!--
-    - google font link
-  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -65,33 +52,17 @@
         <ion-icon name="chevron-up"></ion-icon>
     </a>
     <script src="{{ asset('js/home.js') }}"></script>
-
     <script>
-        // Set the list of background images
         var backgroundList = @json($list);
-
-        // Get the hero section element
         var heroSection = document.getElementById('hero');
 
-        // Function to change the background after 20 seconds
         function changeBackground() {
-            // Get the current background image index
             var currentIndex = backgroundList.indexOf(heroSection.style.backgroundImage.split('/').pop().replace('")', ''));
-
-            // Calculate the next index with wrap-around
             var nextIndex = (currentIndex + 1) % backgroundList.length;
-
-            // Set the new background image
             heroSection.style.backgroundImage = 'url(' + "{{ asset('image/home/') }}/" + backgroundList[nextIndex] + ')';
         }
-
-        // Change the background every 20 seconds
         setInterval(changeBackground, 20000);
     </script>
-    <!--
-    - ionicon link
-  -->
-    <!-- Add this script section at the end of your view or in a separate JavaScript file -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
