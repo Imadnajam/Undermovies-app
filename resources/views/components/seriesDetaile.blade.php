@@ -6,6 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{$tvSeriesData['name']}}</title>
+<!-- Inside the head tag or somewhere before the JavaScript code -->
+<script>
+  const movieData = @json($tvSeriesData);
+</script>
 
   <!-- 
     - favicon

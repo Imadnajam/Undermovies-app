@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ $movie['original_title'] }}</title>
+    <script>
+        const movieData = @json($movie);
+    </script>
     <!--
     - favicon
   -->
@@ -397,65 +400,11 @@
 
                         </div>
                     </div>
-
-
-
                 </footer>
-
-
-
-
-
-                <!--
-      - #GO TO TOP
-    -->
-
                 <a href="#top" class="go-top" data-go-top>
                     <ion-icon name="chevron-up"></ion-icon>
                 </a>
-
-
-
-
-
-
-                <script>
-                    document.addEventListener('DOMContentLoaded', function() {
-                        // Get the WhatsApp and Facebook share buttons
-                        const whatsappShareButton = document.getElementById('whatsappShare');
-                        const facebookShareButton = document.getElementById('facebookShare');
-
-                        // Retrieve movie data from data-movie attribute
-                        const movieData = JSON.parse(document.body.getAttribute('data-movie'));
-
-                        // Add a click event listener to the WhatsApp share button
-                        whatsappShareButton.addEventListener('click', function() {
-                            // Generate the sharing message based on the movie details
-                            const shareMessage =
-                                `${movieData.original_title} - ${movieData.overview}\n${window.location.href}`;
-
-                            // Open the WhatsApp sharing link with the message
-                            const whatsappLink = `https://wa.me/?text=${encodeURIComponent(shareMessage)}`;
-                            window.open(whatsappLink, '_blank');
-                        });
-
-                        // Add a click event listener to the Facebook share button
-                        facebookShareButton.addEventListener('click', function() {
-                            // Generate the sharing link based on the movie details
-                            const shareLink = window.location.href; // You can customize this based on your requirements
-
-                            // Open the Facebook sharing link
-                            const facebookLink =
-                                `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareLink)}`;
-                            window.open(facebookLink, '_blank');
-                        });
-                    });
-                </script>
-
-
-                <!--
-      - ionicon link
-    -->
+                @include('frontend.components.sharescript')
                 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
                 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
