@@ -1,7 +1,7 @@
 # Movie 🎥 & Series 📽️ Streaming Web Application 🕸️
 
 <div align="center">
-  <img width="250" src="https://bmsvieira.github.io/moovie.js/demo-template/images/moovie_black.png" alt="Movie Logo">
+  <img width="250" src="https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/logo.png" alt="Movie Logo">
 </div>
 🚀 Enjoying our Movie & Series Streaming Web App? Give it a thumbs up and fork the project! 🌟
 
