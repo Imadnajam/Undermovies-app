@@ -3,7 +3,7 @@
     <div class="overlay" data-overlay></div>
 
     <a href="{{ route('home') }}" class="logo">
-        <img width="100px" src="{{ asset('image/home/logo.png') }}" alt="Filmlane logo">
+        <img width="150px" src="{{ asset('image/home/logo.png') }}" alt="Filmlane logo">
     </a>
 
     <div class="header-actions">
