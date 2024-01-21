@@ -14,6 +14,17 @@
         <div class="form-control">
           <h2>Hello Again!</h2>
           <p>Welcome back you've been missed.</p>
+          <p>  @if (session('success'))
+            <div style="color: rgb(46, 146, 46)">
+                {{ session('success') }}
+            </div>
+          @endif
+          
+          @if (session('error'))
+            <div style="color: red">
+                {{ session('error') }}
+            </div>
+          @endif</p>
           <input type="email" name='Email'  placeholder="Enter Email"  />
           <div>
             <input type="password" placeholder="Password"  name='Password'/>
