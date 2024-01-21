@@ -1,7 +1,7 @@
 <?php
 
-
 namespace App\Http\Controllers;
+
 use App\Models\users;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
@@ -10,54 +10,45 @@ use Illuminate\Support\Facades\Hash;
 use App\Mail\HelloUndermovie;
 use Illuminate\Support\Facades\Mail;
 
-
-
 class AuthController extends Controller
 {
     public function index()
-{
-    return view('layout.signup-login');
-}
-
-public function verif(Request $request)
-{
-    $request->validate([
-        'Email' => 'required|email|exists:users,email',
-        'Password' => 'required|min:6',
-    ]);
-
-    $email = $request->input('Email');
-    $password = $request->input('Password');
-    if($email=='admin@gmail.com' && $password=='Imad70wac@'){
-        return redirect()->route('admin.index');
+    {
+        return view('layout.signup-login');
     }
 
-    $user = users::where('email', $email)->first();
+    public function verif(Request $request)
+    {
+        $request->validate([
+            'Email' => 'required|email|exists:users,email',
+            'Password' => 'required|min:6',
+        ]);
 
-    if ($user && Hash::check($password, $user->password)) {
-        // Password is correct, user is authenticated
-        return redirect()->route('home');
-    } else {
-        // Incorrect email or password
-        return response('Authentication failed', 401);
+        $email = $request->input('Email');
+        $password = $request->input('Password');
+
+        if ($email == 'admin@gmail.com' && $password == 'admiN2024@') {
+            return redirect()->route('admin.index');
+        }
+
+        $user = users::where('email', $email)->first();
+
+        if ($user && Hash::check($password, $user->password)) {
+            return redirect()->route('home');
+        } else {
+            return redirect()->back()->with('error', 'Incorrect email or password');
+        }
     }
-}
 
+    public function addC(Request $request)
+    {
+        $request->validate([
+            'Name' => 'required|string|max:255',
+            'Email' => 'required|email|unique:users,email',
+            'Password' => 'required|min:6',
+            'CPassword' => 'required|same:Password',
+        ]);
 
-//// 
-
-
-public function addC(Request $request)
-{
-   // Validate the request data
-   $request->validate([
-    'Name' => 'required|string|max:255',
-    'Email' => 'required|email|unique:users,email',
-    'Password' => 'required|min:6',
-    'CPassword' => 'required|same:Password',
-]);
-
-        // Create a new user instance
         $user = new users;
         $user->name = $request->input('Name');
         $user->email = $request->input('Email');
@@ -67,11 +58,12 @@ public function addC(Request $request)
         $user->created_at = now();
         $user->updated_at = now();
 
-        // Save the user
-        $user->save();
-        Mail::to($request->input('Email'))->send(new HelloUndermovie($user));
-
-return redirect()->route('home');
-}
-
+        try {
+            $user->save();
+            Mail::to($request->input('Email'))->send(new HelloUndermovie($user));
+            return redirect()->route('home')->with('success', 'Registration successful. Please check your email for verification.');
+        } catch (\Exception $e) {
+            return redirect()->back()->with('error', 'An error occurred during registration. Please try again.');
+        }
+    }
 }

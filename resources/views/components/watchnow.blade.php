@@ -40,7 +40,7 @@
     </div>
   </div>
 
-</video>
+
   <!-- Moovie JS Core -->
   <script src="{{asset('js/watch.js')}}"></script>
   <script>
