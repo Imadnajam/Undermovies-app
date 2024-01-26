@@ -8,10 +8,9 @@
     <div class="price-tags">
         <div class="price-tag">
             <img src="{{ asset('image/pricing/Asset3@4x.svg') }}" width="108" height="94">
-            <span>personal</span>
+            <span>Basic</span>>
             <h4><sup>$</sup>0<sub>/month</sub></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Access a limited selection of movies in standard definition (SD).</p>
             <a href="#" class="price-btn">Select plan</a>
         </div>
 
