@@ -24,10 +24,9 @@
         <div class="price-tag">
             <img src="{{ asset('image/pricing/Asset1@4x.svg') }}" width="112" height="110">
 
-            <span>personal</span>
+            <span>Premium</span>
             <h4><sup>$</sup>35<sub>/month</sub></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Unlock ultra-high-definition (UHD) streaming and exclusive content.</p>
             <a href="#" class="price-btn">Select plan</a>
         </div>
     </div>
