@@ -33,8 +33,8 @@
 </section>
 
 <div class="cta">
-    <span>social marketing & analytics</span>
-    <h4>Take control of your data</h4>
+    <span>Exclusive Access to New Releases</span>
+    <h4>Take control of your movie nights</h4>
     <a href="#" class="cta-btn">Get started</a>
     <a href="#" class="cta-btn">Explore features</a>
 </div>
