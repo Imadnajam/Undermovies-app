@@ -2,8 +2,8 @@
     <div id="plan" class="table-header">
         <span>Join the Hobby Plan</span>
         <h2>Select a Plan</h2>
-        <p>Upgrade your resources, remove usage limits, and ship with ease.</p>
-    </div>
+        <p>Upgrade your movie-watching experience with our premium plans.</p>
+     </div>
 
     <div class="price-tags">
         <div class="price-tag">
