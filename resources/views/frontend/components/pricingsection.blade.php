@@ -49,7 +49,7 @@
         <div class="line"></div>
         <div class="legal">
             <div class="copyright">
-                <span>© 2023 Undermovies & NJ. Make the right impression.</span>
+                <span>© 2023 Your Movie Streaming Service. All rights reserved.</span>
             </div>
             <div class="social-btns">
                 <a href="#"><i class="fa fa-facebook"></i></a>
