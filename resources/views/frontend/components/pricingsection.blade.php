@@ -8,7 +8,7 @@
     <div class="price-tags">
         <div class="price-tag">
             <img src="{{ asset('image/pricing/Asset3@4x.svg') }}" width="108" height="94">
-            <span>Basic</span>>
+            <span>Basic</span>
             <h4><sup>$</sup>0<sub>/month</sub></h4>
             <p>Access a limited selection of movies in standard definition (SD).</p>
             <a href="#" class="price-btn">Select plan</a>
@@ -16,10 +16,9 @@
 
         <div class="price-tag">
             <img src="{{ asset('image/pricing/Asset2@4x.svg') }}" width="120" height="108">
-            <span>personal</span>
+            <span>Standard</span>
             <h4><sup>$</sup>29<sub>/month</sub></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Enjoy high-definition (HD) streaming and a broader movie library.</p>
             <a href="#" class="price-btn">Select plan</a>
         </div>
         <div class="price-tag">
