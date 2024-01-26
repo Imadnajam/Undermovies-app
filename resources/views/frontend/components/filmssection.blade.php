@@ -1,7 +1,10 @@
+<header class="header" data-header>
+    @include('frontend.components.header')
+</header>
 <section class="top-rated">
+
     <div class="container">
-        <a href="{{ route('home') }}"> <img src="{{ asset('image/series/logo.png') }}" width="100px"></a>
-        <p class="section-subtitle">Online Streaming</p>
+           <p class="section-subtitle">Online Streaming</p>
 
         <h2 class="h2 section-title">Top Rated Movies</h2>
 

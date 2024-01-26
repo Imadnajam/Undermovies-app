@@ -29,33 +29,7 @@
             margin-left: -1px;
         }
 
-        .btn {
-            display: inline-block;
-            font-weight: 400;
-            text-align: center;
-            white-space: nowrap;
-            vertical-align: middle;
-            user-select: none;
-            border: 1px solid transparent;
-            padding: 0.375rem 0.75rem;
-            font-size: 1rem;
-            line-height: 1.5;
-            border-radius: 0.25rem;
-            transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-                border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-        }
-
-        .btn-outline-primary {
-            color: #ffffff;
-            border-color: #9d00ff;
-        }
-
-        .btn-outline-primary:hover {
-            color: #fff;
-            background-color: hsl(249, 49%, 26%);
-            border-color: hsl(249, 98%, 67%);
-        }
-        .pagination {
+         .pagination {
                 color: white;
                 display: flex;
                 justify-content: center;
