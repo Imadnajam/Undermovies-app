@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     @include('frontend.components.headlinks', ['page' => 'Best Anime'])
+    <link rel="stylesheet" href="{{ asset('css/home.css') }}">
     @include('frontend.components.paginationStyle')
 </head>
 <body>
