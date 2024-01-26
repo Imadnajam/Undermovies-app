@@ -5,19 +5,8 @@
     </symbol>
 </svg>
 <main>
-    <div class="frame">
-
-        <a href="{{route('home')}}">
-            <img width="100px" src="{{asset('image/series/logo.png')}}" alt="undermovies logo">
-        </a>
-        <nav class="menutop">
-            <a href="../About/about.html" class="menutop__item">about</a>
-            <a class="menutop__item">contact</a>
-            <a class="menutop__item menutop__item--social">tw</a>
-            <a class="menutop__item menutop__item--social">fb</a>
-            <a class="menutop__item menutop__item--social">ig</a>
-        </nav>
-    </div>
+  
+   
     <nav class="menu">
         <div class="menu__item">
             <span class="menu__item-number">01</span>
