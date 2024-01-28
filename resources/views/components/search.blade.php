@@ -41,7 +41,10 @@
         .input-group label {
             display: none;
         }
-
+        #search{
+            height: 53px;
+            width: 220px
+        }
         .form-control {
             flex: 1;
             padding: 8px;
@@ -50,54 +53,20 @@
             margin-right: -1px;
         }
 
-        .input-group-append {
-            margin-left: -1px;
-        }
-
-        .btn {
-            display: inline-block;
-            font-weight: 400;
-            text-align: center;
-            white-space: nowrap;
-            vertical-align: middle;
-            user-select: none;
-            border: 1px solid transparent;
-            padding: 0.375rem 0.75rem;
-            font-size: 1rem;
-            line-height: 1.5;
-            border-radius: 0.25rem;
-            transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-                border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-        }
-
-        .btn-outline-primary {
-            color: #ffffff;
-            border-color: #9d00ff;
-        }
-
-        .btn-outline-primary:hover {
-            color: #fff;
-            background-color: hsl(249, 49%, 26%);
-            border-color: hsl(249, 98%, 67%);
-        }
+     
     </style>
 </head>
 
 <body>
-
+    <header class="header" data-header>
+        @include('frontend.components.header')
+    </header><br>
     <section class="top-rated">
         <div class="container">
-            <a href="{{ route('home') }}"> <img src="{{ asset('image/series/logo.png') }}" width="100px"></a>
-
-
-
-            <!-- Your Blade View -->
-            <!-- Your Blade View -->
-
             <div class="form-container">
                 <form action="{{ route('searchController') }}" method="get" class="form-inline my-2 my-lg-0">
                     <div class="input-group">
-                        <label for="search" class="sr-only">Search for Film:</label>
+                        
                         <input type="text" id="search" name="search" value="{{ old('search', $search ?? '') }}"
                             class="form-control" placeholder="Film Title">
                         <div class="input-group-append">
