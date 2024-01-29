@@ -22,7 +22,7 @@
 <body style="background-color:#10131a;">
     <header class="header" data-header>
         @include('frontend.components.header')
-    </header><br>
+    </header>
     <section class="top-rated">
         <div class="row">
             <div class="container">
