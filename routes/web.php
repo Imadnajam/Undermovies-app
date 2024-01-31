@@ -15,7 +15,7 @@ use App\Http\Controllers\seriesEpisodeDisplay;
 use App\Http\Controllers\EpisodeDisplayTrailler;
 use App\Http\Controllers\searchController;
 
-
+     
 
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
