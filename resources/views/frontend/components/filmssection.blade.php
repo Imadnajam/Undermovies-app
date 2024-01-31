@@ -15,10 +15,6 @@
             </li>
 
             <li>
-                <button class="filter-btn"></button>
-            </li>
-
-            <li>
                 <button class="filter-btn">{{__('movie.Histoire')}}</button>
             </li>
             <li>
