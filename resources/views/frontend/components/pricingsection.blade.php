@@ -1,33 +1,33 @@
 <section class="table">
     <div id="plan" class="table-header">
-        <span>Join the Hobby Plan</span>
-        <h2>Select a Plan</h2>
-        <p>Upgrade your movie-watching experience with our premium plans.</p>
+        <span>{{ __('pricing.JTHP') }}</span>
+        <h2>{{ __('pricing.SP') }}</h2>
+        <p>{{ __('pricing.SPP') }}</p>
      </div>
 
     <div class="price-tags">
         <div class="price-tag">
             <img src="{{ asset('image/pricing/Asset3@4x.svg') }}" width="108" height="94">
-            <span>Basic</span>
-            <h4><sup>$</sup>0<sub>/month</sub></h4>
-            <p>Access a limited selection of movies in standard definition (SD).</p>
-            <a href="#" class="price-btn">Select plan</a>
+            <span>{{ __('pricing.Basic') }}</span>
+            <h4><sup>$</sup>0<sub>/{{ __('pricing.month')}}</sub></h4>
+            <p{{ __('pricing.BasicDec') }}></p>
+            <a href="#" class="price-btn">{{ __('pricing.Selectplan') }}</a>
         </div>
 
         <div class="price-tag">
             <img src="{{ asset('image/pricing/Asset2@4x.svg') }}" width="120" height="108">
-            <span>Standard</span>
-            <h4><sup>$</sup>29<sub>/month</sub></h4>
-            <p>Enjoy high-definition (HD) streaming and a broader movie library.</p>
-            <a href="#" class="price-btn">Select plan</a>
+            <span>{{ __('pricing.Standard') }}</span>
+            <h4><sup>$</sup>29<sub>/{{ __('pricing.month') }}</sub></h4>
+            <p>{{ __('pricing.StandardDec') }}</p>
+            <a href="#" class="price-btn">{{ __('pricing.Selectplan') }}</a>
         </div>
         <div class="price-tag">
             <img src="{{ asset('image/pricing/Asset1@4x.svg') }}" width="112" height="110">
 
-            <span>Premium</span>
-            <h4><sup>$</sup>35<sub>/month</sub></h4>
-            <p>Unlock ultra-high-definition (UHD) streaming and exclusive content.</p>
-            <a href="#" class="price-btn">Select plan</a>
+            <span>{{ __('pricing.Premium') }}</span>
+            <h4><sup>$</sup>35<sub>/{{ __('pricing.month') }}</sub></h4>
+            <p>{{ __('pricing.PremiumDec') }}</p>
+            <a href="#" class="price-btn">{{ __('pricing.Selectplan') }}</a>
         </div>
     </div>
 </section>
