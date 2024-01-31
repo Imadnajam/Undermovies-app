@@ -1,5 +1,8 @@
 <div class="container">
+    
 
+        
+    
     <div class="overlay" data-overlay></div>
 
     <a href="{{ route('home') }}" class="logo">
@@ -30,7 +33,8 @@
 
                 </select>
             </form>
-
+            <a href="{{ route('authentification') }}"><button
+                class="btn btn-primary">{{ __('home.sign_in') }}</button></a>
         </div>
 
 
@@ -79,11 +83,7 @@
                 <a href="{{ route('about') }}" class="navbar-link">{{ __('home.about') }}</a>
             </li>
 
-            <li>
-
-                <a href="{{ route('authentification') }}"><button
-                        class="btn btn-primary">{{ __('home.sign_in') }}</button></a>
-            </li>
+           
 
         </ul>
 
@@ -101,11 +101,7 @@
                 </a>
             </li>
 
-            <li>
-                <a href="#" class="navbar-social-link">
-                    <ion-icon name="logo-pinterest"></ion-icon>
-                </a>
-            </li>
+          
 
             <li>
                 <a href="#" class="navbar-social-link">
@@ -118,6 +114,10 @@
                     <ion-icon name="logo-youtube"></ion-icon>
                 </a>
             </li>
+         <li>
+            <a href="{{ route('authentification') }}"><button
+                class="btn btn-primary">{{ __('home.sign_in') }}</button></a>
+         </li>
 
         </ul>
 
