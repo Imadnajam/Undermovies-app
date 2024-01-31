@@ -33,10 +33,10 @@
 </section>
 
 <div class="cta">
-    <span>Exclusive Access to New Releases</span>
-    <h4>Take control of your movie nights</h4>
-    <a href="#" class="cta-btn">Get started</a>
-    <a href="#" class="cta-btn">Explore features</a>
+    <span>{{ __('pricing.Cta1') }}</span>
+    <h4>{{ __('pricing.Cta2') }}</h4>
+    <a href="#" class="cta-btn">{{ __('pricing.Cta3') }}</a>
+    <a href="#" class="cta-btn">{{ __('pricing.Cta4') }}</a>
 </div>
 
 <section class="footer-wrap">
@@ -49,7 +49,7 @@
         <div class="line"></div>
         <div class="legal">
             <div class="copyright">
-                <span>© 2023 Your Movie Streaming Service. All rights reserved.</span>
+                <span>{{ __('pricing.copyright') }}</span>
             </div>
             <div class="social-btns">
                 <a href="#"><i class="fa fa-facebook"></i></a>
