@@ -4,37 +4,37 @@
 <section class="top-rated">
 
     <div class="container">
-           <p class="section-subtitle">Online Streaming</p>
+           <p class="section-subtitle">{{__('movie.OnlineStreaming')}} </p>
 
-        <h2 class="h2 section-title">Top Rated Movies</h2>
+        <h2 class="h2 section-title">{{__('movie.TRM')}}</h2>
 
         <ul class="filter-list">
 
             <li>
-                <button class="filter-btn">Aventure</button>
+                <button class="filter-btn">{{__('movie.Aventure')}}</button>
             </li>
 
             <li>
-                <button class="filter-btn">Guerre</button>
+                <button class="filter-btn"></button>
             </li>
 
             <li>
-                <button class="filter-btn">Histoire</button>
+                <button class="filter-btn">{{__('movie.Histoire')}}</button>
             </li>
             <li>
-                <button class="filter-btn">Action</button>
+                <button class="filter-btn">{{__('movie.Action')}}</button>
             </li>
             <li>
-                <button class="filter-btn">Policier</button>
+                <button class="filter-btn">{{__('movie.Policier')}}</button>
             </li>
             <li>
-                <button class="filter-btn">Science fiction</button>
+                <button class="filter-btn">{{__('movie.Sciencefiction')}}</button>
             </li>
             <li>
-                <button class="filter-btn">fantastique</button>
+                <button class="filter-btn">{{__('movie.fantastique')}}</button>
             </li>
             <li>
-                <button class="filter-btn">horreur</button>
+                <button class="filter-btn">{{__('movie.horreur')}}</button>
             </li>
 
 
