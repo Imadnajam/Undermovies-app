@@ -27,15 +27,14 @@
 
 <body>
 
-    <!--
-        - #TOP RATED
-      -->
+  <header class="header" data-header>
+    @include('frontend.components.header')
+</header><br>
 
     <section class="top-rated">
         <div class="container">
 
-            <a href="{{ route('home') }}"> <img src="{{ asset('image/series/logo.png') }}" width="100px"></a>
-            <ul class="movies-list">
+         <ul class="movies-list">
                 @include('frontend.components.serieslist', ['data' => $data])
             </ul>
 
