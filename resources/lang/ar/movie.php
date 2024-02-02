@@ -8,7 +8,7 @@ return [
     'Histoire' => 'تاريخ',
     'Action' => 'حركة',
     'Policier' => 'شرطة/جريمة',
-    'Science fiction' => 'خيال علمي',
+    'Sciencefiction' => 'خيال علمي',
     'fantastique' => 'خيالي',
     'horreur' => 'رعب',
 ];

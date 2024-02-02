@@ -7,7 +7,7 @@ return [
     'Histoire' => 'Storia',
     'Action' => 'Azione',
     'Policier' => 'Poliziesco',
-    'Science fiction' => 'Fantascienza',
+    'Sciencefiction' => 'Fantascienza',
     'fantastique' => 'Fantastico',
     'horreur' => 'Horror',
 ];
