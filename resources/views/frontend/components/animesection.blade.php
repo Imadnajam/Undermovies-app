@@ -3,19 +3,19 @@
         <header class="header" data-header>
             @include('frontend.components.header')
         </header><br><br>
-         <p class="section-subtitle">Online Streaming</p>
+         <p class="section-subtitle">{{__('anime.OS')}} </p>
 
-        <h2 class="h2 section-title">Top Rated Anime</h2>
+        <h2 class="h2 section-title">{{__('anime.TRA')}}</h2>
 
 
         <div class="form-container">
             <form action="{{ route('anime') }}" method="get" class="form-inline my-2 my-lg-0">
                 <div class="input-group">
-                    <label for="search" class="sr-only">Search by Anime Name:</label>
+                    <label for="search" class="sr-only">{{__('anime.SearchA')}}:</label>
                     <input type="text" id="search" name="search" value="{{ $search }}"
                         class="form-control" placeholder="Enter anime name">
                     <div class="input-group-append">
-                        <button type="submit" class="btn btn-outline-primary">Search</button>
+                        <button type="submit" class="btn btn-outline-primary">{{__('anime.Search')}}</button>
                     </div>
                 </div>
             </form>
@@ -24,42 +24,42 @@
         <ul class="filter-list">
 
             <li>
-                <button class="filter-btn">Shounen</button>
+                <button class="filter-btn">{{__('anime.Shounen')}}</button>
             </li>
 
             <li>
-                <button class="filter-btn">Seinen</button>
+                <button class="filter-btn">{{__('anime.Seinen')}}</button>
             </li>
 
             <li>
-                <button class="filter-btn">Shoujo</button>
+                <button class="filter-btn">{{__('anime.Shoujo')}}</button>
             </li>
             <li>
-                <button class="filter-btn">Josei</button>
+                <button class="filter-btn">{{__('anime.Josei')}}</button>
             </li>
             <li>
-                <button class="filter-btn">Isekai</button>
+                <button class="filter-btn">{{__('anime.Shoujo')}}</button>
             </li>
             <li>
-                <button class="filter-btn">Slice of Life</button>
+                <button class="filter-btn">{{__('anime.Slice')}}</button>
             </li>
             <li>
-                <button class="filter-btn">fantastique</button>
+                <button class="filter-btn">{{__('anime.fantastique')}}</button>
             </li>
             <li>
-                <button class="filter-btn">Mecha</button>
+                <button class="filter-btn">{{__('anime.Mecha')}}</button>
             </li>
             <li>
-                <button class="filter-btn">Psychological</button>
+                <button class="filter-btn">{{__('anime.Psychological')}}</button>
             </li>
             <li>
-                <button class="filter-btn">Romance</button>
+                <button class="filter-btn">{{__('anime.Romance')}}</button>
             </li>
             <li>
-                <button class="filter-btn">Horror</button>
+                <button class="filter-btn">{{__('anime.Horror')}}</button>
             </li>
             <li>
-                <button class="filter-btn">Comedy</button>
+                <button class="filter-btn">{{__('anime.Comedy')}}</button>
             </li>
 
 
