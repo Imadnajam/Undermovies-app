@@ -6,7 +6,7 @@
 </svg>
 <main>
   
-   
+
     <nav class="menu">
         <div class="menu__item">
             <span class="menu__item-number">01</span>
