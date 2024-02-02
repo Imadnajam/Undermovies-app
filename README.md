@@ -58,41 +58,47 @@ Happy Streaming! 🎉🎞️
 ### Home Page
 ![Home Page](https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/1.png)
 
-### Movie Slide
+### Movie page
 ![Movie Slide](https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/2.png)
 
-### Movie Detail
+### Movie slide
 ![Movie Detail](https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/3.png)
 
-### Movie Trailer
+### Movie detaile
 ![Movie Trailer](https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/4.png)
 
-### Anime Page
+### Anime trailler
 ![Anime Page](https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/5.png)
 
-### Anime
+### serie
 ![Anime](https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/6.png)
 
-### Anime Detail
+### Series Saison
 ![Anime Detail](https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/7.png)
 
-### Series
+### Series Episodes
 ![Series](https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/8.png)
 
-### Series Saison
+### Anime page
 ![Series Saison](https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/9.png)
 
-### Series Episodes
+### Anime items
 ![Series Episodes](https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/10.png)
 
-### Series Trailer
+### Series page
 ![Series Trailer](https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/11.png)
 
 ### Pricing Page
 ![Pricing Page](https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/12.png)
 
-### Authentication Page
+### Pricing Page 2
 ![Authentication Page](https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/13.png)
+
+### Authentication Page Login
+![Authentication Page](https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/14.png)
+
+### Authentication Page Sign-up
+![Authentication Page](https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/15.png)
 
 ## Features 💼
 
