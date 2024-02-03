@@ -10,25 +10,29 @@
 
             <ul class="footer-list">
 
-                <li>
-                    <a href="{{route('home')}}" class="footer-link">{{ __('home.home') }}</a>
-                </li>
+             
+            <li>
+                <a href="{{ route('home') }}" class="navbar-link">{{ __('home.home') }}</a>
+            </li>
 
-                <li>
-                    <a href="#" class="footer-link">{{ __('home.movie') }}</a>
-                </li>
+            <li>
+                <a href="{{ route('films') }}" class="navbar-link">{{ __('home.movie') }}</a>
+            </li>
 
-                <li>
-                    <a href="#" class="footer-link">{{ __('home.anime') }}</a>
-                </li>
+            <li>
+                <a href="{{ route('anime') }}" class="navbar-link">{{ __('home.anime') }}</a>
+            </li>
 
-                <li>
-                    <a href="#" class="footer-link">{{ __('home.pricing') }}</a>
-                </li>
+            <li>
+                <a href="{{ route('series') }}" class="navbar-link">{{ __('home.series') }}</a>
+            </li>
 
-                <li>
-                    <a href="#" class="footer-link">{{ __('home.pricing') }}</a>
-                </li>
+            <li>
+                <a href="{{ route('pricing') }}" class="navbar-link">{{ __('home.pricing') }}</a>
+            </li>
+            <li>
+                <a href="{{ route('about') }}" class="navbar-link">{{ __('home.about') }}</a>
+            </li>
 
             </ul>
 
