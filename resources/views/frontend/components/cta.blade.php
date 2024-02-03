@@ -12,6 +12,7 @@
             padding: 0;
         }
 
+        
         .container {
             max-width: 600px;
             margin: 20px auto;
