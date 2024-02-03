@@ -28,14 +28,14 @@ class getStarted extends Mailable
         $logoData = base64_encode(file_get_contents($logoPath));
         $logoSrc = 'data:image/png;base64,' . $logoData;
     
-        return $this->view('emails.welcome')
-                    
+        return $this->view('emails.getStart')
                     ->subject('Welcome to Undermovies ')
                     ->attach($logoPath, [
                         'as' => 'logo.png',
                         'mime' => 'image/png',
                     ]);
     }
+    
     /**
      * Get the message envelope.
      *
@@ -56,7 +56,7 @@ class getStarted extends Mailable
     public function content()
     {
         return new Content(
-            view: 'view.name',
+            view: 'emails.getStart',
         );
     }
 
