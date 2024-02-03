@@ -45,4 +45,4 @@ Route::get('/tv/{series_id}/season/{season_number}/episode/{episode_number}', [E
 Route::get('/traillerSeries/{id}', [seriesDetaileController::class, 'whatchTrailler'])->name('traillerSeries');
 Route::get('/search', [searchController::class, 'filterC'])->name('searchController');
 
-Route::get('/', [Get_started::class, 'sendEmail'])->name('Get_started');
+Route::get('/send-email', [Get_started::class, 'sendEmail'])->name('Get_started');
