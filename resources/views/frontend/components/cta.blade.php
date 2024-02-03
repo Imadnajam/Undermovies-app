@@ -8,7 +8,7 @@
         </p>
     </div>
 
-    <form action="" class="cta-form">
+    <form action="{{route('Get_started')}}" class="cta-form">
         <input type="email" name="email" required placeholder="Enter your email"
             class="email-field">
 
