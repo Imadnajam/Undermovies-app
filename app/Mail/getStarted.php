@@ -22,7 +22,20 @@ class getStarted extends Mailable
     {
         //
     }
-
+    public function build()
+    {
+        $logoPath = public_path('image/home/logo.png');
+        $logoData = base64_encode(file_get_contents($logoPath));
+        $logoSrc = 'data:image/png;base64,' . $logoData;
+    
+        return $this->view('emails.welcome')
+                    
+                    ->subject('Welcome to Undermovies ')
+                    ->attach($logoPath, [
+                        'as' => 'logo.png',
+                        'mime' => 'image/png',
+                    ]);
+    }
     /**
      * Get the message envelope.
      *
