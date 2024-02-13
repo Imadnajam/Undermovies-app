@@ -29,7 +29,7 @@
                     <option value="fr" {{ app()->getLocale() == 'fr' ? 'selected' : '' }}>FR</option>
                     <option value="al" {{ app()->getLocale() == 'al' ? 'selected' : '' }}>AL</option>
                     <option value="it" {{ app()->getLocale() == 'it' ? 'selected' : '' }}>IT</option>
-
+                    <option value="es" {{ app()->getLocale() == 'es' ? 'selected' : '' }}>ES</option>
 
                 </select>
             </form>
