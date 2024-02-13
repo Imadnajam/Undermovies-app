@@ -1,6 +1,9 @@
+<?php
+
 return [
     'online_streaming' => 'Transmisión en línea',
     'upcoming_movies' => 'Próximas películas',
+
     'home' => 'Inicio',
     'movie' => 'Película',
     'anime' => 'Anime',
