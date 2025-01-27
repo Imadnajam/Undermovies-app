@@ -1,5 +1,4 @@
-# Movie 🎥 & Series 📽️ Streaming Web Application 🕸️
-
+# Movie & Series Streaming Web Application 🕸️
 
 <div align="center">
   <img width="250" src="https://github.com/Imadnajam/Undermovies-app/blob/master/screenshot/logo.png" alt="Movie Logo">
