@@ -1,11 +1,22 @@
-import { defineConfig } from 'vite';
-import laravel from 'laravel-vite-plugin';
+# This code snippet demonstrates a simple Vite configuration for a Vue.js project.
 
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
+
+// Export the Vite configuration
 export default defineConfig({
-    plugins: [
-        laravel({
-            input: ['resources/css/app.css', 'resources/js/app.js'],
-            refresh: true,
-        }),
-    ],
+  plugins: [vue()], 
+  server: {
+    port: 3000, 
+    open: true, 
+  },
+  build: {
+    outDir: 'dist', 
+    sourcemap: true, 
+  },
+  resolve: {
+    alias: {
+      '@': '/src',
+    },
+  },
 });
