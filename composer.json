@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "Undermovie",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "web application built with Laravel allows users to stream and enjoy a wide range of films and series. It is designed to be user-friendly, secure, and scalable .",
     "keywords": [
         "framework",
         "laravel"
