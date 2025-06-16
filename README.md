@@ -121,10 +121,3 @@ Your contributions can make a real difference! Check our [open issues](https://g
 - **Notifications:** Users receive notifications about new releases and account-related activities.
 - **Analytics and Reporting:** Track user behavior and generate reports on platform performance.
 
-
-## Installation
-
-1. **Clone Repository:**
-   ```bash
-   git clone https://github.com/Imadnajam/Undermovies-app.git
-   
