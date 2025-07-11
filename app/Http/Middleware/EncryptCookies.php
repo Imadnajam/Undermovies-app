@@ -12,6 +12,9 @@ class EncryptCookies extends Middleware
      * @var array<int, string>
      */
     protected $except = [
-        //
-    ];
+    'cookie_consent',
+    'language_preference',
+    'theme_setting',
+    'analytics_id'
+];
 }
