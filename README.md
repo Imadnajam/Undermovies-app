@@ -342,30 +342,6 @@ undermovies-app/
 4. **📤 Push to branch** (`git push origin feature/AmazingFeature`)
 5. **🎉 Open Pull Request**
 
-### 🛠️ **Development Setup**
-
-```bash
-# Clone your fork
-git clone https://github.com/yourusername/Undermovies-app.git
-
-# Install dependencies
-composer install
-npm install
-
-# Environment setup
-cp .env.example .env
-php artisan key:generate
-
-# Database setup
-php artisan migrate --seed
-
-# Start development
-php artisan serve     # Backend: http://localhost:8000
-npm run watch        # Frontend assets compilation
-```
-
----
-
 ## 🏆 **Recognition & Community**
 
 <div align="center">
