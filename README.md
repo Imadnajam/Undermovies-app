@@ -1,4 +1,4 @@
-# 🎬 Undermovies - Where Cinema Meets Innovation
+# Undermovies 
 > *The next-generation streaming platform that's changing how the world watches movies*
 
 <div align="center">
