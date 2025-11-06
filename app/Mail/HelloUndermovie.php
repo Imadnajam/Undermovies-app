@@ -3,47 +3,73 @@
 namespace App\Mail;
 
 use Illuminate\Bus\Queueable;
-use Illuminate\Mail\Mailable;
-use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Mail\Mailable;
+use Illuminate\Mail\Mailables\Address;
+use Illuminate\Mail\Mailables\Attachment;
+use Illuminate\Mail\Mailables\Content;
+use Illuminate\Mail\Mailables\Envelope;
+use Illuminate\Queue\SerializesModels;
 
 class HelloUndermovie extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $user;
-
     /**
      * Create a new message instance.
-     *
-     * @return void
      */
-    public function __construct($user)
+    public function __construct(
+        public readonly object $user
+    ) {}
+
+    /**
+     * Get the message envelope.
+     */
+    public function envelope(): Envelope
     {
-        $this->user = $user;
+        return new Envelope(
+            subject: 'Welcome to Undermovies',
+        );
     }
 
     /**
-     * Build the message.
-     *
-     * @return $this
+     * Get the message content definition.
      */
-    public function build()
+    public function content(): Content
+    {
+        return new Content(
+            view: 'emails.welcome',
+            with: [
+                'user' => $this->user,
+                'logoSrc' => $this->getEmbeddedLogo(),
+            ],
+        );
+    }
+
+    /**
+     * Get the attachments for the message.
+     *
+     * @return array<int, Attachment>
+     */
+    public function attachments(): array
+    {
+        $logoPath = public_path('image/home/logo.png');
+
+        return [
+            Attachment::fromPath($logoPath)
+                ->as('logo.png')
+                ->withMime('image/png'),
+        ];
+    }
+
+    /**
+     * Get the base64 encoded logo for inline embedding.
+     */
+    private function getEmbeddedLogo(): string
     {
         $logoPath = public_path('image/home/logo.png');
         $logoData = base64_encode(file_get_contents($logoPath));
-        $logoSrc = 'data:image/png;base64,' . $logoData;
-    
-        return $this->view('emails.welcome')
-                    ->with(['user' => $this->user, 'logoSrc' => $logoSrc])
-                    ->subject('Welcome to Undermovies ')
-                    ->attach($logoPath, [
-                        'as' => 'logo.png',
-                        'mime' => 'image/png',
-                    ]);
+
+        return 'data:image/png;base64,' . $logoData;
     }
-    
-    
 }
-
-
