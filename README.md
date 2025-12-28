@@ -390,9 +390,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 <div align="center">
 
-## 🎯 **Ready to Transform Streaming Forever?**
+##  **Ready to Transform Streaming Forever?**
 
-### Don't just watch content—build the platform that defines entertainment! 
+
 
 **⭐ [STAR THIS REPO NOW](https://github.com/Imadnajam/Undermovies-app) ⭐**
 
