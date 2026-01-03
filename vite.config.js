@@ -1,4 +1,4 @@
-# This code snippet demonstrates a simple Vite configuration for a Vue.js project.
+
 
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
@@ -6,7 +6,7 @@ import vue from '@vitejs/plugin-vue';
 export default defineConfig({
   plugins: [vue()], 
   server: {
-    port: 8000, 
+    port: 3000, 
     open: true, 
   },
   build: {
